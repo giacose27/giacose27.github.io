@@ -1,34 +1,36 @@
 body {
-    background-color:darkslateblue;
-    font-family:helvetica, sans-serif;
-    color:antiquewhite;
+    background-color: darkslateblue;
+    font-family: helvetica, sans-serif;
+    color: antiquewhite;
 }
 h1 {
-    color:peachpuff;
-    font-family:cursive;
+    color: peachpuff;
+    font-family: cursive;
 }
-h2,h3,h4 {
-    color:lavender;
-    font-family:helvetica, sans-serif;
+h2,
+h3,
+h4 {
+    color: lavender;
+    font-family: helvetica, sans-serif;
 }
 button {
-    :defined {
-        background-color:lemonchiffon;
-        border: 4px solid peachpuff;
-        padding: 15px;
-        margin: 30px;
-        font-size: medium;
-        font-family:helvetica, sans-serif;
-        color:darkslateblue;
-    }
-    :hover {
-        background-color:darkslateblue;
-        border: 4px solid peachpuff;
-        padding: 15px;
-        margin: 30px;
-        color:lemonchiffon;
-    }
+    background-color: lemonchiffon;
+    border: 4px solid peachpuff;
+    padding: 15px;
+    margin: 30px;
+    font-size: medium;
+    font-family: helvetica, sans-serif;
+    color: darkslateblue;
+    border-radius: 1cap;
+}
+button:hover {
+    background-color: darkslateblue;
+    border: 4px solid peachpuff;
+    padding: 15px;
+    margin: 30px;
+    color: lemonchiffon;
+    border-radius: 1cap;
 }
 a {
-    color:antiquewhite;
+    color: antiquewhite;
 }
