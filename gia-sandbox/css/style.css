@@ -1,6 +1,6 @@
 body {
     background-color: darkslateblue;
-    font-family: helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     color: antiquewhite;
 }
 h1 {
@@ -11,7 +11,7 @@ h2,
 h3,
 h4 {
     color: lavender;
-    font-family: helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 button {
     background-color: lemonchiffon;
@@ -19,9 +19,10 @@ button {
     padding: 15px;
     margin: 30px;
     font-size: medium;
-    font-family: helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     color: darkslateblue;
     border-radius: 1cap;
+    font-weight: bold;
 }
 button:hover {
     background-color: darkslateblue;
@@ -30,7 +31,23 @@ button:hover {
     margin: 30px;
     color: lemonchiffon;
     border-radius: 1cap;
+    font-weight: bold;
 }
 a {
-    color: antiquewhite;
+    color: tomato;
+}
+#p2 {
+    color: tomato;
+    text-decoration: line-through;
+    padding: 20vh 10%;
+    background-color: antiquewhite;
+}
+#bold1 {
+    font-style: italic;
+    color: darkslateblue;
+}
+#smile {
+    color: peachpuff;
+    font-style: bold;
+    font-size: 20pt;
 }
