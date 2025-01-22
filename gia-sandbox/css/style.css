@@ -40,8 +40,8 @@ a {
 #p2 {
     color: tomato;
     text-decoration: line-through;
-    padding: 20vh 10%;
-    background-color: antiquewhite;
+    padding: 10vh 5%;
+    background-color: peachpuff;
 }
 #bold1 {
     font-style: italic;
@@ -51,4 +51,16 @@ a {
     color: peachpuff;
     font-style: bold;
     font-size: 20pt;
+}
+.narrow {
+    width: 49%;
+    display: inline-block;
+}
+.Image1,
+.Image2,
+.Image3 {
+    padding: 3vh;
+    margin: 7.6vh;
+    display: inline-block;
+    background-color: peachpuff;
 }
