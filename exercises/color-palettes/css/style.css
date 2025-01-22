@@ -28,7 +28,7 @@
 }
 /* Palette 2 */
 #P2 {
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-variant-caps: all-small-caps;
     font-size: 35px;
@@ -36,27 +36,27 @@
 #P2-1 {
     background-color: #f799f4;
     color: #000000;
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 24px;
 }
 #P2-2 {
     background-color: #ff96d1;
     color: #000000;
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 24px;
 }
 #P2-3 {
     background-color: #ffa2a8;
     color: #000000;
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     padding: 24px;
 }
 /* Palette 3 */
 #P3 {
-    font-family: sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-variant-caps: all-small-caps;
     font-size: 35px;
@@ -64,21 +64,21 @@
 #P3-1 {
     background-color: #8843f4;
     color: #000000;
-    font-family: sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     padding: 24px;
 }
 #P3-2 {
     background-color: #fa0cbf;
     color: #000000;
-    font-family: sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     padding: 24px;
 }
 #P3-3 {
     background-color: #ff885a;
     color: #000000;
-    font-family: sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     padding: 24px;
 }
