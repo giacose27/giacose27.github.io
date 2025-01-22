@@ -1,0 +1,67 @@
+/* Drill 6 - Write your code solution below */
+#d6-s2 {
+    background-color: yellow
+}
+
+/* Drill 7 - Write your code solution below */
+#d7-s2,
+#d7-s3 {
+    font-weight: bold;
+}
+
+/* Drill 8 - Write your code solution below */
+#d8-s1,
+#d8-s3 {
+    font-style: italic;
+}
+#d8-s2 {
+    font-weight: bold;
+}
+
+/* Drill 9 - Write your code solution below */
+#d9-s1,
+#d9-s3 {
+    text-decoration: underline;
+}
+
+/* Drill 10 - Write your code solution below */
+#d10-a1,
+#d10-a3 {
+    text-decoration: none;
+}
+#d10-s1,
+#d10-s3 {
+    text-decoration: underline;
+}
+
+/* Drill 11 - Write your code solution below */
+#d11-p1 {
+    font-size: 36px;
+}
+
+/* Drill 12 - Write your code solution below */
+#d12-div2 {
+    text-align: right;
+}
+#d12-div3 {
+    text-align: left;
+}
+#d12-div4 {
+    text-align: center;
+}
+
+/* Drill 13 - Write your code solution below */
+#d13-div2 {
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+#d13-div3 {
+    font-size: 48px;
+    text-align: center;
+}
+#d13-div4 {
+    font-size: 24px;
+    text-align: center;
+    font-style: italic;
+}
