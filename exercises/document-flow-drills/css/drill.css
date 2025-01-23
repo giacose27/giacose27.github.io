@@ -1,0 +1,41 @@
+/* Drill 1 - Write your code solution below */
+.d1-div {
+    display: inline;
+}
+
+/* Drill 2 - Write your code solution below */
+.d2-span {
+    display: block;
+}
+
+/* Drill 3 - Write your code solution below */
+.d3-div {
+    display: inline-block;
+}
+
+/* Drill 4 - Write your code solution below */
+.d4-div {
+    display: inline-block;
+}
+
+/* Drill 5 - Write your code solution below */
+.d5-div {
+    display: inline-block;
+}
+#d5-div1 {
+    width: 250px;
+}
+#d5-div2 {
+    width: 230px;
+}
+
+/* Drill 6 - Write your code solution below */
+.d6-div {
+    display: inline-block;
+}
+#d6-div2 {
+    width: 48%;
+}
+#d6-div3 {
+    width: 48%;
+}

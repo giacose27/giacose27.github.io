@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(191, 224, 236);
+    margin: 0px;
+    padding: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    background-color: white;
+    margin: 36px 0px;
+    padding: 36px 36px 60px;
+    width: 640px;
+}
+
+img {
+    box-shadow: 2px 2px 6px grey;
+    width: 100%;
+}
+
+p {
+    padding: 24px 0px;
+}
+
+.d5-div p,
+.d6-div p {
+    padding: 0px;
+}
+
+.solution {
+    box-shadow: 2px 2px 6px grey;
+    padding: 8px;
+}
+
+#drill1 .solution {
+    padding: 28px 8px;
+}
+
+#drill1 .solution div {
+    background-color: skyblue;
+    border: 5px solid navy;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    padding: 12px;
+}
+
+#drill2 span {
+    background-color: peachpuff;
+    border: 5px solid firebrick;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    padding: 0px 12px;
+}
+
+#drill2 span:last-child {
+    margin-bottom: 0px;
+}
+
+.d3-div  {
+    background-color: lightpink;
+    border: 4px solid darkmagenta;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.d4-div  {
+    background-color: lightpink;
+    border: 5px solid darkmagenta;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    padding: 12px;
+}
+
+.d3-div:last-child,
+.d4-div:last-child {
+    margin-bottom: 0px;
+}
+
+#d4-div1 {
+    width: 550px;
+}
+
+#d4-div2 {
+    width: 100px;
+}
+
+#d4-div3 {
+    width: 200px;
+}
+
+#d4-div4 {
+    width: 125px;
+}
+
+#d4-div5 {
+    width: 400px;
+}
+
+#d4-div6 {
+    width: 350px;
+}
+
+#d4-div7 {
+    width: 150px;
+}
+
+.d5-div,
+.d6-div {
+    background-color: lightgreen;
+    border: 5px solid darkolivegreen;
+    border-radius: 5px;
+    margin: 4px;
+    padding: 12px;
+}
