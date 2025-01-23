@@ -3,6 +3,9 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     color: antiquewhite;
 }
+#sup {
+    text-align: center;
+}
 h1 {
     color: peachpuff;
     font-family: cursive;
@@ -42,6 +45,17 @@ a {
     text-decoration: line-through;
     padding: 10vh 5%;
     background-color: peachpuff;
+    /* 
+        Shorthand border radius can have 4 values!
+
+        *First Value: applies to all corners.
+        *Second Value: applies to top left and bottom right corners.
+        *Third Value: 1st applies to top left, 2nd applies to top right
+            and bottom left, 3rd applies to bottom right.
+        *Fourth Value: 1st applies to top left, 2nd applies to top right, 3rd 
+            applies to bottom right, 4th applies to bottom left.
+    */
+    border-radius: 5px 40px;
 }
 #bold1 {
     font-style: italic;
@@ -53,7 +67,7 @@ a {
     font-size: 20pt;
 }
 .narrow {
-    width: 49%;
+    width: 46%;
     display: inline-block;
 }
 .Image1,
@@ -63,4 +77,24 @@ a {
     margin: 7.6vh;
     display: inline-block;
     background-color: peachpuff;
+}
+div {
+    border: 5px ridge peachpuff;
+    padding: 10px;
+    /* 
+        - Shorthand margin can have up to 4 values! 
+
+        *First Value: applies to all 4 sides.
+        *Second Value: applies to the left/right.
+        *Third Value: applies to the bottom.
+        *Fourth Value: applies to the left.
+
+        - When you have 4 values, 1 applies to top, 2 applies to right, 
+        3 applies to bottom, and 4 applys to left.
+
+        PADDING FOLLOWS THE SAME RULESET!
+    */
+    margin: 5px 50px 5px 5px;
+    background-color: lemonchiffon;
+    color: darkslateblue;
 }
