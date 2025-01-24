@@ -6,3 +6,62 @@
 
     Good luck, and have fun!
 */
+.tetris-block {
+    padding: 20px;
+    border-width: 12px;
+    border-style: inset;
+    display: inline-block;
+}
+.tetris-brick {
+    padding: 20px 40px;
+    border-width: 12px;
+    border-style: inset;
+    display: inline-block;
+}
+.tetris-lime {
+    padding: 20px;
+    border-width: 12px;
+    border-radius: 35px 10px 35px 10px;
+    border-style: inset;
+    display: inline-block;
+}
+.tetris-plum {
+    padding: 20px;
+    border-width: 12px;
+    border-radius: 35px 35px 35px 5px;
+    border-style: inset;
+    display: inline-block;
+}
+/* COLOR STYLES */
+.peachpuff {
+    border-color: peachpuff;
+    background-color: peachpuff;
+}
+.lemon {
+    border-color: lemonchiffon;
+    background-color: yellow;
+}
+.lime {
+    border-color: lime;
+    background-color: lime;
+}
+.plum {
+    border-color: plum;
+    background-color: plum;
+}
+.pink {
+    border-color: pink;
+    background-color: deeppink;
+}
+.blue {
+    border-color: paleturquoise;
+    background-color: darkturquoise;
+}
+.orange {
+    border-color: palegoldenrod;
+    background-color: rgb(255, 162, 0);
+}
+.empty {
+    border-color: transparent;
+    background-color: transparent;
+}
