@@ -1,0 +1,129 @@
+/*
+    NOTE TO STUDENTS: DON'T MODIFY THE CODE IN THIS FILE!
+
+    If you do, you risk messing up the Upside-down Tetris template!
+    However, feel free to look at the CSS Properties used.
+
+    Some of them are relatively advanced, but you are encouraged
+    to do your own research to try to understand how they work.
+
+    If you get stuck, feel free to ask about them in office hours!
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    background: 
+        repeating-linear-gradient(
+            to left, 
+            #33333322 0px, 
+            #33333322 25px,
+            #55555522 25px,
+            #55555522 75px,
+            #77777722 75px,
+            #77777722 100px
+        ),
+        repeating-linear-gradient(
+            to top, 
+            #11111122 0px, 
+            #11111122 25px,
+            #33333322 25px,
+            #33333322 75px,
+            #55555522 75px,
+            #55555522 100px
+        ),
+        #010101;
+    margin: 0px;
+}
+
+#game-container {
+    display: grid;
+    grid-template-columns: 1fr 100px 450px 100px 1fr;
+    grid-template-areas: 
+        ". wall-1 stage wall-2 .";
+}
+
+#left-wall {
+    grid-area: wall-1;
+    height: 100vh;
+}
+
+#right-wall {
+    grid-area: wall-2;
+    height: 100vh;
+}
+
+#block-area {
+    grid-area: stage;
+    height: 100vh;
+    background-color: #010101;
+    font-size: 0px;
+}
+
+#left-wall,
+#right-wall {
+    background: 
+        repeating-linear-gradient(
+            to left, 
+            #33333366 0px, 
+            #33333366 8.25px,
+            #55555566 8.25px,
+            #55555566 24.75px,
+            #77777766 24.75px,
+            #77777766 33px
+        ),
+        repeating-linear-gradient(
+            to top, 
+            #11111166 0px, 
+            #11111166 8.25px,
+            #33333366 8.25px,
+            #33333366 24.75px,
+            #55555566 24.75px,
+            #55555566 33px
+        );
+}
+
+#title {
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+#title h1 {
+    background-color: #010101AA;
+    font-family: 'VT323', monospace;
+    font-size: 10vh;
+    font-weight: normal;
+    padding: 24px;
+}
+
+.c1 {
+    color: rgb(251, 65, 19)
+}
+
+.c2 {
+    color: rgb(255, 138, 21);
+}
+
+.c3 {
+    color: yellow;
+}
+
+.c4 {
+    color: lime;
+}
+
+.c5 {
+    color: rgb(5, 231, 231)
+}
+
+.c6 {
+    color: #174cfa;
+}
+
+.c7 {
+    color: rgb(253, 104, 183);
+}
