@@ -3,8 +3,23 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     color: antiquewhite;
 }
+div#notes {
+    border: 10px fuchsia inset;
+    background-color: peachpuff;
+    padding: 35px;
+    text-align: center;
+}
+div#notes a {
+    color: darkslateblue;
+    padding: 10px
+}
+#nava {
+    color: darkslateblue;
+    font-size: 15pt;
+}
 #sup {
     text-align: center;
+    color: yellow;
 }
 h1 {
     color: peachpuff;
@@ -97,4 +112,18 @@ div {
     margin: 5px 50px 5px 5px;
     background-color: lemonchiffon;
     color: darkslateblue;
+}
+#navbar1 {
+    border: 10px pink inset;
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+.warning {
+    color: yellow;
+    padding: 10px;
+}
+.one {
+    color: darkslateblue;
+    padding: 10px;
 }
