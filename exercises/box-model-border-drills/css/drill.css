@@ -19,22 +19,48 @@
 
 /* Drill 3 - Write your code solution below */
 #d3-h2-1 {
-    border-bottom-style: solid;
-    border-bottom-width: 2.5px;
+    border-bottom: solid 2px black;
 }
 
 
 /* Drill 4 - Write your code solution below */
-
+#d4-navbar {
+    background-color: orange;
+    border-bottom: solid 5px black;
+}
 
 
 /* Drill 5 - Write your code solution below */
-
+#d5-div-1 {
+    border: solid 20px teal;
+    border-radius: 1cap;
+}
+#d5-div-2 {
+    border: solid 20px teal;
+    border-radius: 1cap;
+}
+#d5-div-3 {
+    border: solid 20px teal;
+    border-radius: 1cap;
+}
 
 
 /* Drill 6 - Write your code solution below */
-
+#d6-div-1 {
+    background-color: lightcoral;
+    border-radius: 24px 24px 0px 24px
+}
+#d6-div-2 {
+    background-color: lightblue;
+    border-radius: 24px 24px 24px 0px
+}
 
 
 /* Drill 7 - Write your code solution below */
+#d7-img-1 {
+    border-radius: 8px 60px
+}
+#d7-img-2 {
+    border-radius: 60px 8px
+}
 
