@@ -11,7 +11,12 @@ div#notes {
 }
 div#notes a {
     color: darkslateblue;
-    padding: 10px
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+}
+div#notes a:hover {
+    color: fuchsia;
 }
 #nava {
     color: darkslateblue;
@@ -25,12 +30,18 @@ h1 {
     color: peachpuff;
     font-family: cursive;
     text-align: center;
+    &:hover {
+        color:fuchsia;
+    }
 }
 h2,
 h3,
 h4 {
     color: lavender;
     font-family: Helvetica, Arial, sans-serif;
+}
+ol {
+    color: fuchsia;
 }
 button {
     background-color: lemonchiffon;
@@ -53,10 +64,10 @@ button:hover {
     font-weight: bold;
 }
 a {
-    color: tomato;
+    color: fuchsia;
 }
 #p2 {
-    color: tomato;
+    color: fuchsia;
     text-decoration: line-through;
     padding: 10vh 5%;
     background-color: peachpuff;

@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(191, 224, 236);
+    margin: 0px;
+    padding: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    background-color: white;
+    margin: 36px 0px;
+    padding: 36px 36px 60px;
+    width: 640px;
+}
+
+img {
+    box-shadow: 2px 2px 6px grey;
+    width: 100%;
+}
+
+section > p {
+    padding: 24px 0px;
+}
+
+.solution {
+    box-shadow: 2px 2px 6px grey;
+    padding: 8px;
+}
+
+.red {
+    border: 5px solid red;
+    border-radius: 8px;
+    margin: 12px;
+    padding: 0px 12px;
+}
+
+.orange {
+    border: 5px solid orange;
+    border-radius: 8px;
+    margin: 12px;
+    padding: 0px 12px;
+}
+
+.purple {
+    border: 5px solid purple;
+    border-radius: 8px;
+    margin: 12px;
+    padding: 0px 12px;
+}
+
+.blue {
+    border: 5px solid blue;
+    border-radius: 8px;
+    margin: 12px 0px;
+    padding: 0px 12px;
+}
+
+.dashed {
+    border: 5px dashed forestgreen;
+    margin: 12px 0px;
+    padding: 0px 12px;
+}
+
+.dotted {
+    border: 10px dotted darkmagenta;
+    margin: 12px 0px;
+    padding: 0px 12px;
+}
+
+#drill4 .solution p {
+    display: inline-block;
+    border: 16px solid teal;
+    padding: 24px 12px;
+}
+
+.shadowed {
+    border: 1px solid royalblue;
+    box-shadow: 8px 8px royalblue;
+    margin: 12px;
+    padding: 0px 12px;
+}
+
+.inset-shadow {
+    border: 1px solid royalblue;
+    box-shadow: inset 0px 0px 8px royalblue;
+    margin: 24px 12px 12px;
+    padding: 0px 12px;
+}
+
+.dog-days {
+    border: 20px dotted red;
+    margin: 24px;
+    padding: 24px;
+    display: flex;
+}
+
+.cat-tales {
+    border: 20px dashed darkkhaki;
+    border-style: dashed solid;
+    margin: 24px;
+    padding: 24px;
+    display: flex;
+}
+
+.dog-days img,
+.cat-tales img {
+    width: 200px;
+    object-fit: cover
+}
+
+.dog-days p,
+.cat-tales p {
+    margin: 24px;
+}
