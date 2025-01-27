@@ -1,0 +1,57 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+img {
+    width: 200%;
+    object-fit: cover;
+}
+#frame-1 {
+    border: groove 5px saddlebrown;
+    margin: 70px 14px 12px 1px;
+    box-shadow: 2px 1px 1px #444;
+}
+#frame-1 div {
+    background-color: blanchedalmond;
+    padding: 15px;
+    box-shadow: inset -1px 1px 2px #444;
+}
+#frame-1 img {
+    width: 80px;
+    display: block;
+    box-shadow: inset -1px 1px 2px #444;
+}
+#frame-2 {
+    border: groove 5px saddlebrown;
+    margin: 80px 12px 12px 0px;
+    box-shadow: 2px 1px 1px #444;
+}
+#frame-2 div {
+    background-color: blanchedalmond;
+    padding: 15px;
+    box-shadow: inset -1px 1px 2px #444;
+}
+#frame-2 img {
+    width: 70px;
+    display: block;
+    box-shadow: inset -1px 1px 2px #444;
+}
+#frame-3 {
+    border: groove 5px saddlebrown;
+    margin: 70px 20px 12px 3px;
+    box-shadow: 2px 1px 1px #444;
+}
+#frame-3 div {
+    background-color: blanchedalmond;
+    padding: 10px;
+    box-shadow: inset -1px 1px 2px #444;
+}
+#frame-3 img {
+    width: 70px;
+    display: block;
+    box-shadow: inset -1px 1px 2px #444;
+}
