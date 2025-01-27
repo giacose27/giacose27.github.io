@@ -138,3 +138,37 @@ div {
     color: darkslateblue;
     padding: 10px;
 }
+.absolute-heading {
+    color: yellow;
+}
+.absolute-paragraph {
+    font-size: 18px;
+}
+.relative-heading {
+    color: fuchsia;
+    font-size: 10vw;
+}
+.relative-paragraph {
+    font-size: 3vw;
+}
+.absolute-image {
+    width: 350px;
+}
+.relative-image {
+    width: 50%;
+}
+.outer-container {
+    border: 3px dotted fuchsia;
+    background-color: antiquewhite;
+    margin: 0px auto;
+}
+.inner-container {
+    border: 3px dashed peachpuff;
+    background-color: lemonchiffon;
+    margin: 0px auto;
+}
+.inner-container p, .inner-container img {
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+}
