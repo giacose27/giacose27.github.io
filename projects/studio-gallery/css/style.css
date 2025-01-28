@@ -11,8 +11,8 @@ img {
     object-fit: cover;
 }
 #frame-1 {
-    border: groove 5px saddlebrown;
-    margin: 70px 14px 12px 1px;
+    border: ridge 5px saddlebrown;
+    margin: 70px 20px 12px 1px;
     box-shadow: 2px 1px 1px #444;
 }
 #frame-1 div {
@@ -26,8 +26,8 @@ img {
     box-shadow: inset -1px 1px 2px #444;
 }
 #frame-2 {
-    border: groove 5px saddlebrown;
-    margin: 80px 12px 12px 0px;
+    border: ridge 5px saddlebrown;
+    margin: 80px 20px 12px 0px;
     box-shadow: 2px 1px 1px #444;
 }
 #frame-2 div {
@@ -41,7 +41,7 @@ img {
     box-shadow: inset -1px 1px 2px #444;
 }
 #frame-3 {
-    border: groove 5px saddlebrown;
+    border: ridge 5px saddlebrown;
     margin: 70px 20px 12px 3px;
     box-shadow: 2px 1px 1px #444;
 }
@@ -54,4 +54,23 @@ img {
     width: 70px;
     display: block;
     box-shadow: inset -1px 1px 2px #444;
+}
+#frame-4 {
+    border: ridge 4px saddlebrown;
+    margin: 70px 20px 12px 3px;
+    box-shadow: 2px 1px 1px #444;
+    border-radius: 120px;
+}
+#frame-4 div {
+    background-color: lavender;
+    padding: 1px;
+    box-shadow: inset -1px 1px 2px #444;
+    border-radius: 120px;
+}
+#frame-4 h2 {
+    width: 120px;
+    display: block;
+    border-radius: 120px;
+    font-size: 50%;
+    font-family:'Courier New', Courier, monospace;
 }

@@ -1,0 +1,31 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it-1 {
+    background-color: lightblue;
+    display: inline-block;
+    padding: 20px 50px 50px 20px;
+    margin: 20px;
+    box-shadow: 0px 2px 1px 1px #444;
+}
+.post-it-2 {
+    background-color: whitesmoke;
+    display: inline-block;
+    padding: 20px 20px 70px 20px;
+    margin: 20px;
+    box-shadow: 0px 2px 1px 1px #444;
+}
+.post-it-3 {
+    background-color: lightgoldenrodyellow;
+    color: navy;
+    font-family: cursive;
+    display: inline-block;
+    padding: 20px 50px 50px 20px;
+    margin: 20px;
+    box-shadow: 0px 2px 1px 1px #444;
+}
