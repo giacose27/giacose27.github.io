@@ -15,9 +15,10 @@
 .post-it-1 {
     background-color: lightblue;
     display: inline-block;
-    padding: 20px 50px 50px 20px;
+    padding: 30px 50px 50px 30px;
     margin: 40px;
     box-shadow: 0px 2px 1px 1px #444;
+    font-size: 20px;
 }
 .post-it-2 {
     background-color: whitesmoke;
@@ -30,8 +31,9 @@
     background-color: lightgoldenrodyellow;
     color: navy;
     font-family: cursive;
+    text-align: center;
     display: inline-block;
-    padding: 20px 50px 50px 20px;
+    padding: 25px 50px 50px 30px;
     margin: 40px;
     box-shadow: 0px 2px 1px 1px #444;
 }
@@ -42,17 +44,19 @@
 .post-it-4 {
     background-color: lightpink;
     display: inline-block;
-    padding: 20px 50px 50px 20px;
+    font-size: 15px;
+    padding: 30px 50px 50px 30px;
     margin: 40px;
     box-shadow: 0px 2px 1px 1px #444;
-    margin-left: 410px;
+    margin-left: 500px;
 }
 .post-it-5 {
     background-color: lightsalmon;
     display: inline-block;
-    padding: 10px 50px 50px 10px;
+    padding: 40px 70px 70px 40px;
     margin: 40px;
     box-shadow: 0px 2px 1px 1px #444;
+    font-size: 20px;
 }
 .fa-solid fa-stroopwafel {
     display: inline-block;
