@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Generic License (Project)</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="css/setup.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--
+            NOTE TO STUDENTS: You don't NEED to modify the HTML in this file.
+            However, you are allowed to, if it helps you complete the project
+            in an easier or more timely fashion.  
+            
+            Instructions/tips are given to you in comments below, guiding you
+            with what to target in CSS, and what properties to set. Some values
+            and properties are left for you to add/discover on your own.
+            
+            Good luck!
+        -->
+
+        <!--
+            1) Target the element with the "license" id below in CSS, and set 
+            the following CSS Properties (not all values are provided):
+                width: 700px;
+                border
+                border-radius
+                padding: 24px;
+        -->
+        <div id="license">
+            <div id="content">
+                <h1>FLORIDA</h1>
+                <!--
+                    Our first goal is to get the left side and right side of
+                    the license side-by-side.
+
+                    Building a layout from the outside inward is usually the
+                    most intuitive way to implement it from a coding 
+                    perspective, so we recommend configuring the CSS Properties
+                    for the left side and right side first before continuing
+                    deeper inside those elements.
+
+                    2) Target the element with the id of "left-side" and 
+                    set the following CSS Properties:
+                        display: inline-block; 
+                        width: 65%;
+                    
+                    Then, jump down to the element with the id of 
+                    "right-side" and address that comment before returning 
+                    back here and continuing.
+                -->
+                <div id="left-side">
+                    <h4>DRIVER LICENSE</h4>
+                    <!--
+                        Next, we want to get the License Number and Expiration
+                        Date elements side-by-side; to make that happen:
+
+                        4) Target the div elements INSIDE of the element with 
+                        the id of "id-and-expiration" (this is a bit tricky) 
+                        and set the following CSS Properties:
+                            display: inline-block;
+                    -->
+                    <div id="id-and-expiration">
+                        <div>License No. <span>P7777777</span></div>
+                        <div>Expires <span>04-01-25</span></div>
+                    </div>
+                    <div id="address">
+                        JOHN DOE
+                        <br>
+                        456 ANYWHERE STREET
+                        <br>
+                        SOMETOWN, FL 42714
+                    </div>
+                    <div id="personal-info">
+                        <!--
+                            Now we want to get the smaller headshot image
+                            and the data fields (like hair color, height, etc.)
+                            to be side-by-side. To do this:
+
+                            5) Target the elements with the ids of "small-pic" 
+                            and "data-fields", and set the following property:
+                                display: inline-block;
+                        -->
+                        <div id="small-pic-container">
+                            <!--
+                                6) Target the img element INSIDE of the element
+                                with the "small-pic-container" id, and resize 
+                                the image to make it fit within the layout.
+                            -->
+                            <img src="images/mii.png">
+                        </div>
+                        <div id="data-fields">
+                            <!--
+                                Next, we want to get the data fields to display 
+                                in two columns next to each other.  To do that:
+                                
+                                7) Target the elements with the ids of 
+                                "data-left" and "data-right", and set the 
+                                following property:
+                                    display: inline-block;
+                            -->
+                            <div id="data-left">
+                                <div>Sex: <span>M</span></div>
+                                <div>Ht: <span>5'-9"</span></div>
+                                <div>Eyes: <span>Brown</span></div>
+                            </div>
+                            <div id="data-right">
+                                <div>Hair: <span>Brown</span></div>
+                                <div>Wt: <span>162 lbs</span></div>
+                                <div>DOB: <span>04-01-89</span></div>
+                            </div>
+                            <!--
+                                The signature section can stay on its own line,
+                                but to get it closer to our goal, you'll need to
+
+                                8) Target the element with the id of "signature"
+                                and center it using the text-align property.
+                            -->
+                            <div id="signature">
+                                John Doe
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                    3) Target the element with the id of "right-side" and set
+                    the following CSS Properties:
+                        display: inline-block; 
+                        width: 34%;
+
+                    Then return back up to the "left side" section, and
+                    continue styling the layout inside that part of the license.
+                -->
+                <div id="right-side">
+                    <!--
+                        9) Target the img inside of the element with the id of
+                        "right-side" and have it stretch to fill its container
+                        by setting the following CSS Property:
+                            width: 100%;
+                    -->
+                    <img src="images/mii.png">
+                    <div id="donor-and-real-id">
+                        <!--
+                            Lastly (in terms of the layout), we need to get the
+                            donor and realID sections side by side as well. 
+                            To make this happen, you might've guessed it by now:
+
+                            10) Target the elements with the ids of "donor" and
+                            "real-id" and set the following CSS Property:
+                                display: inline-block;
+                        -->
+                        <div id="donor">
+                            DONOR <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <div id="real-id">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <!--
+                            With that, you should have completed the main layout
+                            of the Generic License! Everything should be
+                            side-by-side where it ought to be.
+
+                            However, there is still a lot of styling left to be
+                            done!  Margin, padding, background colors, font 
+                            sizes, font colors, font styling, font families...
+
+                            There are still SO many CSS Properties to set in
+                            order to get the license looking closer to our goal; 
+                            sometimes you'll be able to reuse the same CSS Rules 
+                            you created earlier, sometimes you'll have to create 
+                            new CSS Rules.
+
+                            That is left to you to figure out! Try out different
+                            values and properties to achieve the style we're
+                            aiming for! Good luck!
+                        -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

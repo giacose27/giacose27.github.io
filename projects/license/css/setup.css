@@ -1,0 +1,26 @@
+/*
+    NOTE TO STUDENTS: DON'T MODIFY THE CODE IN THIS FILE!
+
+    If you do, you risk messing up the Generic License template!
+    However, feel free to look at the CSS Properties used.
+
+    Some of them are relatively advanced, but you are encouraged
+    to do your own research to try to understand how they work.
+
+    If you get stuck, feel free to ask about them in office hours!
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/pencils.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
