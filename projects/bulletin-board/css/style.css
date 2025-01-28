@@ -6,18 +6,22 @@
 
     Good luck, and have fun!
 */
+.first-three {
+    text-align: left;
+    margin-bottom: 60px;
+}
 .post-it-1 {
     background-color: lightblue;
     display: inline-block;
     padding: 20px 50px 50px 20px;
-    margin: 20px;
+    margin: 40px;
     box-shadow: 0px 2px 1px 1px #444;
 }
 .post-it-2 {
     background-color: whitesmoke;
     display: inline-block;
     padding: 20px 20px 70px 20px;
-    margin: 20px;
+    margin: 40px;
     box-shadow: 0px 2px 1px 1px #444;
 }
 .post-it-3 {
@@ -26,6 +30,36 @@
     font-family: cursive;
     display: inline-block;
     padding: 20px 50px 50px 20px;
-    margin: 20px;
+    margin: 40px;
     box-shadow: 0px 2px 1px 1px #444;
+}
+.last-three {
+    margin-top: 20px;
+}
+.post-it-4 {
+    background-color: lightpink;
+    display: inline-block;
+    padding: 20px 50px 50px 20px;
+    margin: 40px;
+    box-shadow: 0px 2px 1px 1px #444;
+}
+.post-it-5 {
+    background-color: lightsalmon;
+    display: inline-block;
+    padding: 10px 50px 50px 10px;
+    margin: 40px;
+    box-shadow: 0px 2px 1px 1px #444;
+}
+.fa-solid fa-stroopwafel {
+    display: inline-block;
+}
+.post-it-6 {
+    background-color: whitesmoke;
+    display: inline-block;
+    padding: 20px 20px 70px 20px;
+    margin: 40px;
+    box-shadow: 0px 2px 1px 1px #444;
+}
+.post-it-6 img {
+    block-size: 200px;
 }
