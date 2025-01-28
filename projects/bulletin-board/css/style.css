@@ -9,6 +9,7 @@
 .first-three {
     text-align: left;
     margin-bottom: 60px;
+    display: block;
 }
 .post-it-1 {
     background-color: lightblue;
@@ -35,6 +36,7 @@
 }
 .last-three {
     margin-top: 20px;
+    display: block;
 }
 .post-it-4 {
     background-color: lightpink;
