@@ -216,9 +216,13 @@ h2 {
     background: linear-gradient(to bottom right, lavender, lavenderblush, pink);
     padding: 48px 0px 0px 48px;
     border: 10px dashed fuchsia;
+    margin: none;
+}
+#single-column-two {
+    color: peachpuff;
 }
 .dark-container {
-    background-color: fuchsia;
+    background: linear-gradient(to bottom right, lavender, darkorchid, purple);
     color: white;
     padding: 48px 0px;
 }
