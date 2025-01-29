@@ -1,3 +1,11 @@
+/* 
+    Global Reset on elements can adjust any and all elements no matter where 
+    they are and apply those properties. (*)
+*/
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
 body {
     background-color: darkslateblue;
     font-family: Helvetica, Arial, sans-serif;
@@ -42,6 +50,11 @@ h4 {
 }
 ol {
     color: fuchsia;
+}
+.lists,
+.lists > li {
+    text-align: left;
+    margin: 10px;
 }
 button {
     background-color: lemonchiffon;
@@ -172,3 +185,41 @@ div {
     display: inline-block;
     vertical-align: middle;
 }
+.single-column > 
+h2 {
+    color: darkslateblue;
+}
+.single-column > p {
+    color: black;
+}
+/* There is required code for single column layout!!! */
+.single-column {
+    width: 50%;
+    max-width: 1440px;
+    /* Min/Max width is ONLY ABSOLUTE VALUE */
+    height: 100%;
+    padding: 20px;
+    border: 10px dashed fuchsia;
+    margin: 20px;
+    /* Margin left: auto; property required for right aligned layout*/
+    /* 
+        For CENTER-aligned Single Column Layouts:
+        - You will instead use a short-hand margin in addtion to the other 
+        requirments, the top and bottom value are up to you, but the LEFT and 
+        RIGHT margin value must be set to auto.
+    */
+    background-color: lavender;
+}
+#single-column {
+    color: darkorchid;
+}
+/* 
+    ~ Content-box = is going to add your width + left & right padding + left & 
+    right border and display what that total equals as your element's width. 
+    The same will apply to height regarding and bottom padding and border.
+
+    ~ Border-box = will accurately depict the width that you set by 
+    considering the padding and border when sizing the element and automatically 
+    subtracting the required amount to ensure that your element shows the width 
+    or height you put in correctly. 
+*/
