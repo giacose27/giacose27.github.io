@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(191, 224, 236);
+    margin: 0px;
+    padding: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    background-color: white;
+    margin: 36px 0px;
+    padding: 36px 36px 60px;
+    width: 640px;
+}
+
+section > img {
+    box-shadow: 2px 2px 6px grey;
+    width: 100%;
+}
+
+img + p {
+    padding: 24px 0px;
+}
+
+.solution {
+    box-shadow: 2px 2px 6px grey;
+    padding: 8px;
+}
+
+.container {
+    background-color: cornflowerblue;
+    border: 5px solid navy;
+    padding: 24px;
+}
+
+.container-2 {
+    background-color: cornflowerblue;
+    border: 5px solid navy;
+    padding: 12px;
+    margin-bottom: 8px;
+}
+
+.container-2:last-child {
+    margin-bottom: 0px;
+}
+
+.container-2 h2,
+.container-2 p {
+    margin: 8px;
+}
