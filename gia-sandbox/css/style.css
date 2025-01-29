@@ -194,13 +194,12 @@ h2 {
 }
 /* There is required code for single column layout!!! */
 .single-column {
-    width: 50%;
+    width: 90%;
     max-width: 1440px;
     /* Min/Max width is ONLY ABSOLUTE VALUE */
-    height: 100%;
     padding: 20px;
     border: 10px dashed fuchsia;
-    margin: 20px;
+    margin: 0px auto;
     /* Margin left: auto; property required for right aligned layout*/
     /* 
         For CENTER-aligned Single Column Layouts:
@@ -212,6 +211,10 @@ h2 {
 }
 #single-column {
     color: darkorchid;
+}
+.light-container {
+    background: linear-gradient(to bottom right, lavender, lavenderblush, pink);
+    padding: 48px 0px 0px 48px;
 }
 /* 
     ~ Content-box = is going to add your width + left & right padding + left & 
