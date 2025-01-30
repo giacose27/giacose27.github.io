@@ -2,10 +2,13 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 .sections > div {
-    padding: 25px;
+    padding: 65px;
 }
 h1 {
     font-size: 24px;
+    padding-bottom: 20px;
+}
+h3 {
     padding-bottom: 20px;
 }
 .navagation {
@@ -40,5 +43,5 @@ h1 {
 }
 .section-3 {
     background-color: palegoldenrod;
-    color: black;
+    color: navy;
 }
