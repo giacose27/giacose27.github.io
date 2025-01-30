@@ -1,0 +1,44 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+.sections > div {
+    padding: 25px;
+}
+h1 {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+.navagation {
+    display: block;
+    border: 2px dashed whitesmoke;
+    padding: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.navagation > a {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+#high-tops {
+    text-align: center;
+}
+#platforms {
+    text-align: center;
+}
+#boots {
+    text-align: center;
+}
+.section-1 {
+    background-color: whitesmoke;
+    color: navy;
+}
+.section-2 {
+    background-color: black;
+    color: white;
+}
+.section-3 {
+    background-color: palegoldenrod;
+    color: black;
+}
