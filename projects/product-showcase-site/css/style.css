@@ -23,6 +23,7 @@ h3 {
     padding: 10px;
     background-color: black;
     color: white;
+    text-decoration: none;
 }
 #high-tops {
     text-align: center;
@@ -42,6 +43,6 @@ h3 {
     color: white;
 }
 .section-3 {
-    background-color: palegoldenrod;
+    background-color: gainsboro;
     color: navy;
 }
