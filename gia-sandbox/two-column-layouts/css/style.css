@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+/* Two Column Styles */
+/* 
+    While display flex is the only proper value pair you need, 
+    Remember to use other properties to make it look well designed and 
+    intuitive.
+*/
+#two-columns {
+    display: flex;
+}
+#sidebar {
+    width: 250px;
+    background-color: honeydew;
+    color: midnightblue;
+    padding: 20px;
+    font-size: 18px;
+    border-right: 2px solid rgb(163, 226, 163);
+    h2 {
+        border-bottom: 2px solid rgb(163, 226, 163);
+    }
+    ul {
+        list-style-type: none;
+        padding: 0px;
+    }
+    ul a {
+        text-decoration: none;
+    }
+    ul li {
+        padding: 4px 0px;
+    }
+}
+#main {
+    flex: 1;
+    color: midnightblue;
+    padding: 20px;
+}
+a {
+    color: midnightblue;
+}
