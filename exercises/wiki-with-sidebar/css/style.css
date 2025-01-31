@@ -67,7 +67,8 @@ p.line {
     border-bottom: 1px solid #4444;
     padding-bottom: 10px;
 }
-#image > p, #image > span {
+#image > p, 
+#image > span {
     font-size: 14px;
     text-align: left;
 }
