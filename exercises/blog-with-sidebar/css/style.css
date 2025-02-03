@@ -31,7 +31,7 @@ h3 {
         font-size: 18px;
     }
     ul {
-        background-color: antiquewhite;
+        background-color: rgb(255, 240, 205);
         border: 2px solid darkred;
         margin: 0px 0px 36px;
         list-style-type: none;
@@ -52,7 +52,7 @@ h3 {
 #main {
     grid-area: content;
     margin: 0px 36px;
-    background-color: antiquewhite;
+    background-color: rgb(255, 240, 205);
     border: 2px solid darkred;
     padding: 20px;
 }
@@ -63,4 +63,8 @@ a {
 }
 a:hover {
     color: darkred;
+}
+#styled-list {
+    list-style-type: square;
+    margin: 5px;
 }
