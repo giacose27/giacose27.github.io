@@ -51,7 +51,7 @@ h3 {
 }
 #main {
     grid-area: content;
-    margin: 0px 36px;
+    margin: 15px 36px;
     background-color: whitesmoke;
     border: 4px solid darkred;
     padding: 20px;
