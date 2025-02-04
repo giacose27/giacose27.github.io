@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(191, 224, 236);
+    margin: 0px;
+    padding: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    background-color: white;
+    margin: 36px 0px;
+    padding: 36px 36px 60px;
+    width: 640px;
+}
+
+section > img {
+    box-shadow: 2px 2px 6px grey;
+    width: 100%;
+}
+
+img + p {
+    padding: 24px 0px;
+}
+
+.solution {
+    box-shadow: 2px 2px 6px grey;
+    padding: 8px;
+}
+
+.container {
+    background-color: greenyellow;
+    border: 5px solid darkgreen;
+    padding: 24px;
+    grid-gap: 24px;
+}
+
+.cell {
+    background-color: lightgreen;
+    border: 5px solid forestgreen;
+    padding: 24px;
+    text-align: center;
+}
