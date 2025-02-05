@@ -64,7 +64,12 @@ a {
     border-bottom: 1px solid #4444;
 }
 #column-2 {
-    margin-right: 200px;
+    margin-right: 100px;
+    img {
+        border: 3px solid whitesmoke;
+        border-radius: 60px;
+        padding: 30px 140px;
+    }
 }
 #column-3 {
     margin-right: 50px;
@@ -88,19 +93,22 @@ a {
 #buy {
     background-color: blue;
     color: white;
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 15px 60px;
     font-size: 20px;
     text-align: center;
 }
 .add {
-    border: 2px solid blue;
+    border: 1px solid blue;
     color: blue;
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 15px 60px;
     font-size: 20px;
     text-align: center;
     margin-top: 10px;
+}
+#add:hover {
+    background-color: whitesmoke;
 }
 #trending {
     padding: 30px;
