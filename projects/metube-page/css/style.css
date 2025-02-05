@@ -11,16 +11,17 @@
 
 /* COLUMN 1 */
 #column-1 {
-    background-color: whitesmoke;
-    padding: 60px;
+    display: block;
+    padding: 40px 60px 300px 20px;
+    margin: 0px 20px 0px 0px;
     h2 {
         padding-bottom: 20px;
     }
     a {
-        font-size: 17px;
+        font-size: 20px;
         text-decoration: none;
         color: black;
-        display: inline-block;
+        display: block;
         padding: 5px;
     }
     a.line {
@@ -39,16 +40,20 @@
 #column-2 {
     display: flex;
     flex-wrap: wrap;
-    margin-right: 0px;
     align-items: flex-start;
+    max-width: 2000px;
+    margin: 15px;
     img {
-        width: 300px;
+        width: 400px;
+        border-radius: 20px;
     }
     .title {
         font-weight: bold;
     }
     p {
         padding: 2px;
+        max-width: 500px;
+        margin-right: 40px;
     }
     #video-1 {
         flex: 1;
