@@ -16,11 +16,16 @@
     h2 {
         padding-bottom: 20px;
     }
-    h4 {
-        padding: 10px;
+    a {
+        font-size: 17px;
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        padding: 5px;
     }
-    .line {
+    a.line {
         border-bottom: 1px solid thistle;
+        display: block;
     }
     .bold {
         font-weight: bold;
@@ -35,6 +40,10 @@
     display: flex;
     flex-wrap: wrap;
     margin-right: 0px;
+    align-items: flex-start;
+    img {
+        width: 300px;
+    }
     .title {
         font-weight: bold;
     }
@@ -42,16 +51,21 @@
         padding: 2px;
     }
     #video-1 {
+        flex: 1;
     }
     #video-2 {
-        
+        flex: 1;
     }
     #video-3 {
+        flex: 1;
     }
     #video-4 {
+        flex: 1;
     }
     #video-5 {
+        flex: 1;
     }
     #video-6 {
+        flex: 1;
     }
 }
