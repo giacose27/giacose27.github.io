@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Shadows+Into+Light&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#section-2 {
+    padding: 24px;
+    min-height: 100vh;
+}
+
+#section-2 {
+    background: url("../images/paw-prints.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#section-2 .example-card {
+    max-width: 358px;
+    margin: 16px;
+}
+
+.card-style-2 .animagram-header .logo {
+    font-size: 36px;
+    font-family: 'Shadows Into Light';
+    font-weight: bold;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 50%;
+    width: 66px;
+    text-align: center;
+}
+
+.card-style-2 .animagram-header .brand-name {
+    font-family: 'Acme';
+    font-weight: bold;
+}
