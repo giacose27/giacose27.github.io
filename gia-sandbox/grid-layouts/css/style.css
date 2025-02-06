@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: monospace;
+}
 .three-column {
     display: grid;
     grid-template-columns: 500px 500px 500px;
@@ -27,4 +34,55 @@
 .card-six {
     padding: 20px;
     background-color: honeydew
+}
+
+/* Flexbox Cards */
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+.card {
+    width: 350px;
+    border: 12px solid #ffe4da;
+    border-image: linear-gradient(-50deg, aliceblue, #fff7f7, #cff1ff) 1;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #ceaaaa;
+    background: linear-gradient(-50deg, #ffdbdb, #fff7f7, #ffc9c9);
+}
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card h2 {
+    font-size: 30px;
+}
+.card p {
+    font-size: 16px;
+}
+.card a {
+    background-color: #cff1ff;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    border: 3px solid #cff1ff;
+    transition: background-color 0.5s, color 0.7s, width 2s;
+}
+.card a:hover {
+    background-color: black;
+    border: 3px solid #cff1ff;
+    color: #cff1ff;
+    width: 100%;
 }

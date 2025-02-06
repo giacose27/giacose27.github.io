@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#section-1 {
+    padding: 24px;
+    min-height: 100vh;
+}
+
+#section-1 {
+    background: url("../images/treasure-map.webp");
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#section-1 .example-card {
+    max-width: 350px;
+    margin: 16px;
+    box-shadow: 4px 4px 8px #00000088;
+}
