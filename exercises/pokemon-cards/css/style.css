@@ -12,12 +12,12 @@
 }
 .card-style-3 {
     width: 350px;
-    box-shadow: 3px 3px 12px #444;
     border: 16px solid gold;
     border-radius: 16px;
-    display: flexbox;
     justify-content: center;
-    padding: 15px;
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
     img {
         max-width: 100%;
         object-fit: cover;
@@ -45,9 +45,10 @@
     }
     .attack {
         display: flex;
+        flex: 1;
         justify-content: space-between;
         border-bottom: 2px solid black;
-        margin: 20px;
+        margin: 20px 0px;
         .description {
             justify-content: center;
         }
