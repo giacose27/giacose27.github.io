@@ -8,10 +8,12 @@
     of the setup.css styling if you do so.
 */
 #section-3 {
-    display: flex;
+    display: inline-block;
+    padding-top: 50px;
 }
 .card-style-3 {
-    width: 350px;
+    width: 380px;
+    height: 540px;
     border: 16px solid gold;
     border-radius: 16px;
     justify-content: center;
@@ -28,11 +30,18 @@
     }
     .pokemon-header {
         font-size: 20px;
-        display: flex;
+        display: inline-flex;
         justify-content: space-between;
+        .name {
+            margin: 20px 5px 2px 0px;
+        }
+        .health {
+            padding-top: 26px;
+        }
     }
     .details {
         display: flex;
+        margin-top: 5px;
         justify-content: center;
         font-size: 12px;
         font-style: italic;
@@ -48,22 +57,22 @@
         flex: 1;
         justify-content: space-between;
         border-bottom: 2px solid black;
-        margin: 20px 0px;
+        margin: 5px 0px 8px 0px;
+        padding: 10px 10px 20px 0px;
+        align-items: center;
         .description {
             justify-content: center;
         }
-    }
-    .health {
-        padding-top: 30px;
-    }
-    .power {
-        font-size: 25px;
-        font-weight: bold;
+        .power {
+            font-size: 25px;
+            font-weight: bold;
+        }
     }
     .data {
         border: 2px solid goldenrod;
         font-weight: bold;
         font-size: 12px;
+        margin-bottom: 10px;
     }
 }
 #pokemon-card-1, 
@@ -74,10 +83,10 @@
 }
 #pokemon-card-1, 
 #pokemon-card-2 {
-    background: linear-gradient(-50deg, limegreen, green, limegreen);
+    background: linear-gradient(-50deg, rgb(77, 224, 77), green, rgb(77, 224, 77));
 }
 #pokemon-card-3 {
-    background: linear-gradient(-50deg, orange, rgb(225, 94, 0), orange)
+    background: linear-gradient(-50deg, orange, rgb(215, 90, 2), orange)
 }
 #pokemon-card-4 {
     background: linear-gradient(-50deg, turquoise, rgb(3, 190, 193), turquoise)
