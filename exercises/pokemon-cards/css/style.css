@@ -9,7 +9,6 @@
 */
 #section-3 {
     display: flex;
-    columns: 1;
 }
 .card-style-3 {
     width: 350px;
