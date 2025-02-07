@@ -7,9 +7,6 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
-* {
-    box-sizing: border-box;
-}
 #section-3 {
     display: flex;
     columns: 1;
@@ -22,7 +19,6 @@
     display: flexbox;
     justify-content: center;
     padding: 15px;
-    padding-top: 0px;
     img {
         max-width: 100%;
         object-fit: cover;
@@ -38,7 +34,6 @@
     }
     .details {
         display: flex;
-        margin: 0px;
         justify-content: center;
         font-size: 12px;
         font-style: italic;
@@ -53,6 +48,7 @@
         display: flex;
         justify-content: space-between;
         border-bottom: 2px solid black;
+        margin: 20px;
         .description {
             justify-content: center;
         }
