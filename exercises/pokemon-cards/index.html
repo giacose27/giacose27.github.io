@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokemon Cards (Exercise)</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="css/setup.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="section-3">
+            <div class="card-container">
+                <!--
+                    This is a screenshot of the card style you're aiming for.
+                -->
+                <img 
+                    src="images/pokemon-card-0.png" 
+                    alt="example card"
+                    class="example-card"
+                >
+
+                <!--
+                    These remaining 4 cards should be styled to match the
+                    example above as closely as possible.
+                -->
+                <div id="pokemon-card-1" class="card-style-3">
+                    <div class="pokemon-header">
+                        <h2 class="name">Bulbasaur</h2>
+                        <div class="health">
+                            40 HP <i class="fa-solid fa-leaf"></i>
+                        </div>
+                    </div>
+                    <img src="images/bulbasaur.png" alt="bulbasaur">
+                    <div class="details">
+                        Seed Pokemon. Length: 2'4", Weight 15 lbs.
+                    </div>
+                    <div class="attack">
+                        <div class="energy">
+                            <i class="fa-solid fa-leaf"></i>
+                            <i class="fa-solid fa-leaf"></i>
+                        </div>
+                        <div class="description">
+                            <span class="bold">Leech Seed</span>
+                            Unless all damage from this attack is prevented,
+                            you may remove 1 damage counter from Bulbasaur.
+                        </div>
+                        <div class="power">20</div>
+                    </div>
+                    <div class="data">
+                        A strange seed was planted on its back at birth.
+                        Thus, a plant sprouted and now grows with this
+                        Pokemon LV. 13 #1
+                    </div>
+                </div>
+                
+                <div id="pokemon-card-2" class="card-style-3">
+                    <div class="pokemon-header">
+                        <h2 class="name">Nidoran&male;</h2>
+                        <div class="health">
+                            60 HP <i class="fa-solid fa-leaf"></i>
+                        </div>
+                    </div>
+                    <img src="images/nidoran.png" alt="nidoran">
+                    <div class="details">
+                        Poison Pin Pokemon. Length: 1'4", Weight 15 lbs.
+                    </div>
+                    <div class="attack">
+                        <div class="energy">
+                            <i class="fa-solid fa-leaf"></i>
+                        </div>
+                        <div class="description">
+                            <span class="bold">Horn Hazard</span>
+                            Flip a coin. If tails, this attack does nothing.
+                        </div>
+                        <div class="power">30</div>
+                    </div>
+                    <div class="data">
+                        Stiffens its ears to sense danger. The larger, more
+                        powerful of its horns secretes venom. LV. 20 #32
+                    </div>
+                </div>
+
+                <div id="pokemon-card-3" class="card-style-3">
+                    <div class="pokemon-header">
+                        <h2 class="name">Charmander</h2>
+                        <div class="health">
+                            50 HP <i class="fa-solid fa-fire"></i>
+                        </div>
+                    </div>
+                    <img src="images/charmander.png" alt="charmander">
+                    <div class="details">
+                        Lizard Pokemon. Length: 2'0", Weight 19 lbs.
+                    </div>
+                    <div class="attack">
+                        <div class="energy">
+                            <i class="fa-solid fa-asterisk"></i>
+                        </div>
+                        <div class="description">
+                            <span class="bold">Scratch</span>
+                        </div>
+                        <div class="power">10</div>
+                    </div>
+                    <div class="attack">
+                        <div class="energy">
+                            <i class="fa-solid fa-fire"></i>
+                            <i class="fa-solid fa-asterisk"></i>
+                        </div>
+                        <div class="description">
+                            <span class="bold">Ember</span>
+                            Discard 1 <i class="fa-solid fa-fire"></i> Energy
+                            card attached to Charmander in order to use this
+                            attack.
+                        </div>
+                        <div class="power">30</div>
+                    </div>
+                    <div class="data">
+                        Obviously prefers hot places. If it gets caught in
+                        the rain, steam is said to spout from the tip of 
+                        its tail. LV. 10 #4
+                    </div>
+                </div>
+
+                <div id="pokemon-card-4" class="card-style-3">
+                    <div class="pokemon-header">
+                        <h2 class="name">Squirtle</h2>
+                        <div class="health">
+                            40 HP <i class="fa-solid fa-droplet"></i>
+                        </div>
+                    </div>
+                    <img src="images/squirtle.png" alt="squirtle">
+                    <div class="details">
+                        Tiny Turtle Pokemon. Length: 1'8", Weight 20 lbs.
+                    </div>
+                    <div class="attack">
+                        <div class="energy">
+                            <i class="fa-solid fa-droplet"></i>
+                        </div>
+                        <div class="description">
+                            <span class="bold">Bubble</span>
+                            Flip a coin. If heads, the Defending Pokemon is
+                            now Paralyzed.
+                        </div>
+                        <div class="power">10</div>
+                    </div>
+                    <div class="attack">
+                        <div class="energy">
+                            <i class="fa-solid fa-droplet"></i>
+                            <i class="fa-solid fa-asterisk"></i>
+                        </div>
+                        <div class="description">
+                            <span class="bold">Withdraw</span>
+                            Flip a coin. If heads, prevent all damage done
+                            to Squirtle during your opponent's next turn.
+                        </div>
+                        <div class="power">30</div>
+                    </div>
+                    <div class="data">
+                        After birth, its back  hardens into a shell.
+                        It powerfully sprays foam from its mouth. LV. 8 #7
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#section-3 {
+    padding: 24px;
+    min-height: 100vh;
+}
+
+#section-3 {
+    background: url("../images/sinnoh-plain.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#section-3 .card-container {
+    align-items: stretch;
+}
+
+#section-3 .example-card {
+    max-width: 358px;
+    margin: 16px;
+}
+
+.card-style-3 .attack .energy {
+    min-width: 50px;
+    text-align: center;
+}
+
+.card-style-3 .power {
+    min-width: 50px;
+    text-align: center;
+}
+
+.card-style-3 i {
+    background: radial-gradient(white 40%, #333333);
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    font-size: 14px;
+}
