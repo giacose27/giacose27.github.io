@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* Styles */
+#hero-1 {
+    height: 100vh;
+    background-image: url("../images/lizard.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    margin-bottom: 100px;
+    h1 {
+        font-size: 120px;
+        position: absolute;
+        left: 20%;
+    }
+}
+#hero-2 {
+    height: 100vh;
+    background-image: url("../images/lonely-ocean.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 100px;
+    h2 {
+        font-size: 72px;
+        position: absolute;
+        left: 20%;
+        position: absolute;
+        right: 20%;
+        bottom: 50%;
+    }
+    h4 {
+        font-size: 24px;
+        position: absolute;
+        right: 20%;
+        bottom: 47%;
+    }
+    a {
+        font-size: 14px;
+        display: inline-block;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        padding: 24px;
+        position: absolute;
+        right: 20%;
+        bottom: 41%;
+    }
+}
+#hero-3 {
+    height: 100vh;
+    background-image: url("../images/orange-wildflowers.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    .hero-content {
+        position: absolute;
+        top: 10%;
+        left: 15%;
+
+    }
+}
