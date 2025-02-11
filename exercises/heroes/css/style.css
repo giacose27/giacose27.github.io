@@ -70,6 +70,63 @@ body {
         position: absolute;
         top: 10%;
         left: 15%;
-
     }
+    h2 {
+        font-size: 72px;
+        margin-bottom: 36px;
+    }
+    h4 {
+        font-size: 24px;
+        margin: 0px;
+    }
+    a {
+        font-size: 14px;
+        display: inline-block;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        padding: 24px;
+        margin-top: 36px;
+        margin-right: 24px;
+    }
+}
+#hero-4 {
+    background: url("../images/stars-on-velvet.jpg");
+    background-size: cover;
+    background-position: center-center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .hero-content {
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+    }
+    h2 {
+        font-size: 72px;
+        margin-bottom: 36px;
+    }
+    h4 {
+        font-size: 24px;
+        margin: 0px;
+    }
+    a {
+        font-size: 14px;
+        display: inline-block;
+        background-color: white;
+        color: #333;
+        text-decoration: none;
+        padding: 24px;
+        margin-top: 36px;
+        margin-right: 24px;
+        margin-left: 12px;
+    }
+}
+.parallax-banner {
+    height: 50vh;
+    margin: 100px 0px;
+    background-image: url("../images/emerald-seas.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
