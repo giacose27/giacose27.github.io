@@ -5,7 +5,6 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-
 /* Styles */
 #hero-1 {
     height: 100vh;
@@ -17,7 +16,6 @@ body {
     justify-content: center;
     flex-direction: column;
     position: relative;
-    margin-bottom: 100px;
     h2 {
         font-size: 72px;
         position: absolute;
@@ -28,6 +26,7 @@ body {
         text-align: left;
         bottom: 60%;
         color: rgb(255, 196, 0);
+        background: linear-gradient(90deg, rgb(103, 66, 52), transparent);
         background-color: #4444;
     }
     h4 {
@@ -38,17 +37,31 @@ body {
         bottom: 57%;
         color: white;
     }
-    a {
+    a#one {
         font-size: 14px;
         display: inline-block;
         background-color: skyblue;
-        color: #333;
+        color: rgb(103, 66, 52);
         text-decoration: none;
         padding: 24px;
         position: absolute;
         left: 0%;
         margin-left: 70px;
         bottom: 51%;
+        font-weight: bold;
+    }
+    a#two {
+        font-size: 14px;
+        display: inline-block;
+        background-color: skyblue;
+        color: rgb(103, 66, 52);
+        text-decoration: none;
+        padding: 24px;
+        position: absolute;
+        left: 0%;
+        margin-left: 230px;
+        bottom: 51%;
+        font-weight: bold;
     }
 }
 #hero-2 {
@@ -66,14 +79,17 @@ body {
         font-size: 80px;
         margin-bottom: 36px;
         color: darkslategray;
-        background-color: rgba(255, 255, 255, 0.639);
+        background: linear-gradient(90deg, white, transparent);
         left: 0%;
-        padding-left: 70px;
         right: 0%;
+        padding-left: 70px;
+        padding-right: 300px;
     }
     h4 {
-        font-size: 24px;
+        font-size: 30px;
         margin: 0px;
+        font-family: cursive;
+        color: darkslategray;
     }
     a {
         font-size: 14px;
@@ -83,7 +99,9 @@ body {
         text-decoration: none;
         padding: 24px;
         margin-top: 36px;
-        margin-right: 24px;
+        margin-right: 10px;
+        color: darkslategray;
+        font-weight: bold;
     }
 }
 #hero-3 {
@@ -102,28 +120,31 @@ body {
     h2 {
         font-size: 72px;
         margin-bottom: 36px;
+        color: white;
+        padding: 20px;
+        background: linear-gradient(90deg,transparent, rgb(1, 64, 1), transparent);
     }
     h4 {
         font-size: 26px;
         margin: 0px;
-        color: green;
+        color: rgb(1, 64, 1);
+        background: linear-gradient(90deg,transparent, white, transparent);
+        padding: 10px;
+        left: 0%;
+        right: 0%;
+        font-family: fantasy;
+        
     }
     a {
         font-size: 14px;
         display: inline-block;
         background-color: white;
-        color: #333;
+        color: rgb(1, 64, 1);
         text-decoration: none;
         padding: 24px;
         margin-top: 36px;
         margin-right: 24px;
         margin-left: 12px;
+        font-weight: bold;
     }
-}
-.parallax-banner {
-    height: 50vh;
-    margin: 0px 0px 100px 0px;
-    background-image: url("../images/background.jpg");
-    background-size: cover;
-    background-attachment: fixed;
 }
