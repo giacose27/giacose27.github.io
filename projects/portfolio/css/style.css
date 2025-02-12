@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    font-family: Atkinson Hyperlegible Mono, sans-serif;
+}
+.parallax-banner {
+    height: 80vh;
+    margin-bottom: 100px;
+    padding-top: 95px;
+    background-image: url("../images/hi-res/urban-hi-res-2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: 70px;
+        margin-top: 40px;
+    }
+    a {
+        border: 2px solid whitesmoke;
+        font-size: 20px;
+        background-color: transparent;
+        color: whitesmoke;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 20px;
+        margin: 50px;
+        background: linear-gradient(transparent, black);
+    }
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    padding: 24px;
+    margin: 24px;
+    img {
+        height: 250px;
+        flex: 1;
+        object-fit: cover;
+    }
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+#about,
+#services,
+#contact {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 50px 20px 100px 20px;
+    margin: 20px;
+    text-align: center;
+    h3 {
+        margin-bottom: 90px;
+        font-size: 25px;
+    }
+    a {
+        border: 2px solid black;
+        text-align: center;
+        background-color: transparent;
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 20px;
+        margin: 50px;
+        background-color: transparent;
+    }
+}
