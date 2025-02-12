@@ -16,18 +16,18 @@
     h2,
     h4 {
         background: linear-gradient(90deg, transparent, antiquewhite, bisque, antiquewhite, transparent);
-        padding: 12px;
+        padding: 24px;
     }
     h2 {
         color: black;
         font-family: fantasy;
-        padding-top: 20px;
-        padding-bottom: 5px;
+        padding-top: 30px;
+        padding-bottom: 0px;
     }
     h4 {
         font-size: 28px;
         padding-top: 0px;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
     }
 }
 .gallery {
