@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.parallax-banner {
+    height: 40vh;
+    margin-bottom: 100px;
+    padding-top: 150px;
+    background-image: url("../images/hero.avif");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 50px;
+    color: darkolivegreen;
+    h2,
+    h4 {
+        background: linear-gradient(90deg, transparent, antiquewhite, antiquewhite, antiquewhite, transparent);
+        padding: 12px;
+    }
+    h2 {
+        color: black;
+        font-family: fantasy;
+    }
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 24px;
+    margin: 24px;
+    border: 10px solid darkolivegreen;
+    img {
+        height: 250px;
+        flex: 1;
+        object-fit: cover;
+    }
+}
+.two {
+    h1 {
+        text-align: center;
+        font-size: 60px;
+    }
+}
