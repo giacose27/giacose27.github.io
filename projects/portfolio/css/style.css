@@ -70,16 +70,15 @@
 }
 #about:hover {
     background-color: rgb(255, 77, 0);
-    transition: background-color 2s height 350px;
+    transition: background-color 2s;
 }
 #services:hover {
     background-color: rgb(255, 77, 0);
-    transition: background-color 2s height 350px;
+    transition: background-color 2s;
 }
 #contact:hover {
     background-color: rgb(255, 77, 0);
-    transition: background-color 2s height 350px;
-    height: 350px;
+    transition: background-color 2s;
 }
 #about,
 #services,
