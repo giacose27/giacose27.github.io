@@ -32,6 +32,12 @@
         margin: 50px;
         background: linear-gradient(transparent, black);
     }
+    a:hover {
+        border: 2px solid lime;
+        background-color: black;
+        color: lime;
+        transition: background-color 0.5s, color 0.7s, width 2s;
+    }
 }
 #gallery {
     display: flex;
@@ -74,5 +80,11 @@
         padding: 20px;
         margin: 50px;
         background-color: transparent;
+    }
+    a:hover {
+        border: 2px solid lime;
+        background-color: black;
+        color: lime;
+        transition: background-color 0.5s, color 0.7s, width 2s;
     }
 }
