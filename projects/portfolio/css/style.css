@@ -68,6 +68,18 @@
     background-color: black;
     padding: 60px;
 }
+#about:hover  {
+    background: linear-gradient(to top, rgb(255, 77, 0), black);
+    transition: background 2s;
+}
+#services:hover {
+    background: linear-gradient(to top, rgb(255, 77, 0), black);
+    transition: background 2s;
+}
+#contact:hover {
+    background: linear-gradient(to top, rgb(255, 77, 0), black);
+    transition: background 2s;
+}
 #about,
 #services,
 #contact {
@@ -76,7 +88,7 @@
     background-color: transparent;
     border-radius: 3px;
     padding: 50px 20px 100px 20px;
-    margin: 20px;
+    margin: 40px;
     text-align: center;
     box-shadow: 0px 0px 12px rgb(255, 77, 0);
     border: 1px solid rgb(255, 77, 0);
