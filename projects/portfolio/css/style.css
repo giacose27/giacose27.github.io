@@ -38,7 +38,7 @@
         background-color: black;
         color: lime;
         transition: background-color 0.5s, color 0.7s, width 2s;
-        border-radius: 2px;
+        border-radius: 1px;
     }
 }
 #gallery {
@@ -73,7 +73,7 @@
     flex-direction: column;
     background-color: whitesmoke;
     border: 3px solid lime;
-    border-radius: 5px;
+    border-radius: 3px;
     padding: 50px 20px 100px 20px;
     margin: 20px;
     text-align: center;
@@ -81,16 +81,16 @@
     h3 {
         margin-bottom: 90px;
         font-size: 25px;
-        border: 2px solid rgb(140, 0, 255);
-        border-radius: 2px;
+        border: 3px solid lime;
+        border-radius: 1px;
         padding: 20px;
         background-color: black;
         color: lime;
-        box-shadow: inset 3px -3px 8px lime;
+        box-shadow: inset 3px -3px 8px rgb(140, 0, 255);
     }
     a {
         border: 2px solid black;
-        border-radius: 2px;
+        border-radius: 1px;
         text-align: center;
         background-color: transparent;
         color: black;
@@ -101,8 +101,8 @@
         background-color: transparent;
     }
     a:hover {
-        border: 2px solid lime;
-        border-radius: 2px;
+        border: 2px solid rgb(140, 0, 255);
+        border-radius: 1px;
         background-color: black;
         color: lime;
         transition: background-color 0.5s, color 0.7s, width 2s;
