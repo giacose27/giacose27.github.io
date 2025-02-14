@@ -71,7 +71,6 @@
 #navbar-one {
     display: flex;
     background-color: orange;
-    color: white;
     h4 {
         text-align: center;
     }
@@ -79,7 +78,6 @@
 #navbar-two {
     display: flex;
     background-color: rgb(0, 0, 0);
-    color: white;
     h4 {
         text-align: center;
     }
@@ -87,7 +85,6 @@
 #navbar-three {
     display: flex;
     background-color: rgb(139, 13, 167);
-    color: white;
     h4 {
         text-align: center;
     }
