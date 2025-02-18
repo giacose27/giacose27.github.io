@@ -5,6 +5,10 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+img {
+    width: 100%;
+    object-fit: cover;
+}
 #nav {
     background-color: #222;
     display: flex;
@@ -18,9 +22,35 @@ body {
         font-size: 18px;
     }
 }
+.container {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+}
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+.image-container,
+.intro-container {
+    flex: 1;
+}
+.image-container {
+    height: 400px;
+    img {
+        height: 100%;
+        border-radius: 24px;
+    }
+}
+.intro-container {
+    h1 {
+        color: #ffb700;
+    }
+}
 /* 416x901 */
 /* media query should always be last in css */
-@media screen and (max-width: 480) {
+@media screen and (max-width: 480px) {
     #nav {
         flex-direction: column;
     }
