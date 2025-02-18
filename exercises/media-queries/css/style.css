@@ -1,87 +1,231 @@
+/* Google Font API imports - found at https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Secular+One&display=swap');
+
+/*****************************************************************************
+  Heading, Link, and Misc. Styles
+*****************************************************************************/
 * {
     box-sizing: border-box;
 }
+
 body {
-    margin: 0px;
-    font-family: sans-serif;
-}
-img {
-    width: 100%;
-    object-fit: cover;
-}
-#nav {
-    background-color: #222;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    a {
-        color: whitesmoke;
-        padding: 20px;
-        text-decoration: none;
-        font-size: 18px;
-    }
-}
-.container {
-    width: 90vw;
-    max-width: 800px;
-    margin: 48px auto;
-}
-.intro {
-    display: flex;
-    align-items: center;
-    gap: 48px;
-}
-.image-container,
-.intro-container {
-    flex: 1;
-}
-.image-container {
-    height: 400px;
-    img {
-        height: 100%;
-        border-radius: 24px;
-    }
-}
-.intro-container {
-    h1 {
-        color: #ffb700;
-        font-size: 48px;
-    }
-}
-/* 416x901 */
-/* media query should always be last in css */
-@media screen and (max-width: 740px) and (min-width: 481px) {
-    .intro {
-        gap: 24px;
-    }
-    .image-container {
-        height: 300px;
-    }
-    .intro-container {
-        h1 {
-            font-size: 28px;
-        }
-    }
+    margin: 0;
 }
 
-@media screen and (max-width: 480px) {
+h1,
+h2,
+h3,
+a {
+    font-family: 'Secular One', sans-serif;
+}
+
+h4,
+p {
+    font-family: 'Assistant', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav,
+#nav a,
+#footer a {
+    color: indigo;
+}
+
+#nav a:hover,
+#footer a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+#footer ul {
+    padding: 0;
+}
+
+/****************************************************************************
+  Nav/Footer styles
+****************************************************************************/
+#nav {
+    align-items: center;
+    display: flex;
+    margin: 0 24px;
+    min-height: 50px;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+}
+
+#nav-links {
+    justify-content: center;
+}
+
+#nav-links,
+.social-media {
+    display: flex;
+    list-style-type: none;
+}
+
+#nav-links li,
+.social-media li {
+    padding: 0 4px;
+}
+
+#nav .social-media {
+    justify-content: flex-end;
+    padding-left: 0;
+}
+
+.social-media i {
+    font-size: 20px;
+}
+
+#nav,
+#nav a,
+#footer a {
+    color: indigo;
+}
+
+#nav a:hover,
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#nav ul,
+#nav h2 {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+/****************************************************************************
+  Content Container styles
+****************************************************************************/
+
+#content-container {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+/****************************************************************************
+  Hero styles
+****************************************************************************/
+
+#hero {
+    background-image: url("../images/abstractBackground.jpg");
+    background-size: cover;
+    color: white;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10%;
+}
+
+#hero h1 {
+    font-size: 120px;
+}
+
+#hero h3 {
+    font-size: 60px;
+}
+
+/****************************************************************************
+  Link styles
+****************************************************************************/
+
+#hero a,
+.card a {
+    background-color: white;
+    color: indigo;
+    border: 2px solid indigo;
+    border-radius: 24px;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 12px;
+    min-width: 150px;
+    transition: transform 0.25s;
+}
+
+#hero a:hover,
+.card a:hover {
+    transform: scale(1.05);
+}
+
+/****************************************************************************
+  Card styles
+****************************************************************************/
+.three-cards,
+.two-cards {
+    display: flex;
+}
+
+.card {
+    border: 2px solid indigo;
+    color: indigo;
+    margin: 48px 24px 24px;
+    padding: 12px 12px 24px;
+    text-align: center;
+    box-shadow: 4px 4px 8px 0px grey;
+    flex: 1;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.three-cards {
+    margin-top: 48px;
+}
+
+.two-cards {
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.two-cards .card {
+    border: 0px;
+    box-shadow: none;
+}
+
+.two-cards .card img {
+    width: 100%;
+}
+
+/****************************************************************************
+  Media Query - Mobile Breakpoint
+****************************************************************************/
+
+/* TODO: Add your media query code here */
+@media screen and (max-width: 768px) {
     #nav {
         flex-direction: column;
     }
-    .intro {
-        flex-direction: column;
-        gap: 25px;
-        .intro-container h1 {
-            margin: 0px;
-            font-size: 24px;
+    #hero {
+        h1 {
+            font-size: 55px;
         }
-        .intro-container {
-            text-align: center;
-        }
-        .image-container {
-            flex: 200px;
-            width: 100%;
+        h3 {
+            font-size: 25px;
         }
     }
+    .three-cards,
+    .two-cards {
+        flex-direction: column;
+    }
+    
 }

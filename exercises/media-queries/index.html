@@ -1,32 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Media Queries</title>
+        <title>MY PORTFOLIO</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <div id="nav">
-            <a href="#">Blog</a>
-            <a href="#">Gallery</a>
-            <a href="#">About Us</a>
-            <a href="#">Contact Us</a>
+            <h2>MY PORTFOLIO</h2>
+            <ul id="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="social-media">
+                <li>
+                    <a href="https://www.twitter.com">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
         </div>
-        <div class="container intro">
-            <div class="image-container">
-                <img 
-                    src="images/jim.jpg"
-                    alt="Photo of Jim"
-                >
+        <div id="hero">
+            <div>
+                <h1>Hello World</h1>
+                <h3>I'm a budding Graphic Designer from Florida.</h3>
             </div>
-            <div class="intro-container">
-                <h1>Hello, I'm Jim</h1>
-                <p>
-                    I write short, fun articles about the journeys 
-                    I take as a photographer.
-                </p>
+        </div>
+        <div id="content-container">
+            <div class="three-cards">
+                <div class="card">
+                    <h3>Interesting Stuff</h3>
+                    <p>
+                        Sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.
+                    </p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+                <div class="card">
+                    <h3>Interesting Stuff</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipisicing.
+                    </p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+                <div class="card">
+                    <h3>Interesting Stuff</h3>
+                    <p>
+                        Sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.
+                    </p>
+                    <a href="#">LEARN MORE</a>
+                </div>
             </div>
+
+            <div class="two-cards">
+                <div class="card">
+                    <img src="images/egypt-kitty.webp" alt="cleopawtra">
+                </div>
+                <div class="card">
+                    <h3>More Interesting Stuff</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Eos amet nulla optio ratione itaque illum aperiam, omnis 
+                        ducimus perferendis. Non asperiores, laudantium 
+                        distinctio reiciendis voluptas pariatur eum corrupti 
+                        quis magni!
+                    </p>
+                    <a href="#">LEARN MORE</a>
+                    <a href="#">VISIT GALLERY</a>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <ul class="social-media">
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
         </div>
     </body>
 </html>
