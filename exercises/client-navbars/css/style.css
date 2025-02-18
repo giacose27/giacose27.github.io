@@ -23,7 +23,6 @@
     padding: 20px;
     justify-content: end;
     color: ivory;
-    padding-right: 30px;
     
 }
 #logo {
@@ -46,7 +45,6 @@
     margin-right: 0px auto;
     padding-top: 30px;
     margin-right: auto;
-    padding-left: 255px;
 }
 #editorials {
     font-size: 20px;
@@ -89,14 +87,21 @@
     justify-content: center;
     background-color: rgb(0, 0, 0);
     padding: 10px;
+    font-size: 20px;
     a {
         color: white;
         padding: 10px;
+        padding-left: 50px;
     }
+}
+#logo2 {
+    margin-right: auto;
 }
 #button1 {
     padding: 10px;
     border: 2px solid orange;
+    margin-left: 50px;
+    padding-left: 0px;
 }
 #navbar-three {
     display: flex;
