@@ -442,6 +442,7 @@ body {
 media screen and (max-width: 1000px) and (min-width: 801px) {
     #nav {
         flex-direction: column;
+        flex: 250px;
     }
     #header {
         h1 {
