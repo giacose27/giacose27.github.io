@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500&family=Montaga&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: 
+        linear-gradient(#DDDDDD66, #DDDDDD66),
+        url("../images/granite.jpg");
+    background-size: cover;
+}
+
+/**************************************************************
+    Grid setup and grid area assignments
+**************************************************************/
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 335px 330px 335px 1fr;
+    grid-template-areas:
+        "top-left-acc header  header  header  top-right-acc"
+        "left-accent  navbar  navbar  navbar  right-accent"
+        "left-accent  banner  banner  banner  right-accent"
+        "left-accent  card-1  card-2  card-3  right-accent"
+        "left-accent  aside   blog    blog    right-accent"
+        ".            footer  footer  footer  ."
+        ".            bottom  bottom  bottom  .";
+}
+
+#top-left-accent {
+    grid-area: top-left-acc;
+}
+
+#top-right-accent {
+    grid-area: top-right-acc;
+}
+
+#header {
+    grid-area: header;
+}
+
+#nav {
+    grid-area: navbar;
+}
+
+#left-accent {
+    grid-area: left-accent;
+}
+
+#right-accent {
+    grid-area: right-accent;
+}
+
+#banner-container {
+    grid-area: banner;
+}
+
+#card-1 {
+    grid-area: card-1;
+}
+
+#card-2 {
+    grid-area: card-2;
+}
+
+#card-3 {
+    grid-area: card-3;
+}
+
+#aside {
+    grid-area: aside;
+}
+
+#main {
+    grid-area: blog;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+#bottom {
+    grid-area: bottom;
+}
+
+/**************************************************************
+    Accent Border Styling
+**************************************************************/
+
+#top-left-accent {
+    border-width: 0px 2px 2px 0px;
+    border-style: solid;
+    border-image: radial-gradient(ellipse 100px 250% at bottom right, #666666EE, #66666600 50%) 1;
+
+}
+
+#top-right-accent {
+    border-width: 0px 0px 2px 2px;
+    border-style: solid;
+    border-image: radial-gradient(ellipse 100px 250% at bottom left, #666666EE, #66666600 50%) 1;
+}
+
+#left-accent {
+    border-width: 0px 2px 0px 0px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #666666EE, #66666600 50%) 1;
+
+}
+
+#right-accent {
+    border-width: 0px 0px 0px 2px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #666666EE, #66666600 50%) 1;
+}
+
+
+/**************************************************************
+    Header Styling
+**************************************************************/
+#header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    border-width: 0px 0px 2px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #66666611, #666666EE) 1;
+    padding: 12px;
+}
+
+#header h1 {
+    color: #1c4268;
+    text-shadow: 0px 8px 8px #33333399;
+    font-family: 'Cormorant', serif;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -3px;
+    transform: scale(0.95, 1.05);
+    margin: 0px;
+}
+
+#social-section {
+    text-align: right;
+}
+
+#social-section a {
+    text-decoration: none;
+}
+
+#search-bar {
+    background-color: #d4d4d4;
+    border: 0px;
+    box-shadow: 0px 0px 8px black;
+    width: 145px;
+    height: 24px;
+    margin-top: 12px;
+}
+
+#search-button {
+    cursor: pointer;
+    background-color: #253b57;
+    color: white;
+    border: 1px solid #111111;
+    height: 24px;
+}
+
+#shield-image:hover img {
+    cursor: pointer;
+    animation: spin 1s infinite;
+}
+
+@keyframes spin {
+    0% {
+    transform: scaleX(1);
+    }
+    50% {
+    transform: scaleX(-1);
+    }
+    100% {
+    transform: scale(1);
+    }
+}
+
+/**************************************************************
+    Navbar Styling
+**************************************************************/
+#nav {
+    background: radial-gradient(ellipse 150% 80%, #FFFFFF99 30%, #FFFFFF00 80%);
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: 'Montaga', serif;
+    padding: 12px 24px;
+    text-align: center;
+}
+
+#nav a:hover {
+    background: linear-gradient(#f9f9f9, #e5e5e5);
+}
+
+/**************************************************************
+    General Border/Background Styling
+**************************************************************/
+#banner-container img,
+#card-1 img,
+#card-2 img,
+#card-3 img,
+#more-appearances-container,
+#next-publication-container,
+.ad-container {
+    border: 3px solid #AAAAAA;
+    box-shadow: 0px 0px 8px black;
+}
+
+#blog {
+    border: 3px solid #333333;
+    box-shadow: 0px 0px 8px black;
+}
+
+#banner-container,
+#card-1,
+#card-2,
+#card-3,
+#aside,
+#main {
+    background-color: #00000077;
+
+}
+
+/**************************************************************
+    Banner and Cards Styling
+**************************************************************/
+#banner-container{
+    margin: 0px 12px;
+    padding: 8px;
+
+}
+
+#banner-container img {
+    width: 100%;
+}
+
+#card-1,
+#card-2,
+#card-3 {
+    padding: 8px;
+}
+
+#card-1 img,
+#card-2 img,
+#card-3 img {
+    width: 100%;
+}
+
+#card-1 {
+    margin-left: 12px;
+    padding-right: 0px;
+}
+
+#card-3 {
+    margin-right: 12px;
+    padding-left: 0px;
+}
+
+/**************************************************************
+    Sidebar (Aside) Styling
+**************************************************************/
+#aside {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    padding: 8px 0px 8px 8px;
+}
+
+#more-appearances-container {
+    background-image: url("../images/events-bg.jpg");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-color: black;
+    padding: 24px;
+}
+
+#next-publication-container {
+    background-image: url("../images/releases-bg.jpg");
+    background-size: cover;
+    padding: 24px;
+    flex: 1;
+}
+
+#more-appearances-container h3 {
+    color: #d6d5c9;
+}
+
+#next-publication-container h3 {
+    color: #cbced7;
+}
+
+#more-appearances-container h3,
+#next-publication-container h3 {
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.side-by-side {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.side-by-side img,
+.ad-container img {
+    width: 100%;
+}
+
+.side-by-side .image-container {
+    flex: 2;
+}
+
+.side-by-side .text-container {
+    flex: 5;
+    padding-left: 24px;
+}
+
+.side-by-side .text-container p {
+    margin: 2px 0px;
+}
+
+.yellow {
+    color: #dbbf73;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: #a1a1a1;
+}
+
+.blue {
+    color: #92add1;
+}
+
+.montaga {
+    font-family: 'Montaga', serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+/**************************************************************
+    Blog (Main) Styling
+**************************************************************/
+#main {
+    margin-right: 12px;
+    padding: 8px;
+    height: 100%;
+}
+
+#blog {
+    background-color: lightgray;
+    padding: 24px;
+}
+
+#main h2 {
+    font-family: 'Cormorant', serif;
+    font-size: 28px;
+    margin: 12px 0px;
+    text-shadow: 0px 4px 4px #00000033;
+    letter-spacing: 2px;
+}
+
+#main h2 .caps {
+    font-size: 32px;
+}
+
+#main h3 {
+    font-family: 'Montaga', serif;
+    margin: 40px 0px 20px;
+}
+
+#main p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+
+#main h3 a,
+#main p a {
+    color: #1c4268;
+}
+
+#main h3 a {
+    text-decoration: none;
+}
+
+#blog-button-container {
+    margin: 48px 0px;
+}
+
+/**************************************************************
+    Footer/Bottom Styling
+**************************************************************/
+#footer {
+    background: radial-gradient(ellipse 50% 80% at bottom center, #00000033, #00000000);
+    border-width: 0px 0px 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #66666611, #333333EE, #66666611) 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: 2px;
+    padding: 12px;
+}
+
+#bottom {
+    background: url("../images/bottom.png");
+    background-size: 90%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100px;
+    opacity: 0.75;
+}
+
+/**************************************************************
+    Media Queries Styling
+**************************************************************/
+/* TODO: Write your media queries here */
+media screen and (max-width: 1000px) and (min-width: 801px) {
+    #nav {
+        flex-direction: column;
+    }
+    #header {
+        h1 {
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #nav {
+        flex-direction: column;
+    }
+    .intro {
+        flex-direction: column;
+        gap: 25px;
+        .intro-container h1 {
+            margin: 0px;
+            font-size: 24px;
+        }
+        .intro-container {
+            text-align: center;
+        }
+        .image-container {
+            flex: 200px;
+            width: 100%;
+        }
+    }
+    #banner-container,
+    #card-1,
+    #card-2,
+    #card-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "img" 
+            "img1"
+            "img2" 
+            "img3"
+        ;
+    }
+}

@@ -21,6 +21,9 @@ img {
         text-decoration: none;
         font-size: 18px;
     }
+    :hover {
+        color: #ffb700;
+    }
 }
 .container {
     width: 90vw;
@@ -141,6 +144,9 @@ img {
             flex: 200px;
             width: 100%;
         }
+    }
+    p {
+        justify-content: center;
     }
     .grid {
         grid-template-columns: 1fr;
