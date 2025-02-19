@@ -454,21 +454,6 @@ media screen and (max-width: 1000px) and (min-width: 801px) {
     #nav {
         flex-direction: column;
     }
-    .intro {
-        flex-direction: column;
-        gap: 25px;
-        .intro-container h1 {
-            margin: 0px;
-            font-size: 24px;
-        }
-        .intro-container {
-            text-align: center;
-        }
-        .image-container {
-            flex: 200px;
-            width: 100%;
-        }
-    }
     #banner-container,
     #card-1,
     #card-2,
