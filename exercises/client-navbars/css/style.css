@@ -14,9 +14,6 @@
     padding: 20px;
     justify-content: end;
     color: ivory;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 400px;
 }
 #contact {
     font-size: 20px;
@@ -43,26 +40,24 @@
     font-size: 20px;
     padding: 20px;
     justify-content: end;
-    margin-right: 0px auto;
     padding-top: 30px;
-    margin-right: auto;
 }
 #editorials {
     font-size: 20px;
-    padding: 20px;
     justify-content: end;
     padding-top: 30px;
+    padding: 20px;
 }
 #media {
     font-size: 20px;
-    padding: 20px;
     justify-content: end;
     padding-top: 30px;
+    padding: 20px;
 }
 #logo1 {
     font-size: 20px;
-    padding: 20px;
     padding-top: 30px;
+    margin-right: auto;
 }
 #button {
     font-size: 10px;
