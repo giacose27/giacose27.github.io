@@ -440,7 +440,7 @@ body {
 **************************************************************/
 /* TODO: Write your media queries here */
 media screen and (max-width: 1000px) and (min-width: 801px) {
-    #nav {
+    #nav a {
         flex-direction: column;
         flex: 250px;
     }
@@ -454,6 +454,13 @@ media screen and (max-width: 1000px) and (min-width: 801px) {
 @media screen and (max-width: 800px) {
     #nav {
         flex-direction: column;
+    }
+    #banner-container,
+    #card-1,
+    #card-2,
+    #card-3 {
+        display: flex;
+        flex-wrap: wrap;
     }
     #banner-container,
     #card-1,
