@@ -49,6 +49,55 @@ img {
         font-size: 48px;
     }
 }
+#feature {
+    background-color: #222;
+    padding: 24px 0px;
+    color: whitesmoke;
+    h2 {
+        text-align: center;
+        font-size: 36px;
+    }
+}
+.grid img {
+    border-radius: 24px;
+    height: 300px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    grid-template-areas:
+        "p1 img1 img2 img2"
+        "img3 img3 img4 p2"
+    ;
+    p {
+        border: 2px solid #ffb700;
+        border-radius: 24px;
+        padding: 20px;
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+    }
+}
+#p1 {
+    grid-area: p1;
+}
+#p2 {
+    grid-area: p2;
+}
+#img1 {
+    grid-area: img1;
+}
+#img2 {
+    grid-area: img2;
+}
+#img3 {
+    grid-area: img3;
+}
+#img4 {
+    grid-area: img4;
+}
 /* 416x901 */
 /* media query should always be last in css */
 @media screen and (max-width: 740px) and (min-width: 481px) {
@@ -62,6 +111,15 @@ img {
         h1 {
             font-size: 28px;
         }
+    }
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "p1 img1"
+            "img2 img2"
+            "img3 img3"
+            "img4 p2"
+        ;
     }
 }
 
@@ -83,5 +141,16 @@ img {
             flex: 200px;
             width: 100%;
         }
+    }
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "p1" 
+            "img1"
+            "img2" 
+            "img3"
+            "img4" 
+            "p2"
+        ;
     }
 }
