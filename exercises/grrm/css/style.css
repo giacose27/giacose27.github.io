@@ -439,14 +439,31 @@ body {
     Media Queries Styling
 **************************************************************/
 /* TODO: Write your media queries here */
-media screen and (max-width: 1000px) and (min-width: 801px) {
+@media screen and (max-width: 1000px) and (min-width: 801px) {
+
+}
+@media screen and (max-width: 1000px) and (min-width: 800px) {
     #nav a {
         flex-direction: column;
         flex: 250px;
+        flex-wrap: wrap;
+    }
+    #grid-layout {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "header header header"
+            "navbar navbar navbar"
+            "navbar navbar navbar"
+            "banner banner banner"
+            "card-1 card-2 card-3"
+            "aside blog blog"
+            "footer footer footer"
+            "bottom bottom bottom"
+        ;
     }
     #header {
         h1 {
-            font-size: 20px;
+            font-size: 45px;
         }
     }
 }
@@ -454,25 +471,35 @@ media screen and (max-width: 1000px) and (min-width: 801px) {
 @media screen and (max-width: 800px) {
     #nav {
         flex-direction: column;
+        flex: 350px;
     }
-    #banner-container,
-    #card-1,
-    #card-2,
-    #card-3 {
-        display: flex;
-        flex-wrap: wrap;
+    #grid-layout {
+        display: flexbox;
     }
-    #banner-container,
-    #card-1,
-    #card-2,
-    #card-3 {
+    #header {
+        h1 {
+            font-size: 30px;
+        }
+    }
+    #grid-layout {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-areas: 
-            "img" 
-            "img1"
-            "img2" 
-            "img3"
+            "header"
+            "navbar"
+            "banner"
+            "card-1" 
+            "card-2"
+            "card-3"
+            "aside"
+            "blog"
+            "footer"
+            "bottom"
         ;
+    }
+    #search-bar,
+    #search-button,
+    #shield-image {
+        display: none;
     }
 }
