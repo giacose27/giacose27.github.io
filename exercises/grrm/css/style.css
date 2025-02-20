@@ -439,9 +439,6 @@ body {
     Media Queries Styling
 **************************************************************/
 /* TODO: Write your media queries here */
-@media screen and (max-width: 1000px) and (min-width: 801px) {
-
-}
 @media screen and (max-width: 1000px) and (min-width: 800px) {
     #nav a {
         flex-direction: column;
