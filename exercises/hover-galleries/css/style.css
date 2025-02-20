@@ -214,6 +214,7 @@ h3 {
 #card1-2:hover {
     opacity: 1;
     visibility: visible;
+    transform: translateY(0px);
 }
 #card2-2 {
     background-color: honeydew;
