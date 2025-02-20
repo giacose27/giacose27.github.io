@@ -1,32 +1,140 @@
 * {
     margin: 0px;
+    h1,
+    h2,
+    h3 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rebeccapurple;
+    }
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rebeccapurple;
+    }
+}
+#nav {
+    background-color: lemonchiffon;
+    padding: 20px;
+    display: flex;
 }
 #dropdown-menu {
     position: relative;
+    margin-right: auto;
+}
+a {
+    margin: 10px;
 }
 #dropdown {
     position: absolute;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.75s, visibility 0.75s;
-    a {
-        text-decoration: none;
-        font-size: 18px;
-    }
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-color: lemonchiffon;
 }
 #dropdown-menu:hover #dropdown {
     opacity: 1;
     visibility: visible;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    background-color: lemonchiffon;
 }
 #hero {
-    height: 50vh;
-    margin: 100px 0px;
+    height: 100vh;
+    margin: 0px;
     background-image: url("../images/hero.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
+#oscar {
+    height: 100vh;
+    margin: 0px;
+    background-image: url("../images/oscar.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    h2 {
+        font-size: 72px;
+        position: absolute;
+        left: 0%;
+        padding-left: 70px;
+        position: absolute;
+        right: 0%;
+        text-align: left;
+        bottom: 60%;
+        color: aliceblue;
+    }
+}
+#paulie {
+    height: 100vh;
+    margin: 0px;
+    background-image: url("../images/paulie.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    h2 {
+        font-size: 72px;
+        position: absolute;
+        left: 0%;
+        padding-left: 70px;
+        position: absolute;
+        right: 0%;
+        text-align: left;
+        bottom: 60%;
+        color: rgb(128, 63, 17);
+    }
+}
+#louie {
+    height: 100vh;
+    margin: 0px;
+    background-image: url("../images/louie.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    h2 {
+        font-size: 72px;
+        position: absolute;
+        left: 0%;
+        padding-left: 70px;
+        position: absolute;
+        right: 0%;
+        text-align: left;
+        bottom: 60%;
+        color: whitesmoke;
+    }
+}
 
-
-
-
-@media screen ("")
+/* Media Query */
+@media screen and (max-width: 1000px) and (min-width: 800px){
+    #oscar {
+        color: brown;
+    }
+}
+@media screen and (max-width: 768px) {
+    #nav {
+        flex-direction: column;
+    }
+    #oscar,
+    #paulie,
+    #louie {
+        height: 100vh;
+        margin: 0px;
+        background-size: 100vh;
+        background-attachment: contain;
+        h2 {
+            font-size: 55px;
+            position: absolute;
+            left: 0%;
+            padding-left: 70px;
+            position: absolute;
+            right: 0%;
+            text-align: left;
+            bottom: 60%;
+        }
+    } 
+}
