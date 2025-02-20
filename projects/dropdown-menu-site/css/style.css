@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+}
+#dropdown-menu {
+    position: relative;
+}
+#dropdown {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.75s, visibility 0.75s;
+    a {
+        text-decoration: none;
+        font-size: 18px;
+    }
+}
+#dropdown-menu:hover #dropdown {
+    opacity: 1;
+    visibility: visible;
+}
+#hero {
+    height: 50vh;
+    margin: 100px 0px;
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+@media screen ("")
