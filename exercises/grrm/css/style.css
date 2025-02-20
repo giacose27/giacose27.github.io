@@ -440,10 +440,12 @@ body {
 **************************************************************/
 /* TODO: Write your media queries here */
 @media screen and (max-width: 1000px) and (min-width: 800px) {
-    #nav a {
-        flex-direction: column;
-        flex: 250px;
+    #nav {
         flex-wrap: wrap;
+        a {
+            flex: 190px;
+            border-bottom: 2px solid #777;
+        }
     }
     #grid-layout {
         grid-template-columns: 1fr 1fr 1fr;
@@ -460,26 +462,28 @@ body {
     }
     #header {
         h1 {
-            font-size: 45px;
+            font-size: 48px;
         }
     }
 }
 
 @media screen and (max-width: 800px) {
     #nav {
-        flex-direction: column;
-        flex: 350px;
-    }
-    #grid-layout {
-        display: flexbox;
+        flex-wrap: wrap;
+        a {
+            flex: 150px;
+            border-bottom: 2px solid #777;
+        }
     }
     #header {
+        flex-direction: column;
+        flex: 350px;
+        align-items: center;
         h1 {
             font-size: 30px;
         }
     }
     #grid-layout {
-        display: grid;
         grid-template-columns: 1fr;
         grid-template-areas: 
             "header"
@@ -498,5 +502,16 @@ body {
     #search-button,
     #shield-image {
         display: none;
+    }
+    #banner-container,
+    #card-1,
+    #card-2,
+    #card-3,
+    #aside,
+    #main {
+        background-color: transparent;
+        padding: 0px;
+        margin: 0px;
+
     }
 }
