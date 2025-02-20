@@ -17,6 +17,7 @@
     background-color: lemonchiffon;
     padding: 20px;
     display: flex;
+    position: sticky;
 }
 #dropdown-menu {
     position: relative;

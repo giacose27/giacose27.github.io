@@ -1,6 +1,11 @@
+/* RESETS */
 h2,
 h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a {
+    text-decoration: none;
+    color: indigo;
 }
 .gallery1,
 .gallery2,
@@ -14,6 +19,8 @@ h3 {
         "three four"
     ;
 }
+/* RESETS END */
+
 /* Gallery One Start */
 #card1,
 #card2,
@@ -22,6 +29,8 @@ h3 {
     padding: 25px;
     margin: 20px;
 }
+
+/* CARD 1 */
 #card1 {
     border: 2px solid teal;
     background-color: aliceblue;
@@ -42,6 +51,8 @@ h3 {
         transform 0.25s
     ;
 }
+
+/* CARD 2 */
 #card2 {
     border: 2px solid teal;
     background-color: aliceblue;
@@ -62,6 +73,8 @@ h3 {
         transform 0.25s
     ;
 }
+
+/* CARD 3 */
 #card3 {
     border: 2px solid teal;
     background-color: aliceblue;
@@ -82,6 +95,8 @@ h3 {
         transform 0.25s
     ;
 }
+
+/* CARD 4 */
 #card4 {
     border: 2px solid teal;
     background-color: aliceblue;
@@ -112,6 +127,8 @@ h3 {
     padding: 25px;
     margin: 20px;
 }
+
+/* CARD 1 */
 #card1-1 {
     background-color: floralwhite;
     border: 2px solid palevioletred;
@@ -130,6 +147,8 @@ h3 {
         visibility 1s;
     ;
 }
+
+/* CARD 2 */
 #card2-1 {
     background-color: floralwhite;
     border: 2px solid palevioletred;
@@ -148,6 +167,8 @@ h3 {
         visibility 1s;
     ;
 }
+
+/* CARD 3 */
 #card3-1 {
     background-color: floralwhite;
     border: 2px solid palevioletred;
@@ -166,6 +187,8 @@ h3 {
         visibility 1s;
     ;
 }
+
+/* CARD 4 */
 #card4-1 {
     background-color: floralwhite;
     border: 2px solid palevioletred;
@@ -194,6 +217,8 @@ h3 {
     padding: 25px;
     margin: 20px;
 }
+
+/* CARD 1 */
 #card1-2 {
     background-color: honeydew;
     border: 2px solid lime;
@@ -202,20 +227,22 @@ h3 {
         padding: 20px;
     }
 }
-#card1-2 {
+#card1-2 a {
     opacity: 0;
     visibility: hidden;
     transform: translateY(-8px);
     transition:
-        opacity 1s,
-        visibility 1s
+        opacity 0.5s,
+        visibility 0.5s
     ;
 }
-#card1-2:hover {
+#card1-2:hover a {
     opacity: 1;
     visibility: visible;
     transform: translateY(0px);
 }
+
+/* CARD 2 */
 #card2-2 {
     background-color: honeydew;
     border: 2px solid lime;
@@ -224,6 +251,22 @@ h3 {
         padding: 20px;
     }
 }
+#card2-2 a {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+        opacity 0.5s,
+        visibility 0.5s
+    ;
+}
+#card2-2:hover a {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+/* CARD 3 */
 #card3-2 {
     background-color: honeydew;
     border: 2px solid lime;
@@ -232,6 +275,22 @@ h3 {
         padding: 20px;
     }
 }
+#card3-2 a {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+        opacity 0.5s,
+        visibility 0.5s
+    ;
+}
+#card3-2:hover a {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+/* CARD 4 */
 #card4-2 {
     background-color: honeydew;
     border: 2px solid lime;
@@ -239,5 +298,19 @@ h3 {
     a {
         padding: 20px;
     }
+}
+#card4-2 a {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition:
+        opacity 0.5s,
+        visibility 0.5s
+    ;
+}
+#card4-2:hover a {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
 }
 /* Gallery Three End */
