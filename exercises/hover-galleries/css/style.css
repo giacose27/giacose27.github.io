@@ -1,0 +1,232 @@
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.gallery1,
+.gallery2,
+.gallery3 {
+    margin: 20px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "one two"
+        "three four"
+    ;
+}
+/* Gallery One Start */
+#card1,
+#card2,
+#card3,
+#card4 {
+    padding: 25px;
+    margin: 20px;
+}
+#card1 {
+    border: 2px solid teal;
+    background-color: aliceblue;
+    grid-area: one;
+    a {
+        padding: 20px;
+    }
+}
+#card1:hover a {
+    background-color: azure;
+    box-shadow: 4px 4px 4px #444;
+    transform: translateY(-4px);
+}
+#card1 a {
+    transition:
+        background-color 0.25s,
+        box-shadow 0.25s,
+        transform 0.25s
+    ;
+}
+#card2 {
+    border: 2px solid teal;
+    background-color: aliceblue;
+    grid-area: two;
+    a {
+        padding: 20px;
+    }
+}
+#card2:hover a {
+    background-color: azure;
+    box-shadow: 4px 4px 4px #444;
+    transform: translateY(-4px);
+}
+#card2 a {
+    transition:
+        background-color 0.25s,
+        box-shadow 0.25s,
+        transform 0.25s
+    ;
+}
+#card3 {
+    border: 2px solid teal;
+    background-color: aliceblue;
+    grid-area: three;
+    a {
+        padding: 20px;
+    }
+}
+#card3:hover a {
+    background-color: azure;
+    box-shadow: 4px 4px 4px #444;
+    transform: translateY(-4px);
+}
+#card3 a {
+    transition:
+        background-color 0.25s,
+        box-shadow 0.25s,
+        transform 0.25s
+    ;
+}
+#card4 {
+    border: 2px solid teal;
+    background-color: aliceblue;
+    grid-area: four;
+    a {
+        padding: 20px;
+    }
+}
+#card4:hover a {
+    background-color: azure;
+    box-shadow: 4px 4px 4px #444;
+    transform: translateY(-4px);
+}
+#card4 a {
+    transition:
+        background-color 0.25s,
+        box-shadow 0.25s,
+        transform 0.25s
+    ;
+}
+/* Gallery One End */
+
+/* Gallery Two Start */
+#card1-1,
+#card2-1,
+#card3-1,
+#card4-1 {
+    padding: 25px;
+    margin: 20px;
+}
+#card1-1 {
+    background-color: floralwhite;
+    grid-area: one;
+    a {
+        padding: 20px;
+    }
+}
+#card1-1:hover {
+    opacity: 0;
+    visibility: hidden;
+}
+#card1-1 {
+    transition:
+        opacity 1s,
+        visibility 1s;
+    ;
+}
+#card2-1 {
+    background-color: floralwhite;
+    grid-area: two;
+    a {
+        padding: 20px;
+    }
+}
+#card2-1:hover {
+    opacity: 0;
+    visibility: hidden;
+}
+#card2-1 {
+    transition:
+        opacity 1s,
+        visibility 1s;
+    ;
+}
+#card3-1 {
+    background-color: floralwhite;
+    grid-area: three;
+    a {
+        padding: 20px;
+    }
+}
+#card3-1:hover {
+    opacity: 0;
+    visibility: hidden;
+}
+#card3-1 {
+    transition:
+        opacity 1s,
+        visibility 1s;
+    ;
+}
+#card4-1 {
+    background-color: floralwhite;
+    grid-area: four;
+    a {
+        padding: 20px;
+    }
+}
+#card4-1:hover {
+    opacity: 0;
+    visibility: hidden;
+}
+#card4-1 {
+    transition:
+        opacity 1s,
+        visibility 1s;
+    ;
+}
+/* Gallery Two End */
+
+/* Gallery Three Start */
+#card1-2,
+#card2-2,
+#card3-2,
+#card4-2 {
+    padding: 25px;
+    margin: 20px;
+}
+#card1-2 {
+    background-color: honeydew;
+    grid-area: one;
+    a {
+        padding: 20px;
+    }
+}
+#card1-2 {
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 1s,
+        visibility 1s
+    ;
+}
+#card1-2:hover {
+    opacity: 1;
+    visibility: visible;
+}
+#card2-2 {
+    background-color: honeydew;
+    grid-area: two;
+    a {
+        padding: 20px;
+    }
+}
+#card3-2 {
+    background-color: honeydew;
+    grid-area: three;
+    a {
+        padding: 20px;
+    }
+}
+#card4-2 {
+    background-color: honeydew;
+    grid-area: four;
+    a {
+        padding: 20px;
+    }
+}
+/* Gallery Three End */
