@@ -34,8 +34,8 @@ h2 {
 
 /* CARD 1 */
 #card1 {
-    border: 2px solid teal;
-    background-color: aliceblue;
+    border: 2px solid rgb(0, 242, 255);
+    background-color: black;
     grid-area: one;
     a {
         padding: 20px;
@@ -43,10 +43,16 @@ h2 {
         display: block;
         width: max-content;
     }
+    img {
+        width: 250px;
+        margin: 0px auto;
+        display: block;
+    }
 }
 #card1:hover a {
-    background-color: azure;
-    box-shadow: 4px 4px 4px #444;
+    background-color: black;
+    box-shadow: 4px 4px 4px rgb(0, 242, 255);
+    color: rgb(0, 242, 255);
     transform: translateY(-4px);
 }
 #card1 a {
@@ -59,8 +65,8 @@ h2 {
 
 /* CARD 2 */
 #card2 {
-    border: 2px solid teal;
-    background-color: aliceblue;
+    border: 2px solid rgb(255, 251, 0);
+    background-color: black;
     grid-area: two;
     a {
         padding: 20px;
@@ -70,8 +76,9 @@ h2 {
     }
 }
 #card2:hover a {
-    background-color: azure;
-    box-shadow: 4px 4px 4px #444;
+    background-color: black;
+    box-shadow: 4px 4px 4px rgb(255, 251, 0);
+    color: rgb(174, 0, 255);
     transform: translateY(-4px);
 }
 #card2 a {
@@ -84,8 +91,8 @@ h2 {
 
 /* CARD 3 */
 #card3 {
-    border: 2px solid teal;
-    background-color: aliceblue;
+    border: 2px solid rgb(0, 255, 17);
+    background-color: black;
     grid-area: three;
     a {
         padding: 20px;
@@ -95,8 +102,9 @@ h2 {
     }
 }
 #card3:hover a {
-    background-color: azure;
-    box-shadow: 4px 4px 4px #444;
+    background-color: black;
+    box-shadow: 4px 4px 4px rgb(0, 255, 17);
+    color: rgb(255, 0, 0);
     transform: translateY(-4px);
 }
 #card3 a {
@@ -109,8 +117,8 @@ h2 {
 
 /* CARD 4 */
 #card4 {
-    border: 2px solid teal;
-    background-color: aliceblue;
+    border: 2px solid rgb(255, 0, 191);
+    background-color: black;
     grid-area: four;
     a {
         padding: 20px;
@@ -118,10 +126,16 @@ h2 {
         display: block;
         width: max-content;
     }
+    img {
+        width: 250px;
+        margin: 0px auto;
+        display: block;
+    }
 }
 #card4:hover a {
-    background-color: azure;
-    box-shadow: 4px 4px 4px #444;
+    background-color: black;
+    box-shadow: 4px 4px 4px rgb(255, 0, 191);
+    color: rgb(251, 255, 0);
     transform: translateY(-4px);
 }
 #card4 a {
@@ -138,7 +152,7 @@ h2 {
 /* CARD 1 */
 #card1-1 {
     background-color: floralwhite;
-    border: 2px solid palevioletred;
+    border: 2px solid red;
     grid-area: one;
     a {
         padding: 20px;
@@ -147,7 +161,7 @@ h2 {
         width: max-content;
     }
     img {
-        width: 100px;
+        width: 170px;
         margin: 0px auto;
         display: block;
     }
@@ -166,7 +180,7 @@ h2 {
 /* CARD 2 */
 #card2-1 {
     background-color: floralwhite;
-    border: 2px solid palevioletred;
+    border: 2px solid gold;
     grid-area: two;
     a {
         padding: 20px;
@@ -189,7 +203,7 @@ h2 {
 /* CARD 3 */
 #card3-1 {
     background-color: floralwhite;
-    border: 2px solid palevioletred;
+    border: 2px solid gold;
     grid-area: three;
     a {
         padding: 20px;
@@ -212,13 +226,18 @@ h2 {
 /* CARD 4 */
 #card4-1 {
     background-color: floralwhite;
-    border: 2px solid palevioletred;
+    border: 2px solid red;
     grid-area: four;
     a {
         padding: 20px;
         margin: 0px auto;
         display: block;
         width: max-content;
+    }
+    img {
+        width: 250px;
+        margin: 0px auto;
+        display: block;
     }
 }
 #card4-1:hover {
@@ -253,7 +272,8 @@ h2 {
     transform: translateY(-8px);
     transition:
         opacity 0.5s,
-        visibility 0.5s
+        visibility 0.5s,
+        transform 0.5s
     ;
 }
 #card1-2:hover a {
@@ -269,6 +289,9 @@ h2 {
     grid-area: two;
     a {
         padding: 20px;
+        margin: 0px auto;
+        display: block;
+        width: max-content;
     }
 }
 #card2-2 a {
@@ -277,7 +300,8 @@ h2 {
     transform: translateY(-8px);
     transition:
         opacity 0.5s,
-        visibility 0.5s
+        visibility 0.5s,
+        transform 0.5s
     ;
 }
 #card2-2:hover a {
@@ -293,6 +317,9 @@ h2 {
     grid-area: three;
     a {
         padding: 20px;
+        margin: 0px auto;
+        display: block;
+        width: max-content;
     }
 }
 #card3-2 a {
@@ -301,7 +328,8 @@ h2 {
     transform: translateY(-8px);
     transition:
         opacity 0.5s,
-        visibility 0.5s
+        visibility 0.5s,
+        transform 0.5s
     ;
 }
 #card3-2:hover a {
@@ -317,6 +345,9 @@ h2 {
     grid-area: four;
     a {
         padding: 20px;
+        margin: 0px auto;
+        display: block;
+        width: max-content;
     }
 }
 #card4-2 a {
@@ -325,7 +356,8 @@ h2 {
     transform: translateY(-8px);
     transition:
         opacity 0.5s,
-        visibility 0.5s
+        visibility 0.5s,
+        transform 0.5s
     ;
 }
 #card4-2:hover a {
