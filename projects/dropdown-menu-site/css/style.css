@@ -159,7 +159,7 @@ a {
     #nav {
         flex-direction: column;
     }
-    #oscar {
+    #oscar h2 {
         color: aliceblue;
     }
     #oscar,
@@ -167,8 +167,7 @@ a {
     #louie {
         height: 100vh;
         margin: 0px;
-        background-size: 100vh;
-        background-attachment: contain;
+        background-size: cover;
         h2 {
             font-size: 55px;
             position: absolute;
