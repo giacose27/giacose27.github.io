@@ -57,6 +57,12 @@ a {
         font-size: 22px;
     }
 }
+#dropdown-menu:hover i {
+    transform: rotate(180deg);
+}
+#dropdown-menu i {
+    transition: transform 0.75s;
+}
 #dropdown-menu:hover #dropdown {
     opacity: 1;
     visibility: visible;
@@ -72,8 +78,11 @@ a {
         font-size: 22px;
     }
 }
-#dropdown:hover a {
+#dropdown a:hover {
     color: lemonchiffon;
+}
+#dropdown a {
+    transform: color 0.75s;
 }
 #hero {
     height: 100vh;
