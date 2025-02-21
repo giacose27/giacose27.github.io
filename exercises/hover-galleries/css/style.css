@@ -43,6 +43,7 @@ h2 {
         margin: 0px auto;
         display: block;
         width: max-content;
+        color: blue;
     }
     img {
         width: 250px;
@@ -100,6 +101,7 @@ h2 {
         margin: 0px auto;
         display: block;
         width: max-content;
+        color: darkred;
     }
 }
 #card3:hover a {
@@ -126,6 +128,7 @@ h2 {
         margin: 0px auto;
         display: block;
         width: max-content;
+        color: darkgoldenrod;
     }
     img {
         width: 250px;
@@ -152,14 +155,17 @@ h2 {
 
 /* CARD 1 */
 #card1-1 {
-    background-color: floralwhite;
-    border: 2px solid red;
+    background-color: transparent;
+    border: 4px solid red;
+    color: red;
     grid-area: one;
+    border-radius: 20px;
     a {
         padding: 20px;
         margin: 0px auto;
         display: block;
         width: max-content;
+        color: red;
     }
     img {
         width: 170px;
@@ -180,14 +186,22 @@ h2 {
 
 /* CARD 2 */
 #card2-1 {
-    background-color: floralwhite;
-    border: 2px solid gold;
+    background-color: transparent;
+    border: 4px solid fuchsia;
+    color: fuchsia;
     grid-area: two;
+    border-radius: 20px;
     a {
         padding: 20px;
         margin: 0px auto;
         display: block;
         width: max-content;
+        color: fuchsia;
+    }
+    img {
+        width: 250px;
+        margin: 0px auto;
+        display: block;
     }
 }
 #card2-1:hover {
@@ -203,14 +217,22 @@ h2 {
 
 /* CARD 3 */
 #card3-1 {
-    background-color: floralwhite;
-    border: 2px solid gold;
+    background-color: transparent;
+    border: 4px solid gold;
+    color: gold;
     grid-area: three;
+    border-radius: 20px;
     a {
         padding: 20px;
         margin: 0px auto;
         display: block;
         width: max-content;
+        color: gold;
+    }
+    img {
+        width: 250px;
+        margin: 0px auto;
+        display: block;
     }
 }
 #card3-1:hover {
@@ -226,14 +248,17 @@ h2 {
 
 /* CARD 4 */
 #card4-1 {
-    background-color: floralwhite;
-    border: 2px solid red;
+    background-color: transparent;
+    border: 4px solid turquoise;
+    color: turquoise;
     grid-area: four;
+    border-radius: 20px;
     a {
         padding: 20px;
         margin: 0px auto;
         display: block;
         width: max-content;
+        color: turquoise;
     }
     img {
         width: 250px;
@@ -290,14 +315,14 @@ h2 {
 /* CARD 2 */
 #card2-2 {
     background-color: black;
-    border: 2px solid lime;
+    border: 2px solid yellow;
     grid-area: two;
     a {
         padding: 20px;
         margin: 0px auto;
         display: block;
         width: max-content;
-        color: lime;
+        color: yellow;
     }
 }
 #card2-2 a {
@@ -319,14 +344,14 @@ h2 {
 /* CARD 3 */
 #card3-2 {
     background-color: black;
-    border: 2px solid lime;
+    border: 2px solid fuchsia;
     grid-area: three;
     a {
         padding: 20px;
         margin: 0px auto;
         display: block;
         width: max-content;
-        color: lime;
+        color: fuchsia;
     }
 }
 #card3-2 a {
@@ -348,14 +373,14 @@ h2 {
 /* CARD 4 */
 #card4-2 {
     background-color: black;
-    border: 2px solid lime;
+    border: 2px solid turquoise;
     grid-area: four;
     a {
         padding: 20px;
         margin: 0px auto;
         display: block;
         width: max-content;
-        color: lime;
+        color: turquoise;
     }
 }
 #card4-2 a {
