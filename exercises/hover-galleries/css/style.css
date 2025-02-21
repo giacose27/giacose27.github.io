@@ -17,6 +17,7 @@ a {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "heading heading"
+        "subheading subheading"
         "one two"
         "three four"
     ;
@@ -254,9 +255,12 @@ h2 {
 
 /* Gallery Three Start */
 
+#subheading {
+    grid-area: subheading;
+}
 /* CARD 1 */
 #card1-2 {
-    background-color: honeydew;
+    background-color: black;
     border: 2px solid lime;
     grid-area: one;
     a {
@@ -264,6 +268,7 @@ h2 {
         margin: 0px auto;
         display: block;
         width: max-content;
+        color: lime;
     }
 }
 #card1-2 a {
@@ -284,7 +289,7 @@ h2 {
 
 /* CARD 2 */
 #card2-2 {
-    background-color: honeydew;
+    background-color: black;
     border: 2px solid lime;
     grid-area: two;
     a {
@@ -292,6 +297,7 @@ h2 {
         margin: 0px auto;
         display: block;
         width: max-content;
+        color: lime;
     }
 }
 #card2-2 a {
@@ -312,7 +318,7 @@ h2 {
 
 /* CARD 3 */
 #card3-2 {
-    background-color: honeydew;
+    background-color: black;
     border: 2px solid lime;
     grid-area: three;
     a {
@@ -320,6 +326,7 @@ h2 {
         margin: 0px auto;
         display: block;
         width: max-content;
+        color: lime;
     }
 }
 #card3-2 a {
@@ -340,7 +347,7 @@ h2 {
 
 /* CARD 4 */
 #card4-2 {
-    background-color: honeydew;
+    background-color: black;
     border: 2px solid lime;
     grid-area: four;
     a {
@@ -348,6 +355,7 @@ h2 {
         margin: 0px auto;
         display: block;
         width: max-content;
+        color: lime;
     }
 }
 #card4-2 a {
