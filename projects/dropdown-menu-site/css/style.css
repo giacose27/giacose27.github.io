@@ -149,6 +149,10 @@ a {
     margin: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
+    h2 {
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
 }
 .footer {
     background-color: pink;
@@ -174,9 +178,6 @@ a {
     margin-left: 18px;
 }
 /* Media Query */
-@media screen and (max-width: 1000px) and (min-width: 800px){
-
-}
 @media screen and (max-width: 768px) {
     .nav {
         flex-direction: column;
