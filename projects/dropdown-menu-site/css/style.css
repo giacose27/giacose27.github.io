@@ -241,12 +241,15 @@ a {
     }
     #oscar {
         background-position: 40%;
+        background-attachment: scroll;
     }
     #paulie {
         background-position: 60%;
+        background-attachment: scroll;
     }
     #louie {
         background-position: 50%;
+        background-attachment: scroll;
     }
     #oscar,
     #paulie,
