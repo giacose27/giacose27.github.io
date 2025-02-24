@@ -231,9 +231,6 @@ a {
     #louie h2 {
         color: rgb(0, 44, 0);
     }
-    #oscar {
-        background-attachment: scroll;
-    }
     #hero {
         height: 100vh;
         width: 100%;
@@ -242,12 +239,20 @@ a {
         background-size: cover;
         background-attachment: scroll;
     }
+    #oscar {
+        background-position: 40%;
+    }
+    #paulie {
+        background-position: 60%;
+    }
+    #louie {
+        background-position: 50%;
+    }
     #oscar,
     #paulie,
     #louie {
         height: 100vh;
         width: 100%;
-        background-position: 60%;
         margin: 0px;
         background-size: cover;
         h2 {
