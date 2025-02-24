@@ -231,6 +231,9 @@ a {
     #louie h2 {
         color: rgb(0, 44, 0);
     }
+    #oscar {
+        background-attachment: scroll;
+    }
     #hero {
         height: 100vh;
         width: 100%;
