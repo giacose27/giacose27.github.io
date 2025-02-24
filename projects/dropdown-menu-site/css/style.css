@@ -44,13 +44,12 @@ a {
     position: absolute;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.75s, visibility 0.75s;
+    transition: opacity 0.75s, visibility 0.01s;
     display: flex;
     flex-direction: column;
     width: 100%;
     min-width: 200px;
     background-color: pink;
-    margin: 10px;
     a {
         border-bottom: 2px rgb(216, 163, 172) dotted;
         padding-bottom: 5px;
@@ -71,7 +70,7 @@ a {
     width: 100%;
     min-width: 200px;
     background-color: pink;
-    margin: 10px;
+    margin: 2px;
     a {
         border-bottom: 2px rgb(216, 163, 172) dotted;
         padding-bottom: 5px;
@@ -151,32 +150,88 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
 }
+.footer {
+    background-color: pink;
+    padding: 50px;
+}
+#footer {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+#footer:hover {
+    color: lemonchiffon;
+}
+#footer {
+    transform: color 0.75s;
+}
+#footer-heading {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding-right: 16px;
+    padding-top: 20px;
+    margin-left: 18px;
+}
 /* Media Query */
 @media screen and (max-width: 1000px) and (min-width: 800px){
 
 }
 @media screen and (max-width: 768px) {
-    #nav {
+    .nav {
         flex-direction: column;
+        #logo {
+            margin: 50px;
+            margin-top: 0px;
+        }
     }
-    #oscar h2 {
-        color: aliceblue;
+    #dropdown {
+        background-color: transparent;
+    }
+    #dropdown-menu:hover #dropdown {
+        opacity: 1;
+        visibility: visible;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-width: 200px;
+        margin: 10px;
+        position: relative;
+        background-color: transparent;
+        a {
+            border-bottom: 2px rgb(216, 163, 172) dotted;
+            padding-bottom: 5px;
+            font-size: 22px;
+        }
+    }
+    #louie h2 {
+        color: rgb(0, 44, 0);
+    }
+    #hero {
+        height: 100vh;
+        width: 100%;
+        background-position: 50%;
+        margin: 0px;
+        background-size: cover;
     }
     #oscar,
     #paulie,
     #louie {
         height: 100vh;
+        width: 100%;
+        background-position: 60%;
         margin: 0px;
         background-size: cover;
         h2 {
-            font-size: 55px;
-            position: absolute;
-            left: 0%;
-            padding-left: 70px;
-            position: absolute;
-            right: 0%;
-            text-align: left;
-            bottom: 60%;
+            font-size: 60px;
+            margin: 0px auto;
+            position: sticky;
+            text-align: center;
+            padding-right: 50px;
+            background-color: rgba(255, 255, 255, 0.679);
         }
     } 
+    #dropdown a:hover {
+        color: pink;
+    }
 }
