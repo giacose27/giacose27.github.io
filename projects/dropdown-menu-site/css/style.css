@@ -89,6 +89,28 @@ a {
     background-image: url("../images/hero.jpg");
     background-size: cover;
     background-attachment: fixed;
+    h1 {
+        font-size: 72px;
+        position: absolute;
+        left: 0%;
+        padding-left: 70px;
+        position: absolute;
+        right: 0%;
+        text-align: left;
+        bottom: 60%;
+        color: white;
+    }
+    h2 {
+        font-size: 60px;
+        position: absolute;
+        left: 0%;
+        padding-left: 70px;
+        position: absolute;
+        right: 0%;
+        text-align: left;
+        bottom: 50%;
+        color: lemonchiffon;
+    }
 }
 #oscar {
     height: 80vh;
