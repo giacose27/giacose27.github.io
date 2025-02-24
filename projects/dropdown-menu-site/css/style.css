@@ -237,6 +237,7 @@ a {
         background-position: 50%;
         margin: 0px;
         background-size: cover;
+        background-attachment: scroll;
     }
     #oscar,
     #paulie,
