@@ -1,5 +1,7 @@
 * {
-    font-family: 'Seravek', sans-serif;
+    p {
+        font-family: 'Seravek', sans-serif;
+    }
     h1,
     h2 {
         font-family: 'Mighty Slab One', sans-serif;
@@ -11,9 +13,17 @@
     }
     a {
         text-decoration: none;
+        font-family: 'Acier BAT Text Solid', sans-serif;
     }
 }
 /* Homepage CSS */
+#hero {
+    height: 100vh;
+    margin: 0px;
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
 /* Menu Page CSS */
 
 /* Media Queries */
