@@ -2,20 +2,20 @@
 * {
     margin: 0px;
     p {
-        font-family: 'Seravek', sans-serif;
+        font-family: 'seravek-web', sans-serif;
     }
     h1,
     h2 {
-        font-family: 'Mighty Slab One', sans-serif;
+        font-family: 'mighty-slab-one', serif;
     }
     h3,
     h4 {
-        font-family: 'Acier BAT Text Solid', sans-serif;
+        font-family: 'acier-bat-solid', sans-serif;
         font-variant: small-caps;
     }
     a {
         text-decoration: none;
-        font-family: 'Acier BAT Text Solid', sans-serif;
+        font-family: 'acier-bat-solid', sans-serif;
     }
 }
 /* NAVBAR CSS */
