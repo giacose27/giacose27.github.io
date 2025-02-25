@@ -94,6 +94,7 @@ body {
     padding: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
+        "featured chicken"
         "column-1 column-2"
     ;
     h2 {
@@ -116,9 +117,19 @@ body {
     grid-area: column-2;
     padding: 10px;
 }
+#featured {
+    grid-area: featured;
+}
+#chicken {
+    grid-area: chicken;
+    padding-bottom: 10px;
+}
 #desserts {
-    border: 2px solid #ee2c7b;
+    border: 3px solid #ee2c7b;
+    padding: 15px;
+}
+#fav {
+    text-align: right;
     padding: 10px;
 }
-
 /* Media Queries */
