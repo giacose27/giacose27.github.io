@@ -1,4 +1,5 @@
 * {
+    margin: 0px;
     p {
         font-family: 'Seravek', sans-serif;
     }
@@ -17,6 +18,20 @@
     }
 }
 /* Homepage CSS */
+#nav {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    img {
+        width: 250px;
+        background-size: cover;
+    }
+    a {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: end;
+    }
+}
 #hero {
     height: 100vh;
     margin: 0px;
