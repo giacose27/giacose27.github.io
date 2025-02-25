@@ -1,0 +1,19 @@
+* {
+    font-family: 'Seravek', sans-serif;
+    h1,
+    h2 {
+        font-family: 'Mighty Slab One', sans-serif;
+    }
+    h3,
+    h4 {
+        font-family: 'Acier BAT Text Solid', sans-serif;
+        font-variant: small-caps;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+/* Homepage CSS */
+/* Menu Page CSS */
+
+/* Media Queries */
