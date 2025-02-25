@@ -90,6 +90,7 @@ body {
 #menu-two {
     background-color: whitesmoke;
     display: grid;
+    border: 42px solid black;
     padding: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
