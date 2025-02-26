@@ -61,14 +61,16 @@
 
 /* Homepage CSS */
 #hero-3 {
-    height: 150vh;
+    height: 100vh;
     margin: 0px;
-    background-image: url("../images/hero-3.jpg");
+    background:
+        linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("../images/hero-3.jpg");
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
     h3 {
-        color: #ee2c7b;
+        color: #f09f20;
         font-size: 75px;
         text-align: center;
         padding-bottom: 100px;
@@ -97,7 +99,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 60px;
+    padding-top: 10px;
     padding-bottom: 60px;
 }
 #menu-one {
@@ -113,7 +115,7 @@ body {
         color: #f09f20;
         font-size: 90px;
         text-align: center;
-        padding-top: 100px;
+        padding-top: 50px;
         padding-left: 100px;
         padding-right: 100px;
     }
@@ -127,7 +129,7 @@ body {
     grid-template-areas: 
         "featured chicken"
         "column-1 column-2"
-    ;
+        ;
     h2 {
         font-size: 30px;
         color: #471166;
@@ -137,7 +139,7 @@ body {
     }
     p {
         font-size: 14px;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
 }
 #column-1 {
@@ -213,7 +215,7 @@ body {
             "chicken"
             "column-1" 
             "column-2"
-        ;
+            ;
     }
     #menu-one {
         h2 {
@@ -226,8 +228,8 @@ body {
     #menu-logo {
         height: 22vh;
         padding: 20px;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 70px;
+        padding-bottom: 90px;
     }
     #oreo {
         height: 145px;
@@ -237,8 +239,8 @@ body {
     #menu-logo {
         height: 30vh;
         padding: 20px;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 70px;
+        padding-bottom: 90px;
     }
     #gradient {
         height: 30vh;
