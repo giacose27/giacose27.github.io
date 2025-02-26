@@ -209,6 +209,7 @@ body {
         }
     }
     #menu-two {
+        padding: 10px;
         grid-template-columns: 1fr;
         grid-template-areas: 
             "featured" 
