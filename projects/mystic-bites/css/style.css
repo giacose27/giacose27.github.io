@@ -152,7 +152,31 @@ body {
 /* Media Queries */
 @media screen and (max-width: 768px) {
     #nav {
-        
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "img img"
+            "links links"
+        ;
+        max-height: 400px;
+    }
+    #img {
+        grid-area: img;
+    }
+    #links {
+        grid-area: links;
+        justify-content: center;
+        a {
+            padding: 5px;
+            margin-top: 0px;
+            font-size: 18px;
+        }
+    }
+    img {
+        height: 200px;
+        background-size: contain;
+    }
     }
     #bright {
         height: 50vh;
@@ -173,10 +197,13 @@ body {
     }
     #menu-one {
         h2 {
-            font-size: 48;
+            font-size: 54px;
         }
-        h2 {
-            font-size: 35;
+        h3 {
+            font-size: 35px;
         }
+    }
+    #menu-logo {
+        height: 40vh;
     }
 }
