@@ -221,9 +221,13 @@ body {
     #menu-one {
         h2 {
             font-size: 54px;
+            margin-right: auto;
+            margin-left: auto;
         }
         h3 {
             font-size: 35px;
+            margin-right: auto;
+            margin-left: auto;
         }
     }
     #menu-logo {
