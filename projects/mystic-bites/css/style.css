@@ -177,7 +177,6 @@ body {
         height: 200px;
         background-size: contain;
     }
-    }
     #bright {
         height: 50vh;
     }
@@ -205,5 +204,10 @@ body {
     }
     #menu-logo {
         height: 40vh;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 550px) {
+    #menu-logo {
+        height: 60vh;
     }
 }
