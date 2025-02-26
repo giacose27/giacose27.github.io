@@ -22,6 +22,12 @@
         text-decoration: none;
         font-family: 'acier-bat-solid', sans-serif;
     }
+    span {
+        font-family: 'seravek-web', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        margin-left: 10px;
+    }
 }
 /* NAVBAR CSS */
 #nav {
@@ -140,6 +146,7 @@ body {
     p {
         font-size: 14px;
         padding-bottom: 20px;
+        padding-top: 5px;
     }
 }
 #column-1 {
