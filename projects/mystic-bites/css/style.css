@@ -29,7 +29,7 @@
         margin-left: 10px;
     }
 }
-/* NAVBAR CSS */
+/* NAVBAR/FOOTER CSS */
 #nav {
     display: flex;
     flex-direction: row;
@@ -58,11 +58,40 @@
         color: #ee2c7b;
     }
 }
+#links-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex-wrap: wrap;
+    a {
+        padding: 15px;
+        font-size: 18px;
+        color: #f09f20;
+        font-family: 'seravek-web', sans-serif;
+        font-weight: normal;
+        text-align: left;
+    }
+}
 #links a:hover {
     color: #f09f20;
 }
 #links a {
     transform: color 0.75s;
+}
+#footer {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    max-height: 200px;
+    padding: 15px;
+    color: #b23092;
+    text-align: center;
+    img {
+        display: block;
+        margin-right: auto;
+        margin-left: 30px;
+        height: 80px;
+    }
 }
 
 /* Homepage CSS */
@@ -90,6 +119,12 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+#featured-homepage {
+    background-color: whitesmoke;
+    margin: 50px 200px 50px 200px;
+    padding: 50px;
+    text-align: center;
 }
 /* Menu Page CSS */
 body {
@@ -137,11 +172,11 @@ body {
         "column-1 column-2"
         ;
     h2 {
-        font-size: 30px;
+        font-size: 40px;
         color: #471166;
     }
     h4 {
-        font-size: 25px;
+        font-size: 35px;
     }
     p {
         font-size: 14px;
@@ -222,6 +257,12 @@ body {
     }
     #menu-two {
         padding: 10px;
+        h2 {
+            font-size: 35px;
+        }
+        h4 {
+            font-size: 25px;
+        }
         grid-template-columns: 1fr;
         grid-template-areas: 
             "featured" 
@@ -254,8 +295,28 @@ body {
     #menu-one {
         margin: 20px;
     }
+    #featured-homepage {
+        background-color: whitesmoke;
+        margin: 20px 60px 20px 60px;
+        padding: 50px;
+        text-align: center;
+        img {
+            height: 100px;
+            width: 100px;
+        }
+    }
 }
-@media screen and (max-width: 768px) and (min-width: 550px) {
+@media screen and (max-width: 768px) and (min-width: 480px) {
+    #nav {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "img img"
+            "links links"
+        ;
+        max-height: 400px;
+    }
     #menu-logo {
         height: 30vh;
         padding: 20px;
@@ -272,5 +333,19 @@ body {
         h3 {
             font-size: 60px;
         }
+    }
+    #menu-two {
+        h2 {
+            font-size: 35px;
+        }
+        h4 {
+            font-size: 25px;
+        }
+    }
+    #featured-homepage {
+        background-color: whitesmoke;
+        margin: 30px 100px 30px 100px;
+        padding: 50px;
+        text-align: center;
     }
 }
