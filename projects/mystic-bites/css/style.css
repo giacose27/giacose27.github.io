@@ -59,12 +59,20 @@
 
 /* Homepage CSS */
 #hero-2 {
-    height: 100vh;
+    height: 150vh;
     margin: 0px;
     background-image: url("../images/hero-2.jpg");
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
+    h3 {
+        color: #ee2c7b;
+        font-size: 75px;
+        text-align: center;
+        padding-bottom: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
 #bright {
     height: 100vh;
@@ -142,4 +150,22 @@ body {
     padding: 10px;
 }
 /* Media Queries */
-@media screen and 
+@media screen and (max-width: 768px) {
+    #menu-two {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "featured" 
+            "chicken"
+            "column-1" 
+            "column-2"
+    ;
+    }
+    #menu-one {
+        h1 {
+            font-size: 48;
+        }
+        h2 {
+            font-size: 35;
+        }
+    }
+}
