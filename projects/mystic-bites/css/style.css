@@ -235,6 +235,9 @@ body {
     #oreo {
         height: 145px;
     }
+    #menu-one {
+        margin: 20px;
+    }
 }
 @media screen and (max-width: 768px) and (min-width: 550px) {
     #menu-logo {
