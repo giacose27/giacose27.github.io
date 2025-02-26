@@ -86,6 +86,14 @@ body {
         padding-left: 100px;
         padding-right: 100px;
     }
+    h2 {
+        color: #ee2c7b;
+        font-size: 90px;
+        text-align: center;
+        padding-top: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
 #menu-two {
     background-color: whitesmoke;
@@ -119,6 +127,7 @@ body {
 }
 #featured {
     grid-area: featured;
+    padding: 10px;
 }
 #chicken {
     grid-area: chicken;
@@ -133,3 +142,4 @@ body {
     padding: 10px;
 }
 /* Media Queries */
+@media screen and 
