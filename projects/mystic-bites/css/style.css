@@ -151,6 +151,17 @@ body {
 }
 /* Media Queries */
 @media screen and (max-width: 768px) {
+    #nav {
+        
+    }
+    #bright {
+        height: 50vh;
+    }
+    #hero-2 {
+        h3 {
+            font-size: 60px;
+        }
+    }
     #menu-two {
         grid-template-columns: 1fr;
         grid-template-areas: 
@@ -158,10 +169,10 @@ body {
             "chicken"
             "column-1" 
             "column-2"
-    ;
+        ;
     }
     #menu-one {
-        h1 {
+        h2 {
             font-size: 48;
         }
         h2 {
