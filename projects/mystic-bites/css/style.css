@@ -173,6 +173,11 @@ body {
     text-align: right;
     padding: 10px;
 }
+#oreo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 /* Media Queries */
 @media screen and (max-width: 768px) {
     #nav {
