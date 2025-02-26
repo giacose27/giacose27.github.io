@@ -29,8 +29,10 @@
     flex-direction: row;
     background-color: black;
     max-height: 200px;
+    padding: 15px;
     img {
-        height: 220px;
+        height: 80px;
+        padding: 25px;
         background-size: contain;
     }
 }
@@ -58,10 +60,10 @@
 }
 
 /* Homepage CSS */
-#hero-2 {
+#hero-3 {
     height: 150vh;
     margin: 0px;
-    background-image: url("../images/hero-2.jpg");
+    background-image: url("../images/hero-3.jpg");
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
@@ -74,8 +76,12 @@
         padding-right: 100px;
     }
 }
-#bright {
-    height: 100vh;
+#gradient {
+    height: 50vh;
+    padding: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Menu Page CSS */
 body {
@@ -85,9 +91,18 @@ body {
         margin: 40px;
     }
 }
+#menu-logo {
+    height: 50vh;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 #menu-one {
     h3 {
-        color: #ee2c7b;
+        color: #f09f20;
         font-size: 75px;
         text-align: center;
         padding-bottom: 100px;
@@ -95,7 +110,7 @@ body {
         padding-right: 100px;
     }
     h2 {
-        color: #ee2c7b;
+        color: #f09f20;
         font-size: 90px;
         text-align: center;
         padding-top: 100px;
@@ -163,6 +178,9 @@ body {
     }
     #img {
         grid-area: img;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
     }
     #links {
         grid-area: links;
@@ -177,12 +195,15 @@ body {
         height: 200px;
         background-size: contain;
     }
-    #bright {
-        height: 50vh;
+    #gradient {
+        height: 25vh;
+        padding: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
-    #hero-2 {
+    #hero-3 {
         h3 {
-            font-size: 60px;
+            font-size: 40px;
         }
     }
     #menu-two {
@@ -203,11 +224,31 @@ body {
         }
     }
     #menu-logo {
-        height: 40vh;
+        height: 22vh;
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #oreo {
+        height: 145px;
     }
 }
 @media screen and (max-width: 768px) and (min-width: 550px) {
     #menu-logo {
-        height: 60vh;
+        height: 30vh;
+        padding: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #gradient {
+        height: 30vh;
+        padding: 30px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    #hero-3 {
+        h3 {
+            font-size: 60px;
+        }
     }
 }
