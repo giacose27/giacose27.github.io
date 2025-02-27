@@ -352,7 +352,7 @@ body {
         }
     }
 }
-@media screen and (min-width: 647px) and (max-width: 1182px) {
+@media screen and (min-width: 647px) {
     #nav {
         display: grid;
         justify-content: center;
