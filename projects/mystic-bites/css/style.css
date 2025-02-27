@@ -129,8 +129,12 @@
 #featured-homepage {
     background-color: whitesmoke;
     border: 5px solid #374fa1;
-    margin: 50px 500px 50px 500px;
+    width: 500px;
     padding: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
     h2 {
         font-size: 36px;
@@ -283,8 +287,8 @@ body {
         }
     }
     #featured-homepage {
-        margin: 50px 200px 50px 200px;
         padding: 50px;
+        width: 200px;
         text-align: center;
         h2 {
             font-size: 30px;
@@ -297,7 +301,8 @@ body {
             padding-bottom: 10px;
         }
         img {
-            width: 300px;
+            width: 200px;
+            height: 150px;
             padding: 10px;
         }
     }
@@ -341,18 +346,8 @@ body {
     #menu-one {
         margin: 20px;
     }
-    #featured-homepage {
-        background-color: whitesmoke;
-        margin: 20px 60px 20px 60px;
-        padding: 50px;
-        text-align: center;
-        img {
-            width: 150px;
-            height: 100px;
-        }
-    }
 }
-@media screen and (min-width: 647px) and (max-width: 748px) {
+@media screen and (min-width: 647px) {
     #nav {
         display: grid;
         justify-content: center;
@@ -405,18 +400,8 @@ body {
     }
     #featured-homepage {
         background-color: whitesmoke;
-        margin: 30px 100px 30px 100px;
+        width: 300px;
         padding: 50px;
         text-align: center;
-    }
-}
-@media screen and (min-width: 748px) and (max-width: 1474) {
-    #featured-homepage {
-        margin: 50px 200px 50px 200px;
-    }
-}
-@media screen and (min-width: 1474px) {
-    #featured-homepage {
-        margin: 50px 500px 50px 500px;
     }
 }
