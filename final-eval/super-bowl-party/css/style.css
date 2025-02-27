@@ -16,7 +16,7 @@
     text-align: center;
     padding: 25px;
     h2 {
-        font-size: 40px;
+        font-size: 45px;
         font-variant: small-caps;
         font-family: 'acier-bat-solid', sans-serif;
     }
@@ -100,7 +100,7 @@ span {
     color: darkblue;
 }
 /* Media Query */
-@media screen and (min-width: 320px) and (max-width: 480px){
+@media screen and (max-width: 480px){
     #vs {
         flex-direction: column;
         h2 {
@@ -112,7 +112,7 @@ span {
     #heading {
         padding: 15px;
         h2 {
-            font-size: 25px;
+            font-size: 30px;
         }
         h1 {
             font-size: 40px;
@@ -120,6 +120,7 @@ span {
     }
     a {
         margin: 15px;
+        font-size: 25px;
     }
     #info p {
         font-size: 14px;
@@ -145,7 +146,7 @@ span {
     #heading {
         padding: 15px;
         h2 {
-            font-size: 25px;
+            font-size: 35px;
         }
         h1 {
             font-size: 50px;
@@ -153,6 +154,7 @@ span {
     }
     a {
         margin: 20px;
+        font-size: 25px;
     }
     #info p {
         font-size: 16px;
