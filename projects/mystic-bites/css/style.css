@@ -166,6 +166,9 @@ body {
     padding-bottom: 60px;
 }
 #menu-one {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
     h3 {
         color: #f09f20;
         font-size: 75px;
