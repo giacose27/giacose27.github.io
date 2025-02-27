@@ -60,8 +60,10 @@
 }
 #links-footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 10px;
+    margin-bottom: 30px;
+    margin-top: 25px;
     flex-wrap: wrap;
     a {
         padding: 15px;
@@ -69,7 +71,6 @@
         color: #8aafdd;
         font-family: 'seravek-web', sans-serif;
         font-weight: normal;
-        text-align: left;
     }
 }
 #links a:hover {
@@ -87,15 +88,15 @@
 #footer {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: black;
     max-height: 200px;
     padding: 15px;
+    margin-bottom: 50px;
     color: #b23092;
     text-align: center;
     img {
         display: block;
-        margin-right: auto;
-        margin-left: 30px;
         height: 80px;
     }
 }
@@ -128,8 +129,9 @@
 }
 #featured-homepage {
     background-color: whitesmoke;
-    border: 5px solid #374fa1;
-    width: 500px;
+    border: 4px solid #374fa1;
+    box-shadow: 0px 0px 12px #ee2c7b;
+    width: 600px;
     padding: 50px;
     margin-top: 60px;
     margin-bottom: 60px;
@@ -171,21 +173,36 @@ body {
     padding: 15px;
     border: 4px solid #471166;
     margin: 40px;
-    h3 {
-        color: #f09f20;
-        font-size: 75px;
-        text-align: center;
-        padding-bottom: 100px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "featured chicken"
+        ;
     h2 {
-        color: #f09f20;
+        color: #374fa1;
         font-size: 90px;
         text-align: center;
-        padding-top: 50px;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-top: 30px;
+        padding-left: 50px;
+    }
+    h4 {
+        color: whitesmoke;
+        padding-top: 10px;
+        text-align: center;
+        padding-left: 50px;
+        font-size: 40px;
+        span {
+            font-size: 25px;
+        }
+    }
+    p {
+        color: whitesmoke;
+        padding-top: 30px;
+        text-align: center;
+        padding-left: 50px;
+        font-size: 20px;
+    }
+    #chicken img {
+        width: 400px;
     }
 }
 #menu-two {
@@ -195,7 +212,6 @@ body {
     padding: 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-        "featured chicken"
         "column-1 column-2"
         ;
     h2 {
@@ -323,6 +339,7 @@ body {
     }
     #menu-one {
         margin: 10px;
+        display: column;
         h2 {
             font-size: 54px;
             margin-right: auto;
