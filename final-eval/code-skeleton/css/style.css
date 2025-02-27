@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    background-color: whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    a {
+        text-decoration: none;
+        color: darkblue;
+    }
+    h1 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+/* CSS */
+#heading {
+    text-align: center;
+    padding: 25px;
+    h2 {
+        font-size: 40px;
+        font-variant: small-caps;
+    }
+    h1 {
+        font-size: 80px;
+        color: goldenrod;
+        padding: 15px;
+    }
+}
+#vs {
+    display: flex;
+    flex-direction: row;
+    background-color: darkblue;
+    padding: 10px;
+    margin-bottom: 25px;
+    h3 {
+        padding: 10px;
+    }
+    h2 {
+        font-size: 85px;
+        background-color: darkblue;
+        color: whitesmoke;
+        padding-top: 70px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+#cheifs {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    img {
+        width: 270px;
+    }
+}
+#eagles {
+    display: flex;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    align-items: center;
+    img {
+        width: 310px;
+    }
+}
+#info {
+    text-align: center;
+    h2 {
+        padding: 10px;
+        font-size: 30px;
+    }
+    p {
+        padding: 5px;
+        font-size: 20px;
+    }
+}
+a {
+    display: inline-block;
+    border: 4px solid darkblue;
+    color: goldenrod;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-variant: small-caps;
+    font-weight: bold;
+    transform: color 0.75s;
+}
+a:hover {
+    display: inline-block;
+    border: 4px solid goldenrod;
+    color: darkblue;
+    background-color: whitesmoke;
+}
+span {
+    color: darkblue;
+}
+/* Media Query */
+@media screen and (min-width: 320px) and (max-width: 480px){
+    #vs {
+        flex-direction: column;
+        h2 {
+            font-size: 30px;
+            text-align: center;
+            padding-top: 0px;
+        }
+    }
+    #heading {
+        padding: 15px;
+        h2 {
+            font-size: 25px;
+        }
+        h1 {
+            font-size: 40px;
+        }
+    }
+    a {
+        margin: 15px;
+    }
+    #info p {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    #info h2 {
+        font-size: 20px;
+        margin: 12px;
+    }
+    #question {
+        margin: 20px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 768px){
+    #vs {
+        flex-direction: column;
+        h2 {
+            font-size: 50px;
+            text-align: center;
+            padding-top: 0px;
+        }
+    }
+    #heading {
+        padding: 15px;
+        h2 {
+            font-size: 25px;
+        }
+        h1 {
+            font-size: 50px;
+        }
+    }
+    a {
+        margin: 20px;
+    }
+    #info p {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    #info h2 {
+        font-size: 25px;
+        margin: 12px;
+    }
+    #question {
+        margin: 20px;
+    }
+}
