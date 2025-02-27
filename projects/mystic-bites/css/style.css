@@ -347,7 +347,7 @@ body {
         margin: 20px;
     }
 }
-@media screen and (min-width: 647px) {
+@media screen and (min-width: 647px) and (max-width: 800px) {
     #nav {
         display: grid;
         justify-content: center;
