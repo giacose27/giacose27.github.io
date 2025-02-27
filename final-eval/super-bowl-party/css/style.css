@@ -1,3 +1,4 @@
+@import url("https://use.typekit.net/fsr8hue.css");
 * {
     margin: 0px;
     background-color: whitesmoke;
@@ -17,6 +18,7 @@
     h2 {
         font-size: 40px;
         font-variant: small-caps;
+        font-family: 'acier-bat-solid', sans-serif;
     }
     h1 {
         font-size: 80px;
@@ -83,9 +85,10 @@ a {
     padding: 15px;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-size: 24px;
+    font-size: 30px;
     font-variant: small-caps;
     font-weight: bold;
+    font-family: 'acier-bat-solid', sans-serif;
 }
 a:hover {
     display: inline-block;
