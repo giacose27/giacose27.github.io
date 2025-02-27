@@ -410,7 +410,7 @@ body {
         text-align: center;
     }
 }
-@media screen and (min-width: 748px) {
+@media screen and (min-width: 748px) and (max-width: 1474) {
     #featured-homepage {
         margin: 50px 200px 50px 200px;
     }
