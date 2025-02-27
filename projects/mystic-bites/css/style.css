@@ -236,7 +236,7 @@ body {
     margin-left: auto;
 }
 /* Media Queries */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     #nav {
         display: grid;
         justify-content: center;
@@ -267,14 +267,35 @@ body {
         background-size: contain;
     }
     #gradient {
-        height: 25vh;
+        height: 20vh;
         padding: 20px;
         padding-top: 60px;
         padding-bottom: 60px;
     }
     #hero-3 {
         h3 {
-            font-size: 40px;
+            font-size: 35px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+    #featured-homepage {
+        margin: 50px 200px 50px 200px;
+        padding: 50px;
+        text-align: center;
+        h2 {
+            font-size: 30px;
+        }
+        h4 {
+            font-size: 25px;
+            padding: 10px;
+        }
+        p {
+            padding-bottom: 10px;
+        }
+        img {
+            width: 300px;
+            padding: 10px;
         }
     }
     #menu-two {
@@ -328,7 +349,7 @@ body {
         }
     }
 }
-@media screen and (max-width: 768px) and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
     #nav {
         display: grid;
         justify-content: center;
@@ -338,6 +359,21 @@ body {
             "links links"
         ;
         max-height: 400px;
+    }
+    #links {
+        grid-area: links;
+        justify-content: center;
+        a {
+            padding: 5px;
+            margin-top: 0px;
+            font-size: 18px;
+        }
+    }
+    #img {
+        grid-area: img;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
     }
     #menu-logo {
         height: 30vh;
