@@ -239,7 +239,7 @@ body {
     margin-left: auto;
 }
 /* Media Queries */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     #nav {
         display: grid;
         justify-content: center;
@@ -352,7 +352,7 @@ body {
         }
     }
 }
-@media screen and (min-width: 480px) and (max-width: 800px) {
+@media screen and (min-width: 500px) and (max-width: 748px) {
     #nav {
         display: grid;
         justify-content: center;
