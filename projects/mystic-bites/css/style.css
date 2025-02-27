@@ -180,14 +180,14 @@ body {
     h2 {
         color: #374fa1;
         font-size: 90px;
-        text-align: center;
+        text-align: left;
         padding-top: 30px;
         padding-left: 50px;
     }
     h4 {
         color: whitesmoke;
         padding-top: 10px;
-        text-align: center;
+        text-align: left;
         padding-left: 50px;
         font-size: 40px;
         span {
@@ -197,7 +197,7 @@ body {
     p {
         color: whitesmoke;
         padding-top: 30px;
-        text-align: center;
+        text-align: left;
         padding-left: 50px;
         font-size: 20px;
     }
@@ -340,6 +340,11 @@ body {
     #menu-one {
         margin: 10px;
         display: column;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "featured"
+        "chicken"
+        ;
         h2 {
             font-size: 54px;
             margin-right: auto;
@@ -359,6 +364,9 @@ body {
     }
     #oreo {
         height: 145px;
+    }
+    #chicken img {
+        width: 100px;
     }
 }
 @media screen and (min-width: 647px) and (max-width: 800px) {
@@ -417,5 +425,8 @@ body {
         width: 300px;
         padding: 50px;
         text-align: center;
+    }
+    #chicken img {
+        width: 200px;
     }
 }
