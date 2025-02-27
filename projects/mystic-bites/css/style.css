@@ -155,10 +155,6 @@
 /* Menu Page CSS */
 body {
     background-color: black;
-    #menu-one {
-        border: 4px solid #471166;
-        margin: 40px;
-    }
 }
 #menu-logo {
     height: 50vh;
@@ -173,6 +169,8 @@ body {
     display: flex;
     flex-direction: row;
     padding: 15px;
+    border: 4px solid #471166;
+    margin: 40px;
     h3 {
         color: #f09f20;
         font-size: 75px;
@@ -308,6 +306,7 @@ body {
     }
     #menu-two {
         padding: 10px;
+        border: 12px solid black;
         h2 {
             font-size: 35px;
         }
@@ -323,6 +322,7 @@ body {
             ;
     }
     #menu-one {
+        margin: 10px;
         h2 {
             font-size: 54px;
             margin-right: auto;
@@ -335,16 +335,13 @@ body {
         }
     }
     #menu-logo {
-        height: 22vh;
-        padding: 20px;
+        height: 20vh;
+        padding: 10px;
         padding-top: 70px;
         padding-bottom: 90px;
     }
     #oreo {
         height: 145px;
-    }
-    #menu-one {
-        margin: 20px;
     }
 }
 @media screen and (min-width: 647px) and (max-width: 800px) {
