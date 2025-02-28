@@ -242,6 +242,9 @@ body {
 #chicken {
     grid-area: chicken;
     padding-bottom: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 #desserts {
     border: 3px solid #ee2c7b;
@@ -343,21 +346,28 @@ body {
     }
     #menu-one {
         margin: 10px;
-        display: column;
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "featured"
-        "chicken"
-        ;
+        display: flex;
+        flex-wrap: wrap;
         h2 {
-            font-size: 54px;
-            margin-right: auto;
-            margin-left: auto;
+            font-size: 60px;
+            text-align: left;
+            padding-top: 30px;
+            padding-left: 20px;
         }
-        h3 {
-            font-size: 35px;
-            margin-right: auto;
-            margin-left: auto;
+        h4 {
+            padding-top: 10px;
+            text-align: left;
+            padding-left: 20px;
+            font-size: 30px;
+            span {
+                font-size: 20px;
+            }
+        }
+        p {
+            padding-top: 30px;
+            text-align: left;
+            padding-left: 20px;
+            font-size: 15px;
         }
     }
     #menu-logo {
@@ -369,11 +379,8 @@ body {
     #oreo {
         height: 145px;
     }
-    #chicken img {
-        width: 100px;
-    }
 }
-@media screen and (min-width: 647px) and (max-width: 800px) {
+@media screen and (min-width: 647px) and (max-width: 900px) {
     #nav {
         display: grid;
         justify-content: center;
@@ -415,6 +422,10 @@ body {
         h3 {
             font-size: 60px;
         }
+    }
+    #menu-one {
+        display: flex;
+        flex-wrap: wrap;
     }
     #menu-two {
         h2 {
