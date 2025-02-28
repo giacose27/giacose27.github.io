@@ -238,6 +238,9 @@ body {
 #featured {
     grid-area: featured;
     padding: 10px;
+    h2 {
+        padding-top: 0px;
+    }
 }
 #chicken {
     grid-area: chicken;

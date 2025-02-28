@@ -100,7 +100,7 @@ span {
     color: darkblue;
 }
 /* Media Query */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     #vs {
         flex-direction: column;
         h2 {
@@ -134,7 +134,7 @@ span {
         margin: 20px;
     }
 }
-@media screen and (min-width: 480px) and (max-width: 768px){
+@media screen and (min-width: 480px) and (max-width: 768px) {
     #vs {
         flex-direction: column;
         h2 {
