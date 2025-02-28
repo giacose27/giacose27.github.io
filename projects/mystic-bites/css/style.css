@@ -192,7 +192,7 @@ body {
         font-size: 90px;
         text-align: left;
         padding-top: 30px;
-        padding-left: 40px;
+        padding-left: 20px;
         padding-right: 20px;
     }
     h4 {
@@ -200,7 +200,7 @@ body {
         text-shadow: 0px 0px 4px #ee2c7b;
         padding-top: 10px;
         text-align: left;
-        padding-left: 40px;
+        padding-left: 20px;
         padding-right: 20px;
         font-size: 40px;
         span {
@@ -211,7 +211,7 @@ body {
         color: whitesmoke;
         padding-top: 30px;
         text-align: left;
-        padding-left: 40px;
+        padding-left: 20px;
         font-size: 20px;
         padding-right: 20px;
     }
@@ -267,6 +267,8 @@ body {
 }
 #desserts {
     border: 3px solid #ee2c7b;
+}
+.dessert-one {
     padding: 15px;
 }
 #fav {
@@ -284,6 +286,35 @@ body {
 }
 #dessert-heading {
     text-align: center;
+}
+.oreo {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin-top: 5px;
+    padding: 25px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "text" "img"
+    ;
+}
+.oreo-one {
+    display: flex;
+    flex-direction: column;
+    grid-area: text;
+    padding-right: 25px;
+    h4 {
+        color: whitesmoke;
+        text-shadow: 0px 0px 4px #ee2c7b;
+    }
+    p {
+        color: whitesmoke;
+    }
+}
+.oreo-two {
+    display: flex;
+    flex-direction: column;
+    grid-area: img;
 }
 /* Media Queries */
 @media screen and (max-width: 647px) {
@@ -409,6 +440,10 @@ body {
             height: 150px;
         }
     }
+    .oreo {
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media screen and (min-width: 647px) and (max-width: 900px) {
     #nav {
@@ -475,6 +510,10 @@ body {
         img {
             width: 300px;
         }
+    }
+    .oreo {
+        display: flex;
+        flex-direction: column;
     }
 }
 @media screen and (min-width: 900px) and (max-width: 1145px) {
