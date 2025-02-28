@@ -135,7 +135,7 @@
     margin-right: auto;
 }
 #featured-homepage {
-    background-color: whitesmoke;
+    background-color: black;
     border: 4px solid #374fa1;
     box-shadow: 0px 0px 12px #ee2c7b;
     width: 600px;
@@ -147,7 +147,7 @@
     text-align: center;
     h2 {
         font-size: 36px;
-        color: #471166;
+        color: #b23092;
     }
     h4 {
         font-size: 25px;
@@ -189,13 +189,15 @@ body {
         font-size: 90px;
         text-align: left;
         padding-top: 30px;
-        padding-left: 50px;
+        padding-left: 40px;
+        padding-right: 20px;
     }
     h4 {
         color: whitesmoke;
         padding-top: 10px;
         text-align: left;
-        padding-left: 50px;
+        padding-left: 40px;
+        padding-right: 20px;
         font-size: 40px;
         span {
             font-size: 25px;
@@ -205,11 +207,14 @@ body {
         color: whitesmoke;
         padding-top: 30px;
         text-align: left;
-        padding-left: 50px;
+        padding-left: 40px;
         font-size: 20px;
+        padding-right: 20px;
     }
     #chicken img {
-        width: 500px;
+        width: 100%;
+        height: 100%;
+        display: block;
     }
 }
 #menu-two {
