@@ -386,6 +386,12 @@ body {
         height: 150px;
         width: 100px;
     }
+    #menu-one #chicken {
+        img {
+            width: 200px;
+            height: 150px;
+        }
+    }
 }
 @media screen and (min-width: 647px) and (max-width: 900px) {
     #nav {
@@ -447,5 +453,77 @@ body {
         width: 300px;
         padding: 50px;
         text-align: center;
+    }
+    #menu-one #chicken {
+        img {
+            width: 300px;
+        }
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1145px) {
+    #nav {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "img img"
+            "links links"
+        ;
+        max-height: 400px;
+    }
+    #links {
+        grid-area: links;
+        justify-content: center;
+        a {
+            padding: 5px;
+            margin-top: 0px;
+            font-size: 18px;
+        }
+    }
+    #img {
+        grid-area: img;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 0px;
+    }
+    #menu-logo {
+        height: 30vh;
+        padding: 20px;
+        padding-top: 70px;
+        padding-bottom: 90px;
+    }
+    #gradient {
+        height: 30vh;
+        padding: 30px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    #hero-3 {
+        h3 {
+            font-size: 60px;
+        }
+    }
+    #menu-one {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #menu-two {
+        h2 {
+            font-size: 35px;
+        }
+        h4 {
+            font-size: 25px;
+        }
+    }
+    #featured-homepage {
+        background-color: whitesmoke;
+        width: 300px;
+        padding: 50px;
+        text-align: center;
+    }
+    #menu-one #chicken {
+        img {
+            width: 300px;
+        }
     }
 }
