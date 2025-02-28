@@ -307,6 +307,7 @@ body {
         padding-bottom: 60px;
     }
     #hero-3 {
+        height: 50vh;
         h3 {
             font-size: 35px;
             padding-left: 10px;
@@ -432,6 +433,7 @@ body {
         padding-bottom: 60px;
     }
     #hero-3 {
+        height: 80vh;
         h3 {
             font-size: 60px;
         }
@@ -493,14 +495,15 @@ body {
         padding-bottom: 90px;
     }
     #gradient {
-        height: 30vh;
+        height: 40vh;
         padding: 30px;
         padding-top: 60px;
         padding-bottom: 60px;
     }
     #hero-3 {
+        height: 90vh;
         h3 {
-            font-size: 60px;
+            font-size: 70px;
         }
     }
     #menu-one {
