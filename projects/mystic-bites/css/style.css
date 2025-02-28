@@ -266,6 +266,9 @@ body {
 #oreo-text {
     text-align: center;
 }
+#dessert-heading {
+    text-align: center;
+}
 /* Media Queries */
 @media screen and (max-width: 647px) {
     #nav {
