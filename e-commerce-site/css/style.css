@@ -149,7 +149,9 @@
     p {
         text-align: center;
         padding-top: 20px;
+        padding-bottom: 20px;
         font-size: 35px;
+        color: darkslateblue;
     }
 }
 #nine {
@@ -181,6 +183,7 @@
     }
     h1 {
         margin: 20px;
+        margin-right: auto;
     }
 }
 #column-1 {
@@ -202,21 +205,23 @@
     #gallery-1 {
         display: flex;
         flex-wrap: wrap;
-        gap: 18px;
-        padding: 10px;
+        gap: 8px;
+        padding: 5px;
         margin: 5px;
         margin-top: 10px;
         margin-bottom: 26px;
         border: 10px solid lightcoral;
         background-color: white;
         img {
-            height: 50px;
+            height: 100px;
             flex: 1;
             object-fit: cover;
         }
     }
     #gallery-2 {
         display: grid;
+        padding: 14px;
+        margin: 14px;
         grid-template-columns: 1fr;
         grid-template-areas: 
         "one"
@@ -226,6 +231,9 @@
         "five" 
         "six"
         ;
+        img {
+            height: 130px;
+        }
     }
     #nav-1 {
         display: flex;
