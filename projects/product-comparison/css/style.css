@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    p {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 23px;
+        color: darkslateblue;
+    }
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#hero {
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    align-items: center;
+    background-color: red;
+    justify-content: space-evenly;
+    img {
+        width: 400px;
+    }
+}
+#text {
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    h2 {
+        padding: 30px;
+    }
+}
+#sub {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    color: black;
+    font-size: 30px;
+}
+#products {
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    padding-top: 35px;
+}
+#row-one {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid red;
+    h3 {
+        padding: 45px;
+    }
+}
+#one {
+    margin-left: 400px;
+}
+#calories {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid red;
+    p {
+        padding: 30px;
+        padding-right: 140px;
+    }
+    h3 {
+        margin-right: 45vh;
+        padding-top: 25px;
+    }
+}
+#carbs {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid red;
+    p {
+        padding: 30px;
+        padding-right: 146px;
+    }
+    h3 {
+        margin-right: 49vh;
+        padding-top: 25px;
+    }
+}
+#sugar {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid red;
+    p {
+        padding: 30px;
+        padding-right: 140px;
+    }
+    h3 {
+        margin-right: 47vh;
+        padding-top: 25px;
+    }
+}
+#sodium {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid red;
+    p {
+        padding: 30px;
+        padding-right: 105px;
+    }
+    h3 {
+        margin-right: 45vh;
+        padding-top: 25px;
+    }
+}
+#protein {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid red;
+    p {
+        padding: 30px;
+        padding-right: 153px;
+    }
+    h3 {
+        margin-right: 47vh;
+        padding-top: 25px;
+    }
+}
+#fat {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid red;
+    p {
+        padding: 30px;
+        padding-right: 155px;
+    }
+    h3 {
+        margin-right: 52vh;
+        padding-top: 25px;
+    }
+}
