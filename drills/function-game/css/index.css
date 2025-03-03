@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+#game-grid {
+    position: relative;
+    margin: 0px auto;
+}
+
+/*******************************************************************************
+    GridBlock Styles Section (background tile URL's go here)
+*******************************************************************************/
+.grid-block {
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+}
+.grid-block.grass {
+    background-image: url('../images/grass.png');
+}
+.grid-block.rock {
+    background-image: url('../images/rock.png');
+}
+.grid-block.gravel {
+    background-image: url('../images/gravel.png');
+}
+.grid-block.hole {
+    background-image: url('../images/hole_v3.png');
+}
+
+/*******************************************************************************
+    Controls/Instructions Styles Section
+*******************************************************************************/
+#controls {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+
+#controls .instructions {
+    margin: 24px 0 0;
+}
+
+#controls .d-pad {
+    display: inline-block;
+    padding: 12px;
+}
+
+button {
+    background-image: url('../images/button1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 16px;
+    margin: 0 24px;
+    min-width: 130px;
+    padding: 16px 20px;
+}
+
+/*******************************************************************************
+    Player Styles Section
+*******************************************************************************/
+#player {
+    animation: breathe 6s infinite;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    transform-origin: bottom center;
+    transition: left 1s, top 1s;
+    z-index: 10;
+}
+#player.face-left {
+    animation: breathe-left 6s infinite;
+    transform: scaleX(-1);
+}
+
+#player.attack-right {
+    animation: bump-right 0.5s;
+}
+#player.attack-left {
+    animation: bump-left 0.5s;
+}
+#player.attack-up {
+    animation: bump-up 0.5s;
+}
+#player.attack-down {
+    animation: bump-down 0.5s;
+}
+
+#player.nudge-right {
+    animation: nudge-right 0.5s;
+}
+#player.nudge-left {
+    animation: nudge-left 0.5s;
+}
+#player.nudge-up {
+    animation: nudge-up 0.5s;
+}
+#player.nudge-down {
+    animation: nudge-down 0.5s;
+}
+
+#player.jump {
+    animation: jump 1s;
+}
+#player.face-left.jump {
+    animation: jump-left 1s;
+}
+
+/*******************************************************************************
+    Animations Section (primarily for Player)
+*******************************************************************************/
+@keyframes breathe {
+    0%, 60%, 100% {
+        transform: scale(1,1);
+    }
+    30% {
+        transform: scale(0.99,1.03);
+    }
+}
+@keyframes breathe-left {
+    0%, 60%, 100% {
+        transform: scale(-1,1);
+    }
+    30% {
+        transform: scale(-0.99,1.03);
+    }
+}
+@keyframes bump-right {
+    0%, 100% {
+        transform: translateX(0%);
+    }
+    33% {
+        transform: translateX(50%);
+    }
+}
+@keyframes bump-left {
+    0%, 100% {
+        transform: translateX(0%) scaleX(-1);
+    }
+    33% {
+        transform: translateX(-50%) scaleX(-1);
+    }
+}
+@keyframes bump-up {
+    0%, 100% {
+        transform: translateY(0%);
+    }
+    33% {
+        transform: translateY(-50%);
+    }
+}
+@keyframes bump-down {
+    0%, 100% {
+        transform: translateY(0%);
+    }
+    33% {
+        transform: translateY(50%);
+    }
+}
+
+@keyframes nudge-right {
+    0%, 100% {
+        transform: translateX(0%);
+    }
+    33% {
+        transform: translateX(10%);
+    }
+}
+@keyframes nudge-left {
+    0%, 100% {
+        transform: translateX(0%) scaleX(-1);
+    }
+    33% {
+        transform: translateX(-10%) scaleX(-1);
+    }
+}
+@keyframes nudge-up {
+    0%, 100% {
+        transform: translateY(0%);
+    }
+    33% {
+        transform: translateY(-10%);
+    }
+}
+@keyframes nudge-down {
+    0%, 100% {
+        transform: translateY(0%);
+    }
+    33% {
+        transform: translateY(10%);
+    }
+}
+
+@keyframes jump {
+    0%, 100% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(-50%);
+    }
+}
+@keyframes jump-left {
+    0%, 100% {
+        transform: translateY(0%) scaleX(-1);
+    }
+    50% {
+        transform: translateY(-50%) scaleX(-1);
+    }
+}
