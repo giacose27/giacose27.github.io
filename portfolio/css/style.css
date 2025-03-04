@@ -5,6 +5,9 @@
     h2 {
         font-family: 'snell', cursive;
     }
+    h3 {
+        font-family: 'acier-bat-solid', sans-serif;
+    }
     a {
         font-family: 'acier-bat-solid', sans-serif;
         text-decoration: none;
@@ -12,10 +15,29 @@
     }
 }
 #hero {
-    background-image: url("../images/hero.jpg");
+    background: 
+        linear-gradient(0deg, rgba(245, 245, 245, 0.37), rgba(245, 245, 245, 0.37)),
+        url("../images/hero.jpg");
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
+    display: grid;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    h2 {
+        font-size: 65px;
+        margin-bottom: 15px;
+        color: #f0edf5;
+        text-shadow: 2px 2px 2px #47567d;
+    }
+    a {
+        font-size: 30px;
+        margin: 15px;
+    }
+}
+#buttons {
+    padding: 20px;
 }
 #nav {
     display: flex;
@@ -53,6 +75,16 @@
     #nav {
         h1 {
             text-align: center;
+        }
+    }
+    #hero {
+        h2 {
+            font-size: 45px;
+        }
+        a {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 25px;
         }
     }
 }
