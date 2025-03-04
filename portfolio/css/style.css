@@ -1,3 +1,58 @@
+@import url("https://use.typekit.net/fsr8hue.css");
 * {
     margin: 0px auto;
+    h1,
+    h2 {
+        font-family: 'snell', cursive;
+    }
+    a {
+        font-family: 'acier-bat-solid', sans-serif;
+        text-decoration: none;
+        color: #47567d;
+    }
+}
+#hero {
+    background-image: url("../images/hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    color: #47567d;
+    align-items: center;
+    padding: 20px;
+    a {
+        font-size: 20px;
+        padding: 8px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+}
+#logo {
+    margin-right: auto;
+}
+.button {
+    padding: 10px;
+    border: 3px solid #47567d;
+    background-color: transparent;
+    color: #47567d;
+    transition: background-color 0.25s, color 1s;
+}
+.button:hover {
+    color: whitesmoke;
+    background-color: #47567d;
+    border: 3px solid #47567d;
+}
+/* Media Queries */
+@media screen and (max-width: 800px) {
+    #nav {
+        h1 {
+            text-align: center;
+        }
+    }
 }
