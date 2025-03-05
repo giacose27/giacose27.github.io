@@ -21,7 +21,7 @@
     background: 
         linear-gradient(0deg, rgba(245, 245, 245, 0.37), rgba(245, 245, 245, 0.37)),
         url("../images/hero.jpg");
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
     background-attachment: fixed;
     display: grid;
@@ -63,8 +63,7 @@
         padding: 8px;
     }
     #logo {
-        font-size: 40px;
-        font-family: 'snell', cursive;
+        width: 60px;
     }
 }
 #logo {
@@ -93,6 +92,22 @@
     }
     p {
         font-size: 25px;
+    }
+} 
+#footer {
+    background-color: #f0edf5;
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        width: 100px;
+    }
+    a {
+        font-family: serif;
+        margin: 10px;
+        font-size: 16px;
+        color: black;
     }
 }
 
@@ -171,6 +186,10 @@
         h1 {
             text-align: center;
         }
+    }
+    #logo {
+        display: flex;
+        flex-direction: column;
     }
     #hero {
         h2 {
