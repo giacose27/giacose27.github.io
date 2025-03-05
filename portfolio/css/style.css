@@ -51,8 +51,9 @@
         font-size: 20px;
         padding: 8px;
     }
-    h1 {
+    #logo {
         font-size: 40px;
+        font-family: 'snell', cursive;
     }
 }
 #logo {
@@ -65,10 +66,23 @@
     color: #47567d;
     transition: background-color 0.25s, color 1s;
 }
+.link:hover {
+    color: #4f1f78;
+}
 .button:hover {
     color: whitesmoke;
     background-color: #47567d;
     border: 3px solid #47567d;
+}
+#contact {
+    text-align: center;
+    margin: 60px;
+    h2 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 25px;
+    }
 }
 /* Media Queries */
 @media screen and (max-width: 800px) {
@@ -85,6 +99,16 @@
             display: flex;
             flex-wrap: wrap;
             font-size: 25px;
+        }
+    }
+    #contact {
+        margin-left: 25px;
+        margin-right: 25px;
+        h2 {
+            font-size: 28px;
+        }
+        p {
+            font-size: 20px;
         }
     }
 }
