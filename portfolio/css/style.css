@@ -169,4 +169,46 @@
             font-size: 20px;
         }
     }
+    #grid {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-areas: 
+            "container-1" 
+            "container-2"
+            ;
+        padding: 10px;
+        margin: 40px;
+        border: 2px solid #47567d;
+    }
+    #subsection {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "column-1" 
+            "column-2"
+            ;
+    }
+    .section {
+        margin: 15px;
+        h2 {
+            font-size: 35px;
+            color: #4f1f78;
+            font-weight: lighter;
+            padding: 10px;
+        }
+        h3 {
+            font-size: 15px;
+            color: #47567d;
+        }
+        p {
+            font-size: 15px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        li {
+            font-size: 15px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    }
 }
