@@ -29,14 +29,22 @@
     margin-right: auto;
     margin-left: auto;
     h2 {
-        font-size: 65px;
-        margin-bottom: 15px;
+        font-size: 70px;
+        margin-bottom: 30px;
         color: #f0edf5;
         text-shadow: 2px 2px 2px #47567d;
     }
+    p {
+        font-size: 25px;
+        text-align: center;
+        padding-right: 20vh;
+        padding-left: 20vh;
+        margin-bottom: 30px;
+        text-shadow: 0px 0px 3px #f0edf5;
+    }
     a {
         font-size: 30px;
-        margin: 15px;
+        margin: 20px;
     }
 }
 #buttons {
@@ -65,7 +73,7 @@
 .button {
     padding: 10px;
     border: 3px solid #47567d;
-    background-color: transparent;
+    background-color: rgba(245, 245, 245, 0.346);
     color: #47567d;
     transition: background-color 0.25s, color 1s;
 }
@@ -142,6 +150,21 @@
 .column-2 {
     grid-area: column-2;
 }
+
+/* About Page */
+
+#about {
+    text-align: center;
+    margin: 60px;
+    h2 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+    
+
 /* Media Queries */
 @media screen and (max-width: 800px) {
     #nav {
@@ -152,11 +175,18 @@
     #hero {
         h2 {
             font-size: 45px;
+            text-align: center;
         }
         a {
             display: flex;
             flex-wrap: wrap;
             font-size: 25px;
+        }
+        p {
+            font-size: 18px;
+            padding-right: 10vh;
+            padding-left: 10vh;
+            margin-bottom: 20px;
         }
     }
     #contact {
