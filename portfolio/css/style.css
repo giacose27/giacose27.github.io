@@ -145,6 +145,9 @@
 
 /* Resume Page */
 
+body {
+    background-image: url(../images/hero3.jpg);
+}
 .section {
     margin: 25px;
     h2 {
@@ -169,6 +172,7 @@
     }
 }
 #grid {
+    background-color: whitesmoke;
     display: grid;
     grid-template-columns: 2fr 2.5fr;
     grid-template-areas: 
