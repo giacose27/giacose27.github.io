@@ -22,8 +22,8 @@
 
 #hero {
     background: 
-        linear-gradient(0deg, rgba(0, 0, 0, 0.436), rgba(0, 0, 0, 0.436)),
-        url("../images/rose.jpg");
+        linear-gradient(0deg, rgba(255, 255, 255, 0.663), rgba(255, 255, 255, 0.663)),
+        url("../images/hero4.jpg");
     height: 80vh;
     background-size: cover;
     background-attachment: fixed;
@@ -34,22 +34,20 @@
     h2 {
         font-size: 70px;
         margin-bottom: 30px;
-        color: #f0edf5;
-        text-shadow: 2px 2px 2px #47567d;
+        color: #4f1f78;
     }
     p {
         font-size: 25px;
         text-align: center;
         padding-right: 20vh;
         padding-left: 20vh;
-        max-width: 600px;
+        max-width: 700px;
         margin-bottom: 30px;
-        color: #f0edf5;
+        color: black;
     }
     a {
-        display: flex;
+        display: block;
         text-align: center;
-        flex-direction: column;
         font-size: 30px;
         margin: 20px;
     }
@@ -104,9 +102,9 @@
 }
 .button {
     padding: 10px;
-    border: 3px solid #efacaf;
-    color: #efacaf;
-    background-color: #f0edf522;
+    border: 3px solid #4f1f78;
+    color: #4f1f78;
+    background-color: #f0edf58c;
     transition: background-color 0.25s, color 1s;
 }
 .button-style-2 {
@@ -114,13 +112,15 @@
     padding: 10px;
     border: 3px solid #d3e1a6;
     background-color: #d3e1a6;
-    color: #354033;
+    color: black;
     transition: background-color 0.25s, color 1s;
+    font-family: Cochin;
+    font-size: 20px;
 }
 .button-style-2:hover {
-    color: #d3e1a6;
-    background-color: #354033;
-    border: 3px solid #354033;
+    color: #f0edf5;
+    background-color: #4f1f78;
+    border: 3px solid #4f1f78;
 }
 .button-style-2:active {
     color: #d3e1a6;
@@ -277,11 +277,6 @@
         flex-direction: column;
     }
     #hero {
-        height: 100%;
-        background-size: contain;
-        img {
-            background-position: 50%;
-        }
         h2 {
             font-size: 45px;
             text-align: center;
