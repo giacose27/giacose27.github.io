@@ -84,6 +84,11 @@
     background-color: #47567d;
     border: 3px solid #47567d;
 }
+.button:active {
+    color: whitesmoke;
+    background-color: #47567d;
+    border: 3px solid #47567d;
+}
 #footer {
     background-color: #f0edf5;
     padding: 5vh;
