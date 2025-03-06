@@ -312,4 +312,20 @@
             margin-bottom: 5px;
         }
     }
+    #photography {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px;
+        padding: 15px;
+        margin: 15px;
+        img {
+            height: 150px;
+            flex: 1;
+            object-fit: cover;
+        }
+        img:active {
+            height: 250px;
+            transition: height 0.7s;
+        }
+    }
 }
