@@ -75,6 +75,7 @@
     background-color: rgba(245, 245, 245, 0.346);
     color: #47567d;
     transition: background-color 0.25s, color 1s;
+    transform: background-color 0.25s, color 1s;
 }
 .link:hover {
     color: #4f1f78;
