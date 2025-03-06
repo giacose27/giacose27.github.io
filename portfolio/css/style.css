@@ -109,7 +109,9 @@
     transition: background-color 0.25s, color 1s;
 }
 #bhero {
-    background-color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.362);
+    border: 3px solid #4f1f78;
+    color: #4f1f78;
 }
 .button-style-2 {
     display: block;
