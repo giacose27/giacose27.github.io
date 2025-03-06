@@ -189,6 +189,7 @@
 @media screen and (max-width: 800px) {
     #nav {
         display: flex;
+        padding: 10px;
         h1 {
             text-align: center;
         }
