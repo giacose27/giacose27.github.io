@@ -79,6 +79,9 @@
 .link:hover {
     color: #4f1f78;
 }
+.link:active {
+    color: #4f1f78;
+}
 .button:hover {
     color: whitesmoke;
     background-color: #47567d;
