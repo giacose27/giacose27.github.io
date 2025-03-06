@@ -277,8 +277,8 @@
         flex-direction: column;
     }
     #hero {
-        min-height: 80vh;
         height: auto;
+        background-size: contain;
         img {
             background-position: 50%;
         }
