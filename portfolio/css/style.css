@@ -109,13 +109,13 @@
     transition: background-color 0.25s, color 1s;
 }
 .link:hover {
-    color: #4f1f78;
+    color: #354033;
 }
 .link:active {
-    color: #4f1f78;
+    color: #354033;
 }
 .button:hover {
-    color: #f0edf5;
+    color: #d3e1a6;
     background-color: #191919;
     border: 3px solid #191919;
 }
@@ -140,11 +140,14 @@
         color: whitesmoke;
     }
 }
+#footer a:hover {
+    color: #d3e1a6;
+}
 
 /* Resume Page */
 
 #body {
-    background-image: url(../images/hero3.jpg);
+    background-color: #47567d;
 }
 .section {
     margin: 25px;
@@ -226,6 +229,7 @@
         padding-bottom: 10px;
     }
 } 
+
 /* Contact Page */
 
 #contact {
