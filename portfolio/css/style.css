@@ -115,15 +115,16 @@
     color: #4f1f78;
 }
 .button:hover {
-    color: #4f1f78;
+    color: #191919;
     background-color: #d3e1a6;
-    border: 3px solid #d3e1a6;
-    box-shadow: 2px 2px 4px #444;
+    border: 3px solid #191919;
+    box-shadow: inset 2px 2px 2px #4444;
 }
 .button:active {
-    color: whitesmoke;
+    color: #191919;
     background-color: #d3e1a6;
-    border: 3px solid #d3e1a6;
+    border: 3px solid #191919;
+    box-shadow: inset 2px 2px 2px #4444;
 }
 #footer {
     background-color: #d3e1a6;
@@ -186,9 +187,9 @@
 }
 #subsection {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
-        "column-1 column-2"
+        "column-1 column-2 column-3"
         ;
 }
 .column-1 {
@@ -196,6 +197,9 @@
 }
 .column-2 {
     grid-area: column-2;
+}
+.column-3 {
+    grid-area: column-3;
 }
 
 /* About Page */
