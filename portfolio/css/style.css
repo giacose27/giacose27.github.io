@@ -279,6 +279,9 @@
     #hero {
         min-height: 80vh;
         height: auto;
+        img {
+            background-position: 50%;
+        }
         h2 {
             font-size: 45px;
             text-align: center;
