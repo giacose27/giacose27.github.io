@@ -48,7 +48,7 @@
     a {
         display: block;
         text-align: center;
-        font-size: 30px;
+        font-size: 25px;
         margin: 20px;
     }
 }
@@ -118,6 +118,7 @@
     color: #4f1f78;
     background-color: #d3e1a6;
     border: 3px solid #d3e1a6;
+    box-shadow: 2px 2px 4px #444;
 }
 .button:active {
     color: whitesmoke;
