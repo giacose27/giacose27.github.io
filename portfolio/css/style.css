@@ -47,6 +47,33 @@
         margin: 20px;
     }
 }
+#galleries {
+    h2 {
+        color: #354033;
+    }
+}
+#web-development {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+#photography {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    padding: 24px;
+    margin: 24px;
+    border: 10px solid #4f1f78;
+    background-color: #f0edf5;
+    img {
+        height: 250px;
+        flex: 1;
+        object-fit: cover;
+    }
+}
 #buttons {
     padding: 20px;
 }
@@ -75,7 +102,6 @@
     background-color: rgba(245, 245, 245, 0.346);
     color: #47567d;
     transition: background-color 0.25s, color 1s;
-    transform: background-color 0.25s, color 1s;
 }
 .link:hover {
     color: #4f1f78;
