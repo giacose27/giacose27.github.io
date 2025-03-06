@@ -67,7 +67,6 @@
     padding: 24px;
     margin: 24px;
     border: 2px solid #4f1f78;
-    background-color: #f0edf5;
     img {
         height: 250px;
         flex: 1;
@@ -87,7 +86,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: whitesmoke;
+    background-color: #f0edf5;
     color: #47567d;
     align-items: center;
     padding: 20px;
@@ -109,26 +108,6 @@
     background-color: #f0edf58c;
     transition: background-color 0.25s, color 1s;
 }
-.button-style-2 {
-    display: block;
-    padding: 10px;
-    border: 3px solid #d3e1a6;
-    background-color: #d3e1a6;
-    color: black;
-    transition: background-color 0.25s, color 1s;
-    font-family: Cochin;
-    font-size: 20px;
-}
-.button-style-2:hover {
-    color: #f0edf5;
-    background-color: #4f1f78;
-    border: 3px solid #4f1f78;
-}
-.button-style-2:active {
-    color: #d3e1a6;
-    background-color: #354033;
-    border: 3px solid #354033;
-}
 .link:hover {
     color: #4f1f78;
 }
@@ -136,22 +115,17 @@
     color: #4f1f78;
 }
 .button:hover {
-    color: whitesmoke;
-    background-color: #4f1f78;
-    border: 3px solid #4f1f78;
-}
-#bhero:hover {
-    color: whitesmoke;
-    background-color: #4f1f78;
-    border: 3px solid #4f1f78;
+    color: #4f1f78;
+    background-color: #d3e1a6;
+    border: 3px solid #d3e1a6;
 }
 .button:active {
     color: whitesmoke;
-    background-color: #4f1f78;
-    border: 3px solid #4f1f78;
+    background-color: #d3e1a6;
+    border: 3px solid #d3e1a6;
 }
 #footer {
-    background-color: #f0edf5;
+    background-color: #d3e1a6;
     padding: 5vh;
     display: flex;
     flex-direction: column;
