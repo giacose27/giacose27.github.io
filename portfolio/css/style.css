@@ -22,7 +22,7 @@
 
 #hero {
     background: 
-        linear-gradient(0deg, rgba(245, 245, 245, 0.37), rgba(245, 245, 245, 0.37)),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.436), rgba(0, 0, 0, 0.436)),
         url("../images/rose.jpg");
     height: 80vh;
     background-size: cover;
@@ -42,8 +42,8 @@
         text-align: center;
         padding-right: 20vh;
         padding-left: 20vh;
+        max-width: 600px;
         margin-bottom: 30px;
-        text-shadow: 0px 0px 3px black;
         color: #f0edf5;
     }
     a {
@@ -68,7 +68,7 @@
     gap: 18px;
     padding: 24px;
     margin: 24px;
-    border: 10px solid #4f1f78;
+    border: 2px solid #4f1f78;
     background-color: #f0edf5;
     img {
         height: 250px;
@@ -106,12 +106,8 @@
     padding: 10px;
     border: 3px solid #efacaf;
     color: #efacaf;
+    background-color: #f0edf522;
     transition: background-color 0.25s, color 1s;
-}
-#bhero {
-    background-color: rgba(255, 255, 255, 0.362);
-    border: 3px solid #4f1f78;
-    color: #4f1f78;
 }
 .button-style-2 {
     display: block;
