@@ -127,7 +127,7 @@
     box-shadow: inset 2px 2px 2px #4444;
 }
 #footer {
-    background-color: #d3e1a6;
+    background-color: #191919;
     padding: 5vh;
     display: flex;
     flex-direction: column;
@@ -139,7 +139,7 @@
         font-family: serif;
         margin: 10px;
         font-size: 16px;
-        color: black;
+        color: whitesmoke;
     }
 }
 
