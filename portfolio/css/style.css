@@ -21,8 +21,7 @@
     background: 
         linear-gradient(0deg, rgba(245, 245, 245, 0.37), rgba(245, 245, 245, 0.37)),
         url("../images/hero.jpg");
-    min-height: 80vh;
-    height: auto;
+    height: 80vh;
     background-size: cover;
     background-attachment: fixed;
     display: grid;
@@ -212,6 +211,8 @@
         flex-direction: column;
     }
     #hero {
+        min-height: 80vh;
+        height: auto;
         h2 {
             font-size: 45px;
             text-align: center;
