@@ -115,16 +115,14 @@
     color: #4f1f78;
 }
 .button:hover {
-    color: #191919;
-    background-color: #d3e1a6;
+    color: #f0edf5;
+    background-color: #191919;
     border: 3px solid #191919;
-    box-shadow: inset 2px 2px 2px #4444;
 }
 .button:active {
-    color: #191919;
-    background-color: #d3e1a6;
+    color: #f0edf5;
+    background-color: #191919;
     border: 3px solid #191919;
-    box-shadow: inset 2px 2px 2px #4444;
 }
 #footer {
     background-color: #191919;
@@ -145,7 +143,7 @@
 
 /* Resume Page */
 
-body {
+#body {
     background-image: url(../images/hero3.jpg);
 }
 .section {
