@@ -52,14 +52,6 @@
         margin: 20px;
     }
 }
-#galleries {
-    display: block;
-    h2 {
-        color: #354033;
-        text-align: center;
-        font-size: 45px;
-    }
-}
 #photography {
     display: flex;
     flex-wrap: wrap;
@@ -189,6 +181,8 @@
 }
 .container-2 {
     grid-area: container-2;
+    display: flex;
+    flex-wrap: wrap;
 }
 #subsection {
     display: grid;
@@ -223,6 +217,7 @@
 }
 #about-container {
     text-align: left;
+    max-width: 1000px;
     h3 {
         color: #47567d;
         font-size: 30px;
@@ -244,6 +239,18 @@
         font-size: 25px;
     }
 } 
+
+/* Projects Page */
+
+#galleries {
+    display: block;
+    h2 {
+        color: #354033;
+        text-align: center;
+        font-size: 45px;
+    }
+}
+
 /* Media Queries */
 @media screen and (max-width: 800px) {
     #nav {
@@ -289,6 +296,111 @@
         }
         p {
             font-size: 20px;
+        }
+    }
+    #grid {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-areas: 
+            "container-1" 
+            "container-2"
+            ;
+        padding: 10px;
+        margin: 40px;
+        border: 2px solid #47567d;
+    }
+    #subsection {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "column-1" 
+            "column-2"
+            ;
+    }
+    .section {
+        margin: 15px;
+        h2 {
+            font-size: 35px;
+            color: #4f1f78;
+            font-weight: lighter;
+            padding: 10px;
+        }
+        h3 {
+            font-size: 15px;
+            color: #47567d;
+        }
+        p {
+            font-size: 15px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        li {
+            font-size: 15px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    }
+    #photography {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px;
+        padding: 15px;
+        margin: 15px;
+        img {
+            height: 150px;
+            flex: 1;
+            object-fit: cover;
+        }
+        img:active {
+            height: 200px;
+            transition: height 0.7s;
+        }
+    }
+}
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    #nav {
+        display: flex;
+        padding: 10px;
+        a {
+            font-size: 15px;
+        }
+    }
+    #nav, #nav * {
+        margin: 0px !important;
+        padding: 10px !important;
+        width: auto;
+        height: auto;
+  }
+    #logo {
+        display: flex;
+        flex-direction: column;
+    }
+    #hero {
+        h2 {
+            font-size: 50px;
+            text-align: center;
+        }
+        a {
+            display: flex;
+            flex-wrap: wrap;
+            font-size: 25px;
+            justify-content: center;
+        }
+        p {
+            font-size: 20px;
+            padding-right: 10vh;
+            padding-left: 10vh;
+            margin-bottom: 20px;
+        }
+    }
+    #contact {
+        margin-left: 25px;
+        margin-right: 25px;
+        h2 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 25px;
         }
     }
     #grid {
