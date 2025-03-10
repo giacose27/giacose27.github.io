@@ -153,6 +153,9 @@
         font-size: 25px;
         color: #47567d;
     }
+    i {
+        font-size: 23px;
+    }
     p {
         font-size: 20px;
         margin-top: 5px;
