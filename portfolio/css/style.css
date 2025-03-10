@@ -13,7 +13,8 @@
         text-decoration: none;
         color: #47567d;
     }
-    p {
+    p,
+    li {
         font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 }
