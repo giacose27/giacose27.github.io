@@ -1,6 +1,10 @@
 @import url("https://use.typekit.net/eqw1vso.css");
 @import url("https://use.typekit.net/eqw1vso.css");
 @import url("https://use.typekit.net/eqw1vso.css");
+@font-face {
+    font-family: "amador";
+    src: url();
+}
 * {
     margin: 0px auto;
     h1,
@@ -266,6 +270,7 @@
         font-size: 40px;
         color: #4f1f78;
         text-align: center;
+        padding: 100px;
     }
 }
 
