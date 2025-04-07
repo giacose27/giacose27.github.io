@@ -33,7 +33,7 @@
 
 #hero {
     background: 
-        linear-gradient(0deg, #ff8c0084, rgba(255, 255, 255, 0.705)),
+        linear-gradient(0deg, #7718007c, #4f1f787c),
         url("../images/art1hero.png");
     height: 80vh;
     background-size: cover;
@@ -45,7 +45,7 @@
     h2 {
         font-size: 80px;
         margin-bottom: 30px;
-        color: #4f1f78;
+        color: #f5f5f5;
     }
     p {
         font-size: 25px;
@@ -54,7 +54,7 @@
         padding-left: 20vh;
         max-width: 700px;
         margin-bottom: 30px;
-        color: black;
+        color: #f0edf5;
     }
     a {
         display: block;
@@ -106,9 +106,9 @@
 }
 .button {
     padding: 10px;
-    border: 3px solid #191919;
-    color: #191919;
-    background-color: #f0edf5b5;
+    border: 3px solid #ff8d00;
+    color: #ff8d00f5;
+    background-color: #f5f5f5;
     transition: background-color 0.25s, color 1s;
 }
 .link:hover {
@@ -137,14 +137,14 @@
         width: 100px;
     }
     a {
-        font-family: serif;
+        font-family: 'corporate-a-condensed', serif;
         margin: 10px;
         font-size: 16px;
         color: whitesmoke;
     }
 }
 #footer a:hover {
-    color: #d3e1a6;
+    color: #ff8d00;
 }
 
 /* Resume Page */
@@ -159,6 +159,7 @@
         color: #4f1f78;
         font-weight: medium;
         padding: 10px;
+        padding-left: 0px;
     }
     h3 {
         font-size: 22px;
@@ -221,8 +222,8 @@
     text-align: center;
     margin: 60px;
     h2 {
-        font-size: 35px;
-        color: #354033;
+        font-size: 40px;
+        color: #4f1f78;
         margin: 30px;
     }
     p {
@@ -233,8 +234,8 @@
     text-align: left;
     max-width: 1000px;
     h3 {
-        color: #47567d;
-        font-size: 30px;
+        color: #1a4496;
+        font-size: 25px;
         padding-bottom: 10px;
     }
 } 
@@ -245,8 +246,8 @@
     text-align: center;
     margin: 60px;
     h2 {
-        font-size: 35px;
-        color: #354033;
+        font-size: 40px;
+        color: #4f1f78;
         margin-bottom: 5px;
     }
     p {
@@ -259,9 +260,9 @@
 #galleries {
     display: block;
     h2 {
-        color: #354033;
+        font-size: 40px;
+        color: #4f1f78;
         text-align: center;
-        font-size: 45px;
     }
 }
 
