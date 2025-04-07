@@ -1,22 +1,32 @@
-@import url("https://use.typekit.net/fsr8hue.css");
+@import url("https://use.typekit.net/eqw1vso.css");
+@import url("https://use.typekit.net/eqw1vso.css");
 @import url("https://use.typekit.net/eqw1vso.css");
 * {
     margin: 0px auto;
     h1,
     h2 {
-        font-family: "gelato-fresco-variable", sans-serif;
+        font-family: "amador", sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
     h3 {
-        font-family: 'acier-bat-solid', sans-serif;
+        font-family: "mr-darcy", sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
     a {
-        font-family: 'acier-bat-solid', sans-serif;
+        font-family: "mr-darcy", sans-serif;
+        font-weight: 400;
+        font-style: normal;
         text-decoration: none;
-        color: #354035;
+        color: #f0edf5;
     }
     p,
     li {
-        font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: "gitan-latin", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-style: normal;
     }
 }
 
@@ -34,7 +44,7 @@
     margin-right: auto;
     margin-left: auto;
     h2 {
-        font-size: 70px;
+        font-size: 80px;
         margin-bottom: 30px;
         color: #4f1f78;
     }
@@ -80,7 +90,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #f5f5f5;
+    background-color: #47567d;
     color: #354035;
     align-items: center;
     padding: 20px;
@@ -97,16 +107,16 @@
 }
 .button {
     padding: 10px;
-    border: 3px solid #4f1f78;
-    color: #4f1f78;
-    background-color: #f0edf58c;
+    border: 3px solid #191919;
+    color: #191919;
+    background-color: #f0edf5b5;
     transition: background-color 0.25s, color 1s;
 }
 .link:hover {
-    color: #efacaf;
+    color: #d3e1a6;
 }
 .link:active {
-    color: #efacaf;
+    color: #d3e1a6;
 }
 .button:hover {
     color: #d3e1a6;
@@ -141,7 +151,7 @@
 /* Resume Page */
 
 #body {
-    background-color: #47567d;
+    background-color: #d3e1a6;
 }
 .section {
     margin: 25px;
@@ -178,7 +188,7 @@
         ;
     padding: 30px;
     margin: 60px;
-    border: 2px solid #47567d;
+    border: 2px solid #354035;
 }
 .container-1 {
     grid-area: container-1;
@@ -312,7 +322,7 @@
             ;
         padding: 10px;
         margin: 40px;
-        border: 2px solid #47567d;
+        border: 2px solid;
     }
     #subsection {
         display: grid;
@@ -332,7 +342,6 @@
         }
         h3 {
             font-size: 15px;
-            color: #47567d;
         }
         p {
             font-size: 15px;
@@ -417,7 +426,7 @@
             ;
         padding: 10px;
         margin: 40px;
-        border: 2px solid #47567d;
+        border: 2px solid;
     }
     #subsection {
         display: grid;
@@ -437,7 +446,6 @@
         }
         h3 {
             font-size: 15px;
-            color: #354035;
         }
         p {
             font-size: 15px;
