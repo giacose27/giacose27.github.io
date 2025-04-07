@@ -24,8 +24,8 @@
 
 #hero {
     background: 
-        linear-gradient(0deg, rgba(255, 255, 255, 0.663), rgba(255, 255, 255, 0.663)),
-        url("../images/hero4.jpg");
+        linear-gradient(0deg, rgba(255, 255, 255, 0.565), rgba(255, 255, 255, 0.565)),
+        url("../images/art1hero.png");
     height: 80vh;
     background-size: cover;
     background-attachment: fixed;
