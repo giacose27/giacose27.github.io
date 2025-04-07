@@ -19,13 +19,12 @@
         font-weight: 400;
         font-style: normal;
         text-decoration: none;
-        color: #f0edf5;
+        color: #1a4496;
     }
     p,
     li {
-        font-family: "gitan-latin", sans-serif;
+        font-family: 'corporate-a-condensed', serif;
         font-weight: 400;
-        font-style: normal;
         font-style: normal;
     }
 }
@@ -34,7 +33,7 @@
 
 #hero {
     background: 
-        linear-gradient(0deg, rgba(255, 255, 255, 0.565), rgba(255, 255, 255, 0.565)),
+        linear-gradient(0deg, #ff8c0084, rgba(255, 255, 255, 0.705)),
         url("../images/art1hero.png");
     height: 80vh;
     background-size: cover;
@@ -90,8 +89,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #47567d;
-    color: #354035;
+    background-color: #f5f5f5;
+    color: #1a4496;
     align-items: center;
     padding: 20px;
     a {
@@ -113,20 +112,20 @@
     transition: background-color 0.25s, color 1s;
 }
 .link:hover {
-    color: #d3e1a6;
+    color: #ff8d00;
 }
 .link:active {
-    color: #d3e1a6;
+    color: #ff8d00;
 }
 .button:hover {
-    color: #d3e1a6;
-    background-color: #191919;
-    border: 3px solid #191919;
+    color: #ff8d00;
+    background-color: #1a4496;
+    border: 3px solid #1a4496;
 }
 .button:active {
-    color: #f0edf5;
-    background-color: #191919;
-    border: 3px solid #191919;
+    color: #ff8d00;
+    background-color: #1a4496;
+    border: 3px solid #1a4496;
 }
 #footer {
     background-color: #191919;
@@ -151,7 +150,7 @@
 /* Resume Page */
 
 #body {
-    background-color: #d3e1a6;
+    background-color: #1a4496;
 }
 .section {
     margin: 25px;
@@ -162,8 +161,8 @@
         padding: 10px;
     }
     h3 {
-        font-size: 25px;
-        color: #354035;
+        font-size: 22px;
+        color: #1a4496;
     }
     i {
         font-size: 23px;
@@ -188,7 +187,7 @@
         ;
     padding: 30px;
     margin: 60px;
-    border: 2px solid #354035;
+    border: 2px solid #1a4496;
 }
 .container-1 {
     grid-area: container-1;
