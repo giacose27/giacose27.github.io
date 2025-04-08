@@ -3,17 +3,17 @@
     margin: 0px auto;
     h1,
     h2 {
-        font-family: "amador", sans-serif;
+        font-family: "Metal Mania", system-ui;
         font-weight: 400;
         font-style: normal;
     }
     h3 {
-        font-family: "mr-darcy", sans-serif;
+        font-family: "Gupter", serif;
         font-weight: 400;
         font-style: normal;
     }
     a {
-        font-family: "mr-darcy", sans-serif;
+        font-family: "Gupter", serif;
         font-weight: 400;
         font-style: normal;
         text-decoration: none;
@@ -25,6 +25,17 @@
         font-weight: 400;
         font-style: normal;
     }
+    .metal-mania-regular {
+        font-family: "Metal Mania", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .gupter-regular {
+        font-family: "Gupter", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+      
 }
 
 /* Homepage and Navigation */
