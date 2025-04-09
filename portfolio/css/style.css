@@ -168,20 +168,33 @@
     color: #4f1f78;
     margin: 30px;
 }
-.container-1 {
+.startcontainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "resume resume"
         "infotitle missionres"
-        "softproficiancies softproficiancies"
     ;
 }
 #resume {
     grid-area: resume;
 }
-#infotitle {
+.infotitle {
     grid-area: infotitle;
+}
+.missionres {
+    grid-area: missionres;
+}
+#softproficiancies {
+    align-items: center;
+}
+.container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "industryskills"
+        "softskills"
+    ;
 }
 /* About Page */
 
