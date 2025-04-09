@@ -161,8 +161,28 @@
     padding: 20px;
 }
 /* Resume Page */
-
-
+#resume {
+    text-align: center;
+    margin: 60px;
+    font-size: 40px;
+    color: #4f1f78;
+    margin: 30px;
+}
+.container-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "resume resume"
+        "infotitle missionres"
+        "softproficiancies softproficiancies"
+    ;
+}
+#resume {
+    grid-area: resume;
+}
+#infotitle {
+    grid-area: infotitle;
+}
 /* About Page */
 
 #about {
