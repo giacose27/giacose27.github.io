@@ -9,7 +9,7 @@
     }
     h3 {
         font-family: "Gupter", serif;
-        font-weight: 400;
+        font-weight: 500;
         font-style: normal;
     }
     a {
@@ -111,7 +111,7 @@
         padding: 15px;
     }
     #logo img {
-        width: 65px;
+        width: 85px;
     }
 }
 #logo {
@@ -172,13 +172,14 @@
 }
 /* Resume Page */
 #grid {
-    background-color: #de9dee;
+    background-color: #191919;
+    color: white;
 }
 #resume {
     text-align: center;
     margin: 60px;
     font-size: 40px;
-    color: #4f1f78;
+    color: #d39dee;
     margin: 30px;
 }
 .startcontainer {
@@ -192,7 +193,7 @@
         font-size: 30px;
     }
     p {
-        font-size: 23px;
+        font-size: 25px;
     }
 }
 #resume {
@@ -200,31 +201,72 @@
 }
 .infotitle {
     grid-area: infotitle;
-    background-color: #191919;
+    background-color: #93221c;
     padding: 80px;
     h3 {
-        color: #c189e3;
+        color: white;
     }
     p {
-        color: white;
+        color: #191919;
     }
 }
 .missionres {
     grid-area: missionres;
-    margin-right: 200px;
+    margin-right: 190px;
     padding: 80px;
 }
 #softproficiancies {
     text-align: left;
-    display: inline-block;
-    margin: 60px;
+    display: block;
+    margin: 0px;
+    padding: 60px;
+    padding-left: 115px;
+    span {
+        display: inline-block;
+        padding: 15px;
+        margin: 10px;
+        border: 2px solid #d39dee;
+    }
 }
 #industryskills {
     text-align: left;
-    display: inline-block;
-    margin: 60px;
+    display: block;
+    margin: 0px;
+    padding: 60px;
+    padding-left: 115px;
+    span {
+        display: inline-block;
+        padding: 15px;
+        margin: 10px;
+        border: 2px solid #d39dee;
+    }
 }
-
+#softskills {
+    text-align: left;
+    display: block;
+    margin: 0px;
+    padding: 60px;
+    padding-left: 115px;
+    span {
+        display: inline-block;
+        padding: 15px;
+        margin: 10px;
+        border: 2px solid #d39dee;
+    }
+}
+.container-3 {
+    text-align: left;
+    display: inline-block;
+    margin: 0px;
+    padding: 60px;
+    padding-right: 125px;
+    span {
+        display: inline-block;
+        padding: 15px;
+        margin: 10px;
+        border: 2px solid #d39dee;
+    }
+}
 /* About Page */
 
 #about {
