@@ -25,6 +25,9 @@
         font-weight: 400;
         font-style: normal;
     }
+    li {
+        font-size: 25px;
+    }
     .metal-mania-regular {
         font-family: "Metal Mania", system-ui;
         font-weight: 400;
@@ -148,7 +151,7 @@
     
 }
 #footer {
-    background-color: #191919;
+    background-color: white;
     padding: 5vh;
     display: flex;
     flex-direction: column;
@@ -160,7 +163,7 @@
         font-family: 'corporate-a-condensed', serif;
         margin: 10px;
         font-size: 16px;
-        color: whitesmoke;
+        color: #4f1f78;
     }
 }
 #footer a:hover {
@@ -174,12 +177,15 @@
 #grid {
     background-color: #191919;
     color: white;
+    i {
+        color: #93221c;
+        font-size: 30px;
+    }
 }
 #resume {
     text-align: center;
     margin: 60px;
     font-size: 40px;
-    color: #d39dee;
     margin: 30px;
 }
 .startcontainer {
@@ -191,6 +197,7 @@
     ;
     h3 {
         font-size: 30px;
+        color: #c189e3;
     }
     p {
         font-size: 25px;
@@ -198,28 +205,32 @@
 }
 #resume {
     grid-area: resume;
+    margin: 50px;
 }
 .infotitle {
     grid-area: infotitle;
-    background-color: #93221c;
     padding: 80px;
+    padding-left: 130px;
+    margin-left: 0px;
     h3 {
-        color: white;
+        color: #c189e3;
+        font-size: 35px;
     }
     p {
-        color: #191919;
+        font-size: 27px;
     }
 }
 .missionres {
     grid-area: missionres;
     margin-right: 190px;
-    padding: 80px;
+    padding: 80px 100px 80px 100px;
+    border: 4px dotted #93221c;
 }
 #softproficiancies {
     text-align: left;
     display: block;
     margin: 0px;
-    padding: 60px;
+    padding: 50px;
     padding-left: 115px;
     span {
         display: inline-block;
@@ -232,7 +243,7 @@
     text-align: left;
     display: block;
     margin: 0px;
-    padding: 60px;
+    padding: 50px;
     padding-left: 115px;
     span {
         display: inline-block;
@@ -245,7 +256,7 @@
     text-align: left;
     display: block;
     margin: 0px;
-    padding: 60px;
+    padding: 50px;
     padding-left: 115px;
     span {
         display: inline-block;
@@ -265,6 +276,29 @@
         padding: 15px;
         margin: 10px;
         border: 2px solid #d39dee;
+    }
+}
+.container-2 {
+    margin: 50px;
+}
+.workexperience {
+    text-align: left;
+    display: block;
+    margin: 0px;
+    padding: 50px;
+    padding-right: 115px;
+    h3 {
+        color: #c189e3;
+    }
+}
+.education {
+    text-align: left;
+    display: block;
+    margin: 0px;
+    padding: 50px;
+    padding-right: 115px;
+    h3 {
+        color: #c189e3;
     }
 }
 /* About Page */
@@ -297,14 +331,17 @@
 
 #contact {
     text-align: center;
-    margin: 60px;
+    margin: 0px;
+    padding: 300px;
+    background-color: #191919;
     h2 {
         font-size: 40px;
-        color: #4f1f78;
+        color: white;
         margin-bottom: 5px;
     }
     p {
         font-size: 25px;
+        color: #c189e3;
     }
 } 
 
@@ -368,15 +405,7 @@
         }
     }
     #grid {
-        display: grid;
-        grid-template-columns: 2fr;
-        grid-template-areas: 
-            "container-1" 
-            "container-2"
-            ;
-        padding: 10px;
-        margin: 40px;
-        border: 2px solid;
+        display: flex;
     }
     #subsection {
         display: grid;
@@ -472,15 +501,7 @@
         }
     }
     #grid {
-        display: grid;
-        grid-template-columns: 2fr;
-        grid-template-areas: 
-            "container-1" 
-            "container-2"
-            ;
-        padding: 10px;
-        margin: 40px;
-        border: 2px solid #1a4496;
+        display: flex;
     }
     #subsection {
         display: grid;
