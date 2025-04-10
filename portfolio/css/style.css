@@ -55,7 +55,7 @@
     h2 {
         font-size: 80px;
         margin-bottom: 30px;
-        color: #f5f5f5;
+        color: white;
     }
     p {
         font-size: 25px;
@@ -64,13 +64,16 @@
         padding-left: 20vh;
         max-width: 700px;
         margin-bottom: 30px;
-        color: #f0edf5;
+        color: white;
     }
     a {
         display: block;
         text-align: center;
-        font-size: 25px;
-        margin: 20px;
+        font-size: 30px;
+        margin: 25px;
+        padding: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 }
 #photography {
@@ -99,43 +102,50 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #f5f5f5;
-    color: #1a4496;
+    background-color: white;
+    color: #93221c;
     align-items: center;
     padding: 20px;
     a {
         font-size: 20px;
-        padding: 8px;
+        padding: 15px;
     }
-    #logo {
-        width: 60px;
+    #logo img {
+        width: 65px;
     }
 }
 #logo {
     margin-right: auto;
 }
 .button {
-    padding: 10px;
-    border: 3px solid #ff8d00;
-    color: #ff8d00f5;
-    background-color: #f5f5f5;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 4px solid #c189e3;
+    border-radius: 40px;
+    color: #191919;
+    background-color: #c189e3;
     transition: background-color 0.25s, color 1s;
+    box-shadow: #19191979 2px 2px 4px;
 }
 .link:hover {
-    color: #ff8d00;
+    color: #c189e3;
 }
 .link:active {
-    color: #ff8d00;
+    color: #c189e3;
 }
 .button:hover {
-    color: #ff8d00;
-    background-color: #1a4496;
-    border: 3px solid #1a4496;
+    color: #c189e3;
+    background-color: #191919;
+    border: 4px solid #191919;
+    box-shadow: inset black 2px 2px 4px;
 }
 .button:active {
-    color: #ff8d00;
-    background-color: #1a4496;
-    border: 3px solid #1a4496;
+    color: #c189e3;
+    background-color: #191919;
+    border: 4px solid #191919;
+    box-shadow: inset black 2px 2px 4px;
+    
 }
 #footer {
     background-color: #191919;
@@ -154,10 +164,10 @@
     }
 }
 #footer a:hover {
-    color: #ff8d00;
+    color: #c189e3;
 }
 #cpy {
-    color: #771800;
+    color: #93221c;
     padding: 20px;
 }
 /* Resume Page */
@@ -214,7 +224,7 @@
     text-align: left;
     max-width: 1000px;
     h3 {
-        color: #1a4496;
+        color: white;
         font-size: 25px;
         padding-bottom: 10px;
     }
