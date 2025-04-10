@@ -43,7 +43,7 @@
 #hero {
     background: 
         linear-gradient(0deg, #7718007c, #4f1f787c),
-        url("../images/art1hero.png");
+        url("../images/crayonhero-2.jpg");
     height: 80vh;
     background-size: cover;
     background-attachment: fixed;
@@ -171,6 +171,9 @@
     padding: 20px;
 }
 /* Resume Page */
+#grid {
+    background-color: #de9dee;
+}
 #resume {
     text-align: center;
     margin: 60px;
@@ -185,27 +188,43 @@
         "resume resume"
         "infotitle missionres"
     ;
+    h3 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 23px;
+    }
 }
 #resume {
     grid-area: resume;
 }
 .infotitle {
     grid-area: infotitle;
+    background-color: #191919;
+    padding: 80px;
+    h3 {
+        color: #c189e3;
+    }
+    p {
+        color: white;
+    }
 }
 .missionres {
     grid-area: missionres;
+    margin-right: 200px;
+    padding: 80px;
 }
 #softproficiancies {
-    align-items: center;
+    text-align: left;
+    display: inline-block;
+    margin: 60px;
 }
-.container-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "industryskills"
-        "softskills"
-    ;
+#industryskills {
+    text-align: left;
+    display: inline-block;
+    margin: 60px;
 }
+
 /* About Page */
 
 #about {
