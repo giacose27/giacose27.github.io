@@ -404,16 +404,19 @@
             font-size: 20px;
         }
     }
-    #grid {
-        display: flex;
-    }
-    #subsection {
+    .startcontainer {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-areas: 
-            "column-1" 
-            "column-2"
-            ;
+            "resume"
+            "infotitle" 
+            "missionres"
+        ;
+    }
+    .missionres {
+        margin: 15px;
+        padding: 20px 50px 20px 50px;
+        border: 4px dotted #93221c;
     }
     .section {
         margin: 15px;
@@ -451,6 +454,74 @@
         img:active {
             height: 200px;
             transition: height 0.7s;
+        }
+    }
+    #grid {
+        h3 {
+            font-size: 25px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 18px;
+        }
+        li {
+            font-size: 17px;
+        }
+        i {
+            font-size: 20px;
+        }
+    }
+    .infotitle {
+        margin: 15px;
+        padding: 20px 50px 20px 50px;
+    }
+    #footer {
+        p {
+            font-size: 16px;
+        }
+    }
+    #softproficiancies {
+        text-align: left;
+        display: block;
+        margin: 0px;
+        padding: 30px;
+        padding-left: 100px;
+        span {
+            display: inline-block;
+            padding: 15px;
+            margin: 5px;
+            border: 2px solid #d39dee;
+            font-size: 18px;
+        }
+    }
+    #industryskills {
+        text-align: left;
+        display: block;
+        margin: 0px;
+        padding: 30px;
+        padding-left: 100px;
+        span {
+            display: inline-block;
+            padding: 15px;
+            margin: 5px;
+            border: 2px solid #d39dee;
+            font-size: 18px;
+        }
+    }
+    #softskills {
+        text-align: left;
+        display: block;
+        margin: 0px;
+        padding: 30px;
+        padding-left: 100px;
+        span {
+            display: inline-block;
+            padding: 15px;
+            margin: 5px;
+            border: 2px solid #d39dee;
+            font-size: 18px;
         }
     }
 }
@@ -500,16 +571,19 @@
             font-size: 25px;
         }
     }
-    #grid {
-        display: flex;
-    }
-    #subsection {
+    .startcontainer {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-areas: 
-            "column-1" 
-            "column-2"
-            ;
+            "resume"
+            "infotitle" 
+            "missionres"
+        ;
+    }
+    .missionres {
+        margin: 15px;
+        padding: 80px 100px 80px 100px;
+        border: 4px dotted #93221c;
     }
     .section {
         margin: 15px;
