@@ -334,9 +334,6 @@
 /* Contact Page */
 
 #contact {
-    text-align: center;
-    margin: 0px;
-    padding: 300px;
     background-color: #191919;
     h2 {
         font-size: 40px;
@@ -348,7 +345,19 @@
         color: #c189e3;
     }
 } 
-
+#contact {
+    background: 
+        linear-gradient(0deg, #19191964, #19191964),
+        url("../images/candle.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 20%;
+    display: grid;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
 /* Projects Page */
 
 #galleries {
