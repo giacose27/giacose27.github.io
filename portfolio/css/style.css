@@ -150,6 +150,34 @@
     box-shadow: inset black 2px 2px 4px;
     
 }
+#about {
+    text-align: center;
+    margin: 0px;
+    padding: 60px;
+    background-color: #191919;
+    h2 {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        margin: 60px;
+    }
+    p {
+        font-size: 20px;
+        color: white;
+    }
+}
+#about-container {
+    text-align: left;
+    max-width: 1000px;
+    h3 {
+        color: white;
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+} 
+#insta {
+    padding: 5px;
+}
 #footer {
     background-color: white;
     padding: 5vh;
@@ -173,6 +201,7 @@
     color: #93221c;
     padding: 20px;
 }
+
 /* Resume Page */
 #grid {
     background-color: #191919;
@@ -186,7 +215,7 @@
     text-align: center;
     margin: 60px;
     font-size: 40px;
-    margin: 30px;
+    grid-area: resume;
 }
 .startcontainer {
     display: grid;
@@ -202,10 +231,6 @@
     p {
         font-size: 25px;
     }
-}
-#resume {
-    grid-area: resume;
-    margin: 50px;
 }
 .infotitle {
     grid-area: infotitle;
@@ -301,32 +326,7 @@
         color: #c189e3;
     }
 }
-/* About Page */
 
-#about {
-    text-align: center;
-    margin: 60px;
-    h2 {
-        font-size: 40px;
-        color: #4f1f78;
-        margin: 30px;
-    }
-    p {
-        font-size: 20px;
-    }
-}
-#about-container {
-    text-align: left;
-    max-width: 1000px;
-    h3 {
-        color: white;
-        font-size: 25px;
-        padding-bottom: 10px;
-    }
-} 
-#insta {
-    padding: 5px;
-}
 /* Contact Page */
 
 #contact {
