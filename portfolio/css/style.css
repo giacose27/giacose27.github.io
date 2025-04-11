@@ -361,14 +361,14 @@
 @media screen and (max-width: 800px) {
     #nav {
         display: flex;
-        padding: 10px;
+        padding: 5px;
         a {
             font-size: 15px;
         }
     }
     #nav, #nav * {
         margin: 0px !important;
-        padding: 10px !important;
+        padding: 5px !important;
         width: auto;
         height: auto;
   }
@@ -395,8 +395,9 @@
         }
     }
     #contact {
-        margin-left: 25px;
-        margin-right: 25px;
+        padding: 40px;
+        padding-top: 160px;
+        padding-bottom: 160px;
         h2 {
             font-size: 28px;
         }
