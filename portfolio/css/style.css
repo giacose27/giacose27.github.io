@@ -193,7 +193,6 @@
         width: 100px;
     }
     a {
-        font-family: 'corporate-a-condensed', serif;
         margin: 10px;
         font-size: 16px;
         color: #4f1f78;
@@ -479,6 +478,12 @@
             font-size: 20px;
         }
     }
+    .workexperience {
+        padding: 10px;
+    }
+    .education {
+        padding: 10px;
+    }
     .infotitle {
         margin: 15px;
         padding: 20px 50px 20px 50px;
@@ -492,8 +497,8 @@
         text-align: left;
         display: block;
         margin: 0px;
-        padding: 30px;
-        padding-left: 100px;
+        padding: 15px;
+        padding-left: 60px;
         span {
             display: inline-block;
             padding: 15px;
@@ -507,7 +512,7 @@
         display: block;
         margin: 0px;
         padding: 30px;
-        padding-left: 100px;
+        padding-left: 60px;
         span {
             display: inline-block;
             padding: 15px;
@@ -521,7 +526,7 @@
         display: block;
         margin: 0px;
         padding: 30px;
-        padding-left: 100px;
+        padding-left: 60px;
         span {
             display: inline-block;
             padding: 15px;
