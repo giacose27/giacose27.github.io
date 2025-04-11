@@ -101,6 +101,11 @@
     grid-template-columns: 1fr 1fr;
     padding: 20px;
 }
+#about #about-container {
+    h3 {
+        color: #c189e3;
+    }
+}
 #nav {
     display: flex;
     flex-direction: row;
