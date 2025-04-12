@@ -149,13 +149,13 @@
     color: #c189e3;
 }
 .button:hover {
-    color: #c189e3;
+    color: #d39dee;
     background-color: #191919;
     border: 4px solid #191919;
     box-shadow: inset black 2px 2px 4px;
 }
 .button:active {
-    color: #c189e3;
+    color: #d39dee;
     background-color: #191919;
     border: 4px solid #191919;
     box-shadow: inset black 2px 2px 4px;
@@ -212,7 +212,7 @@
     padding: 20px;
 }
 #mymission {
-    margin: 50px;
+    margin: 65px;
     h3 {
         font-size: 40px;
     }
@@ -220,8 +220,12 @@
         font-size: 25px;
     }
 }
-#introduction {
-    margin: 50px;
+#about #introduction {
+    margin: 65px;
+    margin-top: 0px;
+    h3 {
+        color: #93221c;
+    }
 }
 /* Resume Page */
 #grid {
@@ -347,8 +351,6 @@
         color: #c189e3;
     }
 }
-
-/* Contact Page */
 
 /* Projects Page */
 
