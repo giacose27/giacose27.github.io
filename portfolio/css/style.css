@@ -41,8 +41,7 @@
       
 }
 
-/* Homepage and Navigation */
-
+/* Homepage and Navigation START*/
 #hero {
     background: 
         linear-gradient(0deg, #7718007c, #4f1f787c),
@@ -227,7 +226,13 @@
         color: #93221c;
     }
 }
-/* Resume Page */
+/* Homepage and Nav END */
+
+/* Carousel START*/
+
+/* Carousel END */
+
+/* Resume Page START*/
 #grid {
     background-color: #191919;
     color: white;
@@ -351,9 +356,9 @@
         color: #c189e3;
     }
 }
+/* Resume Page END*/
 
-/* Projects Page */
-
+/* Projects Page START*/
 #galleries {
     display: block;
     h2 {
@@ -363,6 +368,7 @@
         padding: 100px;
     }
 }
+/* Projects Page END*/
 
 /* Media Queries */
 @media screen and (max-width: 800px) {
