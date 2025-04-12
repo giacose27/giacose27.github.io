@@ -47,7 +47,7 @@
     background: 
         linear-gradient(0deg, #7718007c, #4f1f787c),
         url("../images/crayonhero-2.jpg");
-    height: 95vh;
+    height: 65vh;
     background-size: cover;
     background-attachment: fixed;
     background-position: 20%;
@@ -56,11 +56,11 @@
     margin-right: auto;
     margin-left: auto;
     h2 {
-        font-size: 70px;
+        font-size: 65px;
         margin-bottom: 30px;
         color: white;
         text-align: center;
-        padding: 0px 250px 0px 250px;
+        padding: 40px 300px 0px 300px;
     }
     p {
         font-size: 25px;
@@ -81,7 +81,7 @@
         padding-right: 25px;
     }
     img {
-        width: 140px;
+        width: 100px;
         padding: 15px;
     }
 }
@@ -211,7 +211,18 @@
     color: #93221c;
     padding: 20px;
 }
-
+#mymission {
+    margin: 50px;
+    h3 {
+        font-size: 40px;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+#introduction {
+    margin: 50px;
+}
 /* Resume Page */
 #grid {
     background-color: #191919;
