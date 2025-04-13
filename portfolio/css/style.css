@@ -70,13 +70,15 @@
     }
 }
 /* Homepage and Navigation START*/
-#hero{
+#hero {
     background:
-        url("../images/Asset 6.png");
-    height: 70vh;
+        url("../images/.png");
+        background-color: #191919;
+        height: 55vh;
+    height: 55vh;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 30%;
+    background-position: 60%;
     display: grid;
     align-content: center;
     margin-right: auto;
