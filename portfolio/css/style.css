@@ -40,31 +40,43 @@
     }
       
 }
-@keyframes blur {
-    from {
-        filter: blur(0);
+@keyframes slider {
+    0% {
+        left: 0;
     }
-    to {
-        filter: blur(5px)
+    20% {
+        left: 0;
     }
-}
-@keyframes blur {
-    from {
-        filter: blur(5px);
+    25% {
+        left: -100%;
     }
-    to {
-        filter: blur(0)
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
     }
 }
 /* Homepage and Navigation START*/
-#hero {
-    background: 
-        linear-gradient(0deg, #7718007c, #4f1f787c),
-        url("../images/crayonhero-2.jpg");
-    height: 65vh;
+#hero{
+    background:
+        url("../images/Asset 6.png");
+    height: 70vh;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 20%;
+    background-position: 30%;
     display: grid;
     align-content: center;
     margin-right: auto;
@@ -97,23 +109,6 @@
     img {
         width: 100px;
         padding: 15px;
-    }
-}
-#photography {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 18px;
-    padding: 24px;
-    margin: 24px;
-    border: 2px solid #4f1f78;
-    img {
-        height: 250px;
-        flex: 1;
-        object-fit: cover;
-    }
-    img:hover {
-        height: 350px;
-        transition: height 0.7s;
     }
 }
 #buttons {
@@ -243,107 +238,6 @@
 }
 /* Homepage and Nav END */
 
-/* Carousel START*/
-.carouselcontainer {
-    width: 1200px;
-    height: 40vh;
-    position: relative;
-    max-width: 100%;
-    padding: 20px;
-    border: 3px dotted #93221c;
-    box-sizing: border-box;
-}
-.component {
-    position: absolute;
-    top: 160%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    border: 3px dotted #93221c;
-    box-sizing: border-box;
-    width: 100%;
-    padding: 20px;
-}
-input.input {
-    display: none;
-}
-.items {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 33vw;
-    aspect-ratio: 16/9;
-    margin: 0 auto;
-    perspective: 1000px;
-    padding: 10px;
-}
-.item {
-    position: absolute;
-    top: 0;
-    width: 300px;
-    aspect-ratio: 16/9;
-    padding: 20px;
-    border: 3px dotted #93221c;
-    border-radius: 10px;
-    box-sizing: border-box;
-    background: #c189e3;
-    box-shadow: 0 0 30px black;
-    color: white;
-    cursor: pointer;
-    text-align: center;
-    user-select: none;
-    overflow: hidden;
-    transition: transform .7s;
-}
-.navs {
-    display: flex;
-    justify-content: center;
-}
-.dot {
-    width: 13px;
-    height: 13px;
-    border-radius: 50%;
-    background: #191919;
-    cursor: pointer;
-    margin: 8px;
-}
-#item_1:checked ~ .navs label[for="item_1"] {
-    background: white;
-    transform: scale(1.5);
-    cursor: default;
-}
-#item_1:checked ~ .navs label[for="item_2"],
-#item_1:checked ~ .navs label[for="item_3"],
-#item_1:checked ~ .navs label[for="item_4"],
-#item_1:checked ~ .navs label[for="item_5"] {
-    background: #191919;
-    transform: scale(1);
-    cursor: pointer;
-}
-#item_1:checked ~ .items label[for="item_1"] {
-    animation: unblur 1s 1 forwards;
-    z-index: 3;
-}
-#item_1:checked ~ .items label[for="item_2"]
-#item_1:checked ~ .items label[for="item_3"]
-#item_1:checked ~ .items label[for="item_4"]
-#item_1:checked ~ .items label[for="item_5"] {
-    animation: blur 1s 1 forwards;
-}
-#item_1:checked ~ .items label[for="item_2"] {
-    z-index: 2;
-}
-#item_1:checked ~ .items label[for="item_3"] {
-    z-index: 1;
-}
-#item_1:checked ~ .items label[for="item_4"] {
-    z-index: 1;
-}
-#item_1:checked ~ .items label[for="item_5"] {
-    z-index: 2;
-}
-/* Carousel END */
-
 /* Resume Page START*/
 #grid {
     background-color: #191919;
@@ -471,15 +365,23 @@ input.input {
 /* Resume Page END*/
 
 /* Projects Page START*/
-#galleries {
-    display: block;
-    h2 {
-        font-size: 40px;
-        color: #4f1f78;
-        text-align: center;
-        padding: 100px;
-    }
+/* Carousel START*/
+#slider {
+    overflow: hidden;
+    height: 40vh;
 }
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img {
+    float: left;
+    width: 20%;
+}
+/* Carousel END */
 /* Projects Page END*/
 
 /* Media Queries */
