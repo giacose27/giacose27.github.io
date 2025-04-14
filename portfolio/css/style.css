@@ -199,6 +199,9 @@
 } 
 #insta {
     padding: 5px;
+    a {
+        color: #d39dee;
+    }
 }
 #footer {
     background-color: white;
