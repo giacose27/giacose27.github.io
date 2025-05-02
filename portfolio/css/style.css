@@ -72,8 +72,8 @@
 /* Homepage and Navigation START*/
 #hero {
     background:
-        url("../images/.png");
-        background-color: #191919;
+        url("../images/CARDSMockup.png");
+        background-color: linear-gradient(rgba(#191919,) rgba(#93221c));
         height: 55vh;
     height: 55vh;
     background-size: cover;
@@ -373,7 +373,7 @@
 /* Carousel START*/
 #slider {
     overflow: hidden;
-    height: 40vh;
+    height: 50vh;
 }
 #slider figure {
     position: relative;
