@@ -384,8 +384,8 @@
 #slider figure img {
     float: left;
     width: 20%;
-    object-fit: cover;
-    object-position: auto;
+    object-fit: contain;
+    object-position: 10%;
 }
 /* Carousel END */
 /* Projects Page END*/
