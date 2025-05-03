@@ -83,7 +83,7 @@
     margin-right: auto;
     margin-left: auto;
     h2 {
-        font-size: 70px;
+        font-size: 71px;
         margin-bottom: 30px;
         color: #d39dee;
         text-align: center;
@@ -372,7 +372,7 @@
 /* Carousel START*/
 #slider {
     overflow: hidden;
-    height: 58vh;
+    height: 60vh;
 }
 #slider figure {
     position: relative;
@@ -384,6 +384,7 @@
 #slider figure img {
     float: left;
     width: 20%;
+    background-position: 50%;
 }
 /* Carousel END */
 /* Projects Page END*/
