@@ -83,7 +83,7 @@
     margin-right: auto;
     margin-left: auto;
     h2 {
-        font-size: 71px;
+        font-size: 85px;
         margin-bottom: 30px;
         color: #d39dee;
         text-align: center;
@@ -111,6 +111,11 @@
         width: 100px;
         padding: 15px;
     }
+}
+#intro {
+    font-size: 40px;
+    color: white;
+    padding: 10px;
 }
 #buttons {
     display: grid;
