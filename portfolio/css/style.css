@@ -372,7 +372,7 @@
 /* Carousel START*/
 #slider {
     overflow: hidden;
-    height: 60vh;
+    height: 55vh;
 }
 #slider figure {
     position: relative;
@@ -384,7 +384,6 @@
 #slider figure img {
     float: left;
     width: 20%;
-    background-position: 50%;
 }
 /* Carousel END */
 /* Projects Page END*/
