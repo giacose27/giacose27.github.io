@@ -379,11 +379,11 @@
 /* Carousel START*/
 #slider {
     overflow: hidden;
-    height: 100vh;
 }
 #slider figure {
     position: relative;
     width: 500%;
+    height: 60vh;
     margin: 0;
     left: 0;
     animation: 20s slider infinite;
@@ -391,6 +391,8 @@
 #slider figure img {
     float: left;
     width: 20%;
+    height: 100%;
+    object-fit: cover;
 }
 /* Carousel END */
 /* Projects Page END*/
