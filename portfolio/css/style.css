@@ -383,7 +383,7 @@
 #slider figure {
     position: relative;
     width: 500%;
-    height: 60vh;
+    height: 65vh;
     margin: 0;
     left: 0;
     animation: 20s slider infinite;
