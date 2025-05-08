@@ -72,8 +72,8 @@
 /* Homepage and Navigation START*/
 #hero {
     background:
-        linear-gradient(0deg, rgba(0, 0, 0, 0.497), rgba(0, 0, 0, 0.497)),
-        url("../projects/CARDSMockup.png");
+        linear-gradient(0deg, rgba(255, 255, 255, 0.497), rgba(255, 255, 255, 0.497)),
+        url("../projects/MockupMagazine.png");
     height: 70vh;
     background-size: cover;
     background-attachment: fixed;
@@ -85,7 +85,7 @@
     h2 {
         font-size: 85px;
         margin-bottom: 30px;
-        color: #d39dee;
+        color: #4f1f78;
         text-align: center;
         padding: 40px 300px 0px 300px;
     }
@@ -96,7 +96,7 @@
         padding-left: 20vh;
         max-width: 700px;
         margin-bottom: 30px;
-        color: white;
+        color: #191919;
     }
     a {
         display: block;
