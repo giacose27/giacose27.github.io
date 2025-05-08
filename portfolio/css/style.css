@@ -72,7 +72,7 @@
 /* Homepage and Navigation START*/
 #hero {
     background:
-        linear-gradient(0deg, rgba(255, 255, 255, 0.497), rgba(255, 255, 255, 0.497)),
+        linear-gradient(0deg, rgba(255, 255, 255, 0.577), rgba(255, 255, 255, 0.577)),
         url("../projects/MockupMagazine.png");
     height: 70vh;
     background-size: cover;
@@ -83,17 +83,17 @@
     margin-right: auto;
     margin-left: auto;
     h2 {
-        font-size: 85px;
+        font-size: 95px;
         margin-bottom: 30px;
         color: #4f1f78;
         text-align: center;
         padding: 40px 300px 0px 300px;
     }
-    p {
-        font-size: 25px;
+    h3 {
+        font-size: 46px;
         text-align: center;
-        padding-right: 20vh;
-        padding-left: 20vh;
+        padding-right: 17vh;
+        padding-left: 17vh;
         max-width: 700px;
         margin-bottom: 30px;
         color: #191919;
