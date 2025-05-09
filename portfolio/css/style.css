@@ -468,6 +468,17 @@
 /* Projects Page END*/
 
 /* JOYSTICK JOURNAL */
+#jjheader {
+    text-align: center;
+    h1 {
+        font-size: 40px;
+        color: #93221c;
+    }
+    h2 {
+        font-size: 25px;
+        color: #191919;
+    }
+}
 /* JOYSTICK JOURNAL END */
 
 /* Media Queries */
