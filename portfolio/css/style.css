@@ -424,6 +424,7 @@
     border-radius: 40px;
     text-align: center;
     background-color: #c189e3;
+    box-shadow: black 6px 6px 8px;
     img {
         width: 320px;
         padding: 10px;
