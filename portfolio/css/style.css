@@ -472,11 +472,17 @@
     text-align: center;
     h1 {
         font-size: 40px;
-        color: #93221c;
+        color: #4f1f78;
+        margin: 50px 50px 0px 50px;
     }
-    h2 {
+    h3 {
         font-size: 25px;
         color: #191919;
+    }
+}
+#jj {
+    h2 {
+        color: #93221c;
     }
 }
 /* JOYSTICK JOURNAL END */
