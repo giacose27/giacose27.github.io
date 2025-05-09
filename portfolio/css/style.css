@@ -174,7 +174,6 @@
     background-color: #191919;
     border: 4px solid #191919;
     box-shadow: inset black 2px 2px 4px;
-    
 }
 #about {
     text-align: center;
@@ -394,13 +393,75 @@
     height: 100%;
     object-fit: cover;
 }
-#projects {
-    color: #4f1f78;
-    text-align: center;
-    margin: 60px;
-    font-size: 40px;
-}
 /* Carousel END */
+#projectspage {
+    background-color: #191919;
+}
+#projects {
+    color: #d39dee;
+    text-align: center;
+    margin: 55px;
+    font-size: 55px;
+}
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 {
+    width: 400px;
+    margin: 20px;
+    height: 550px;
+    padding: 35px;
+    border-radius: 40px;
+    text-align: center;
+    background-color: #c189e3;
+    img {
+        width: 320px;
+        padding: 10px;
+    }
+    h2 {
+        color: #4f1f78;
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    p {
+        margin-bottom: 40px;
+        font-size: 18px;
+    }
+}
+.projectbutton {
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 4px solid #c189e3;
+    border-radius: 40px;
+    color: #191919;
+    background-color: #c189e3;
+    transition: background-color 0.25s, color 1s;
+    box-shadow: #19191979 2px 2px 4px;
+    font-size: 20px;
+}
+.projectbutton:hover {
+    color: #d39dee;
+    background-color: #191919;
+    border: 4px solid #191919;
+    box-shadow: inset black 2px 2px 4px;
+}
+.projectbutton:active {
+    color: #d39dee;
+    background-color: #191919;
+    border: 4px solid #191919;
+    box-shadow: inset black 2px 2px 4px;
+}
 /* Projects Page END*/
 
 /* Media Queries */
