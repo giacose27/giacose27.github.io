@@ -427,7 +427,9 @@
     box-shadow: black 6px 6px 8px;
     img {
         width: 320px;
-        padding: 10px;
+        margin: 10px;
+        border: 6px solid #93221c;
+        border-radius: 20px;
     }
     h2 {
         color: #4f1f78;
