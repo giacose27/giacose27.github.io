@@ -428,7 +428,7 @@
     img {
         width: 320px;
         margin: 10px;
-        border: 6px solid #93221c;
+        border: 6px solid #4f1f78;
         border-radius: 20px;
     }
     h2 {
@@ -472,10 +472,6 @@
     h3 {
         color: #93221c;
     }
-    p {
-        font-size: 18px;
-        color: #191919;
-    }
 }
 #jjheader {
     text-align: center;
@@ -485,23 +481,13 @@
         margin: 50px 50px 0px 50px;
     }
     h3 {
-        font-size: 25px;
+        font-size: 30px;
         color: #191919;
     }
-    
-}
-.text {
-    h3 {
-        font-size: 25px;
+    p {
+        font-size: 20px;
+        color: #191919;
     }
-}
-.mockups img {
-    width: 550px;
-    display: flex;
-    flex-wrap: wrap;
-    max-height: 350px;
-    text-align: center;
-    padding: 10px;
 }
 #jjoverview {
     margin: 50px 190px 50px 190px;
@@ -509,11 +495,12 @@
     padding: 80px 100px 80px 100px;
     border: 6px dotted #c189e3;
     h3 {
-        font-size: 32px;
+        font-size: 36px;
         padding-bottom: 15px;
+        color: #4f1f78;
     }
     p {
-        font-size: 22px;
+        font-size: 24px;
     }
 }
 #jjresearch,
@@ -521,30 +508,29 @@
 #jjworkinprogress,
 #jjobstacles,
 #jjrevisions,
-#jjnextsteps {
+#jjnextsteps,
+#jjfinal {
     text-align: left;
     padding: 15px;
-    margin-right: 180px;
-    margin-left: 180px;
+    margin-right: 260px;
+    margin-left: 260px;
+    p {
+        font-size: 20px;
+        color: #191919;
+    }
     h3 {
         padding-bottom: 7px;
+        font-size: 30px;
     }
 }
-.end {
-    background-color: #191919;
-}
-#jjfinal {
+.mockups img {
+    width: 1150px;
     display: flex;
-    h3 {
-        font-size: 32px;
-        padding-bottom: 15px;
-    }
-    p {
-        font-size: 22px;
-    }
+    flex-wrap: wrap;
+    text-align: center;
 }
 .mockups {
-    display: flex;
+    margin-top: 50px;
 }
 /* JOYSTICK JOURNAL END */
 
