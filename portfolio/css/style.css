@@ -131,8 +131,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: white;
-    color: #93221c;
+    background-color: whitesmoke;
     align-items: center;
     padding: 20px;
     a {
@@ -164,7 +163,7 @@
     color: #c189e3;
 }
 .button:hover {
-    color: #d39dee;
+    color: #deffec;
     background-color: #191919;
     border: 4px solid #191919;
     box-shadow: inset black 2px 2px 4px;
@@ -207,7 +206,7 @@
     }
 }
 #footer {
-    background-color: white;
+    background-color: whitesmoke;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -226,7 +225,7 @@
     color: #c189e3;
 }
 #cpy {
-    color: #93221c;
+    color: #191919;
     padding: 20px;
     padding-top: 25px;
 }
@@ -243,7 +242,7 @@
     margin: 65px;
     margin-top: 0px;
     h3 {
-        color: #93221c;
+        color: #deffec;
     }
 }
 /* Homepage and Nav END */
@@ -253,7 +252,7 @@
     background-color: #191919;
     color: white;
     i {
-        color: #93221c;
+        color: #deffec;
         font-size: 30px;
     }
 }
@@ -289,13 +288,14 @@
     }
     p {
         font-size: 27px;
+        color: #deffec;
     }
 }
 .missionres {
     grid-area: missionres;
     margin-right: 190px;
     padding: 80px 100px 80px 100px;
-    border: 4px dotted #93221c;
+    border: 4px dotted #deffec;
 }
 #softproficiancies {
     text-align: left;
@@ -307,7 +307,7 @@
         display: inline-block;
         padding: 15px;
         margin: 10px;
-        border: 2px solid #d39dee;
+        border: 2px solid #deffec;
     }
 }
 #industryskills {
@@ -320,7 +320,7 @@
         display: inline-block;
         padding: 15px;
         margin: 10px;
-        border: 2px solid #d39dee;
+        border: 2px solid #deffec;
     }
 }
 #softskills {
@@ -333,20 +333,7 @@
         display: inline-block;
         padding: 15px;
         margin: 10px;
-        border: 2px solid #d39dee;
-    }
-}
-.container-3 {
-    text-align: left;
-    display: inline-block;
-    margin: 0px;
-    padding: 60px;
-    padding-right: 125px;
-    span {
-        display: inline-block;
-        padding: 15px;
-        margin: 10px;
-        border: 2px solid #d39dee;
+        border: 2px solid #deffec;
     }
 }
 .container-2 {
@@ -456,13 +443,13 @@
     font-size: 20px;
 }
 .projectbutton:hover {
-    color: #d39dee;
+    color: #deffec;
     background-color: #191919;
     border: 4px solid #191919;
     box-shadow: inset black 2px 2px 4px;
 }
 .projectbutton:active {
-    color: #d39dee;
+    color: #deffec;
     background-color: #191919;
     border: 4px solid #191919;
     box-shadow: inset black 2px 2px 4px;
