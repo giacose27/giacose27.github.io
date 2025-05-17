@@ -133,13 +133,13 @@
     flex-wrap: wrap;
     background-color: whitesmoke;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     a {
         font-size: 25px;
         padding: 15px;
     }
     #logo img {
-        width: 135px;
+        width: 160px;
     }
 }
 #logo {
@@ -203,6 +203,11 @@
     padding: 5px;
     a {
         color: #d39dee;
+    }
+}
+#insta {
+    a:hover {
+        color: #deffec;
     }
 }
 #footer {
