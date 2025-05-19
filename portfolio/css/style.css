@@ -588,6 +588,11 @@
 .mockups {
     margin-top: 50px;
 }
+.simages {
+    justify-content: center;
+    margin: 15px;
+    width: 400px;
+}
 /* SKATE SHOP END */
 
 /* Daily Yolk */
