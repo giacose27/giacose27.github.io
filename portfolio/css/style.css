@@ -465,6 +465,7 @@
         color: #93221c;
     }
 }
+
 /* JOYSTICK JOURNAL */
 #jjheader {
     text-align: center;
@@ -526,6 +527,68 @@
     margin-top: 50px;
 }
 /* JOYSTICK JOURNAL END */
+
+/* SKATE SHOP */
+#ssheader {
+    text-align: center;
+    h1 {
+        font-size: 40px;
+        color: #4f1f78;
+        margin: 50px 50px 0px 50px;
+    }
+    h3 {
+        font-size: 30px;
+        color: #191919;
+    }
+    p {
+        font-size: 20px;
+        color: #191919;
+    }
+}
+#ssoverview {
+    margin: 50px 190px 50px 190px;
+    margin-left: 190px;
+    padding: 80px 100px 80px 100px;
+    border: 6px dotted #c189e3;
+    h3 {
+        font-size: 36px;
+        padding-bottom: 15px;
+        color: #4f1f78;
+    }
+    p {
+        font-size: 24px;
+    }
+}
+#ssresearch,
+#ssfirstdraft,
+#ssworkinprogress,
+#ssobstacles,
+#ssrevisions,
+#ssnextsteps,
+#ssfinal {
+    text-align: left;
+    padding: 15px;
+    margin-right: 260px;
+    margin-left: 260px;
+    p {
+        font-size: 20px;
+        color: #191919;
+    }
+    h3 {
+        padding-bottom: 7px;
+        font-size: 30px;
+    }
+}
+.mockups img {
+    width: 1150px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.mockups {
+    margin-top: 50px;
+}
+/* SKATE SHOP END */
 
 /* Daily Yolk */
 #dyheader {
