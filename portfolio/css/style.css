@@ -38,7 +38,6 @@
         font-weight: 400;
         font-style: normal;
     }
-      
 }
 @keyframes slider {
     0% {
@@ -596,7 +595,7 @@
 .swireframe {
     justify-content: center;
     margin: 15px;
-    width: 1150px;
+    width: 1100px;
 }
 /* SKATE SHOP END */
 
