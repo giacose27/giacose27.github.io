@@ -177,7 +177,12 @@
     text-align: center;
     margin: 0px;
     padding: 60px;
-    background-color: #191919;
+    background:
+        url("../images/pattern.jpg");
+        height: 60vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 60%;
     h2 {
         font-size: 40px;
         color: white;
@@ -373,7 +378,7 @@
 #slider figure {
     position: relative;
     width: 500%;
-    height: 70vh;
+    height: 75vh;
     margin: 0;
     left: 0;
     animation: 20s slider infinite;
@@ -386,13 +391,12 @@
 }
 /* Carousel END */
 #projectspage {
-    background-color: #191919;
-}
-#projects {
-    color: #d39dee;
-    text-align: center;
-    margin: 55px;
-    font-size: 55px;
+    background:
+        url("../images/pattern.jpg");
+        height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 60%;
 }
 #cards {
     display: flex;
