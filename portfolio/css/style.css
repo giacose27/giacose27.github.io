@@ -597,6 +597,11 @@
     margin: 15px;
     width: 1100px;
 }
+#prototype {
+    padding: 0px;
+    margin-left: 240px;
+    justify-content: center;
+}
 /* SKATE SHOP END */
 
 /* Daily Yolk */
