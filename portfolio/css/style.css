@@ -612,6 +612,59 @@
 }
 /* SKATE SHOP END */
 
+/* PLATELY */
+#plheader {
+    text-align: center;
+    h1 {
+        font-size: 40px;
+        color: #4f1f78;
+        margin: 50px 50px 0px 50px;
+    }
+    h3 {
+        font-size: 30px;
+        color: #191919;
+    }
+    p {
+        font-size: 20px;
+        color: #191919;
+    }
+}
+#ploverview {
+    margin: 50px 190px 50px 190px;
+    margin-left: 190px;
+    padding: 80px 100px 80px 100px;
+    border: 6px dotted #c189e3;
+    h3 {
+        font-size: 36px;
+        padding-bottom: 15px;
+        color: #4f1f78;
+    }
+    p {
+        font-size: 24px;
+    }
+}
+#plresearch,
+#plfirstdraft,
+#plworkinprogress,
+#plobstacles,
+#plrevisions,
+#plnextsteps,
+#plfinal {
+    text-align: left;
+    padding: 15px;
+    margin-right: 260px;
+    margin-left: 260px;
+    p {
+        font-size: 20px;
+        color: #191919;
+    }
+    h3 {
+        padding-bottom: 7px;
+        font-size: 30px;
+    }
+}
+/* PLATELY END */
+
 /* Daily Yolk */
 #dyheader {
     text-align: center;
