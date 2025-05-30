@@ -97,7 +97,7 @@
         padding-right: 25px;
     }
     img {
-        width: 100px;
+        width: 85px;
         padding: 15px;
     }
 }
@@ -211,7 +211,7 @@
     flex-direction: column;
     align-items: center;
     img {
-        width: 100px;
+        width: 160px;
         padding: 10px;
     }
     a {
@@ -445,7 +445,7 @@
 .card-8 {
     width: 400px;
     margin: 20px;
-    height: 550px;
+    height: 650px;
     padding: 35px;
     border-radius: 40px;
     text-align: center;
