@@ -398,6 +398,41 @@
     background-attachment: fixed;
     background-position: 60%;
 }
+#section1 {
+    display: block;
+    margin: 10px;
+}
+#section2 {
+    display: block;
+}
+.longcard {
+    display: flex;
+    margin: 100px 190px 50px 190px;
+    margin-left: 190px;
+    padding: 60px 70px 60px 70px;
+    border: 6px dotted #c189e3;
+    background-color: #191919;
+    h2 {
+        font-size: 50px;
+        padding-bottom: 5px;
+        color: #d39dee;
+    }
+    h3 {
+        font-size: 36px;
+        padding-bottom: 15px;
+        color: #deffec;
+    }
+    p {
+        font-size: 24px;
+        color: whitesmoke;
+        padding-bottom: 35px;
+        padding-right: 80px;
+    }
+    img {
+        width: 550px;
+        border-radius: 30px;
+    }
+}
 #cards {
     display: flex;
     flex-wrap: wrap;
@@ -770,6 +805,59 @@
     }
 }
 /* Philly END */
+
+/* VIBES START */
+#vheader {
+    text-align: center;
+    h1 {
+        font-size: 40px;
+        color: #4f1f78;
+        margin: 50px 50px 0px 50px;
+    }
+    h3 {
+        font-size: 30px;
+        color: #191919;
+    }
+    p {
+        font-size: 20px;
+        color: #191919;
+    }
+}
+#voverview {
+    margin: 50px 190px 50px 190px;
+    margin-left: 190px;
+    padding: 80px 100px 80px 100px;
+    border: 6px dotted #c189e3;
+    h3 {
+        font-size: 36px;
+        padding-bottom: 15px;
+        color: #4f1f78;
+    }
+    p {
+        font-size: 24px;
+    }
+}
+#vresearch,
+#vfirstdraft,
+#vworkinprogress,
+#vobstacles,
+#vrevisions,
+#vnextsteps,
+#vfinal {
+    text-align: left;
+    padding: 15px;
+    margin-right: 260px;
+    margin-left: 260px;
+    p {
+        font-size: 20px;
+        color: #191919;
+    }
+    h3 {
+        padding-bottom: 7px;
+        font-size: 30px;
+    }
+}
+/* VIBES END */
 
 /* Media Queries */
 @media screen and (max-width: 800px) {
