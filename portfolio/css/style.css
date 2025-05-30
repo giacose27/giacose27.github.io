@@ -62,11 +62,11 @@
 #hero {
     background:
         linear-gradient(0deg, rgba(255, 255, 255, 0.577), rgba(255, 255, 255, 0.577)),
-        url("../projects/MockupMagazine.png");
+        url("../skateshop/homepagemockup2.jpg");
     height: 70vh;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 60%;
+    background-position: 250%;
     display: grid;
     align-content: center;
     margin-right: auto;
@@ -105,7 +105,6 @@
     font-size: 40px;
     color: white;
     padding: 10px;
-    padding-bottom: 0px;
 }
 #buttons {
     display: grid;
@@ -186,8 +185,9 @@
     }
 }
 #about-container {
-    text-align: left;
-    max-width: 1000px;
+    text-align: center;
+    max-width: 1500px;
+    padding-bottom: 100px;
     h3 {
         color: white;
         font-size: 25px;
