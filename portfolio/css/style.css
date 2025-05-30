@@ -3,17 +3,17 @@
     margin: 0px auto;
     h1,
     h2 {
-        font-family: "Metal Mania", system-ui;
-        font-weight: 400;
+        font-family: "sabbath-black", serif;
+        font-weight: 800;
         font-style: normal;
     }
     h3 {
-        font-family: "Gupter", serif;
-        font-weight: 500;
+        font-family: "change", sans-serif;
+        font-weight: 400;
         font-style: normal;
     }
     a {
-        font-family: "Gupter", serif;
+        font-family: "change", sans-serif;
         font-weight: 400;
         font-style: normal;
         text-decoration: none;
@@ -21,22 +21,12 @@
     }
     p,
     li {
-        font-family: 'corporate-a-condensed', serif;
+        font-family: "change", sans-serif;
         font-weight: 400;
         font-style: normal;
     }
     li {
         font-size: 25px;
-    }
-    .metal-mania-regular {
-        font-family: "Metal Mania", system-ui;
-        font-weight: 400;
-        font-style: normal;
-    }
-    .gupter-regular {
-        font-family: "Gupter", serif;
-        font-weight: 400;
-        font-style: normal;
     }
 }
 @keyframes slider {
