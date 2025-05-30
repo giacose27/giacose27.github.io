@@ -66,20 +66,20 @@
     height: 70vh;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 250%;
+    background-position: 60%;
     display: grid;
     align-content: center;
     margin-right: auto;
     margin-left: auto;
     h2 {
         font-size: 100px;
-        margin-bottom: 30px;
+        margin-bottom: 5px;
         color: #9055a2;
         text-align: center;
         padding: 40px 300px 0px 300px;
     }
     h3 {
-        font-size: 46px;
+        font-size: 30px;
         text-align: center;
         padding-right: 17vh;
         padding-left: 17vh;
@@ -122,13 +122,15 @@
     flex-wrap: wrap;
     background-color: #fae6fa;
     align-items: center;
-    padding: 15px;
+    padding: 10px;
     a {
         font-size: 25px;
         padding: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     #logo img {
-        width: 120px;
+        width: 100px;
     }
 }
 #logo {
