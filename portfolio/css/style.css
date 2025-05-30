@@ -17,7 +17,7 @@
         font-weight: 400;
         font-style: normal;
         text-decoration: none;
-        color: #4f1f78;
+        color: #9055a2;
     }
     p,
     li {
@@ -74,7 +74,7 @@
     h2 {
         font-size: 100px;
         margin-bottom: 30px;
-        color: #4f1f78;
+        color: #9055a2;
         text-align: center;
         padding: 40px 300px 0px 300px;
     }
@@ -85,7 +85,7 @@
         padding-left: 17vh;
         max-width: 700px;
         margin-bottom: 30px;
-        color: #191919;
+        color: #242124;
     }
     a {
         display: block;
@@ -113,14 +113,14 @@
 }
 #about #about-container {
     h3 {
-        color: #c189e3;
+        color: #c9a0dc;
     }
 }
 #nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: whitesmoke;
+    background-color: #fae6fa;
     align-items: center;
     padding: 15px;
     a {
@@ -128,7 +128,7 @@
         padding: 15px;
     }
     #logo img {
-        width: 160px;
+        width: 120px;
     }
 }
 #logo {
@@ -138,29 +138,29 @@
     padding: 15px;
     padding-left: 25px;
     padding-right: 25px;
-    border: 4px solid #c189e3;
+    border: 4px solid #c9a0dc;
     border-radius: 40px;
-    color: #191919;
-    background-color: #c189e3;
+    color: #242124;
+    background-color: #c9a0dc;
     transition: background-color 0.25s, color 1s;
     box-shadow: #19191979 2px 2px 4px;
 }
 .link:hover {
-    color: #c189e3;
+    color: #c9a0dc;
 }
 .link:active {
-    color: #c189e3;
+    color: #c9a0dc;
 }
 .button:hover {
-    color: #deffec;
-    background-color: #191919;
-    border: 4px solid #191919;
+    color: #f0fff0;
+    background-color: #242124;
+    border: 4px solid #242124;
     box-shadow: inset black 2px 2px 4px;
 }
 .button:active {
     color: #d39dee;
-    background-color: #191919;
-    border: 4px solid #191919;
+    background-color: #242124;
+    border: 4px solid #242124;
     box-shadow: inset black 2px 2px 4px;
 }
 #about {
@@ -196,16 +196,16 @@
 #insta {
     padding: 5px;
     a {
-        color: #d39dee;
+        color: #c9a0dc;
     }
 }
 #insta {
     a:hover {
-        color: #deffec;
+        color: #f0fff0;
     }
 }
 #footer {
-    background-color: #4f1f78;
+    background-color: #9055a2;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -217,14 +217,14 @@
     a {
         margin: 8px;
         font-size: 16px;
-        color: #d39dee;
+        color: #c9a0dc;
     }
 }
 #footer a:hover {
-    color: #deffec;
+    color: #f0fff0;
 }
 #cpy {
-    color: whitesmoke;
+    color: white;
     padding: 20px;
     padding-top: 25px;
 }
@@ -241,17 +241,17 @@
     margin: 65px;
     margin-top: 0px;
     h3 {
-        color: #deffec;
+        color: #f0fff0;
     }
 }
 /* Homepage and Nav END */
 
 /* Resume Page START*/
 #grid {
-    background-color: #191919;
+    background-color: #242124;
     color: white;
     i {
-        color: #deffec;
+        color: #f0fff0;
         font-size: 30px;
     }
 }
@@ -270,7 +270,7 @@
     ;
     h3 {
         font-size: 30px;
-        color: #c189e3;
+        color: #c9a0dc;
     }
     p {
         font-size: 25px;
@@ -282,19 +282,19 @@
     padding-left: 130px;
     margin-left: 0px;
     h3 {
-        color: #c189e3;
+        color: #c9a0dc;
         font-size: 35px;
     }
     p {
         font-size: 27px;
-        color: #deffec;
+        color: #f0fff0;
     }
 }
 .missionres {
     grid-area: missionres;
     margin-right: 190px;
     padding: 80px 100px 80px 100px;
-    border: 4px dotted #deffec;
+    border: 4px dotted #f0fff0;
 }
 #softproficiancies {
     text-align: left;
@@ -306,7 +306,7 @@
         display: inline-block;
         padding: 15px;
         margin: 10px;
-        border: 2px solid #deffec;
+        border: 2px solid #f0fff0;
     }
 }
 #industryskills {
@@ -319,7 +319,7 @@
         display: inline-block;
         padding: 15px;
         margin: 10px;
-        border: 2px solid #deffec;
+        border: 2px solid #f0fff0;
     }
 }
 #softskills {
@@ -332,7 +332,7 @@
         display: inline-block;
         padding: 15px;
         margin: 10px;
-        border: 2px solid #deffec;
+        border: 2px solid #f0fff0;
     }
 }
 .container-2 {
@@ -345,7 +345,7 @@
     padding: 50px;
     padding-right: 115px;
     h3 {
-        color: #c189e3;
+        color: #c9a0dc;
     }
 }
 .education {
@@ -355,7 +355,7 @@
     padding: 50px;
     padding-right: 115px;
     h3 {
-        color: #c189e3;
+        color: #c9a0dc;
     }
 }
 /* Resume Page END*/
@@ -400,21 +400,21 @@
     margin: 100px 190px 50px 190px;
     margin-left: 190px;
     padding: 60px 70px 60px 70px;
-    border: 6px dotted #c189e3;
-    background-color: #191919;
+    border: 6px dotted #c9a0dc;
+    background-color: #242124;
     h2 {
         font-size: 50px;
         padding-bottom: 5px;
-        color: #d39dee;
+        color: #fae6fa;
     }
     h3 {
         font-size: 36px;
         padding-bottom: 15px;
-        color: #deffec;
+        color: #f0fff0;
     }
     p {
         font-size: 24px;
-        color: whitesmoke;
+        color: white;
         padding-bottom: 35px;
         padding-right: 80px;
     }
@@ -432,7 +432,7 @@
     padding-bottom: 30px;
     h3 {
         font-size: 25px;
-        color: #191919;
+        color: #242124;
     }
 }
 .card-1,
@@ -449,16 +449,16 @@
     padding: 35px;
     border-radius: 40px;
     text-align: center;
-    background-color: #c189e3;
+    background-color: #c9a0dc;
     box-shadow: black 6px 6px 8px;
     img {
         width: 320px;
         margin: 10px;
-        border: 6px solid #4f1f78;
+        border: 6px solid #9055a2;
         border-radius: 20px;
     }
     h2 {
-        color: #4f1f78;
+        color: #9055a2;
         font-size: 40px;
         margin-bottom: 5px;
     }
@@ -471,30 +471,30 @@
     padding: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    border: 4px solid #c189e3;
+    border: 4px solid #c9a0dc;
     border-radius: 40px;
-    color: #191919;
-    background-color: #c189e3;
+    color: #242124;
+    background-color: #c9a0dc;
     transition: background-color 0.25s, color 1s;
     box-shadow: #19191979 2px 2px 4px;
     font-size: 20px;
 }
 .projectbutton:hover {
-    color: #deffec;
-    background-color: #191919;
-    border: 4px solid #191919;
+    color: #f0fff0;
+    background-color: #242124;
+    border: 4px solid #242124;
     box-shadow: inset black 2px 2px 4px;
 }
 .projectbutton:active {
-    color: #deffec;
-    background-color: #191919;
-    border: 4px solid #191919;
+    color: #f0fff0;
+    background-color: #242124;
+    border: 4px solid #242124;
     box-shadow: inset black 2px 2px 4px;
 }
 /* Projects Page END*/
 #pp {
     h3 {
-        color: #c189e3;
+        color: #c9a0dc;
     }
 }
 
@@ -503,27 +503,27 @@
     text-align: center;
     h1 {
         font-size: 40px;
-        color: #4f1f78;
+        color: #9055a2;
         margin: 50px 50px 0px 50px;
     }
     h3 {
         font-size: 30px;
-        color: #191919;
+        color: #242124;
     }
     p {
         font-size: 20px;
-        color: #191919;
+        color: #242124;
     }
 }
 #jjoverview {
     margin: 50px 190px 50px 190px;
     margin-left: 190px;
     padding: 80px 100px 80px 100px;
-    border: 6px dotted #c189e3;
+    border: 6px dotted #c9a0dc;
     h3 {
         font-size: 36px;
         padding-bottom: 15px;
-        color: #4f1f78;
+        color: #9055a2;
     }
     p {
         font-size: 24px;
@@ -542,7 +542,7 @@
     margin-left: 260px;
     p {
         font-size: 20px;
-        color: #191919;
+        color: #242124;
     }
     h3 {
         padding-bottom: 7px;
@@ -565,27 +565,27 @@
     text-align: center;
     h1 {
         font-size: 40px;
-        color: #4f1f78;
+        color: #9055a2;
         margin: 50px 50px 0px 50px;
     }
     h3 {
         font-size: 30px;
-        color: #191919;
+        color: #242124;
     }
     p {
         font-size: 20px;
-        color: #191919;
+        color: #242124;
     }
 }
 #ssoverview {
     margin: 50px 190px 50px 190px;
     margin-left: 190px;
     padding: 80px 100px 80px 100px;
-    border: 6px dotted #c189e3;
+    border: 6px dotted #c9a0dc;
     h3 {
         font-size: 36px;
         padding-bottom: 15px;
-        color: #4f1f78;
+        color: #9055a2;
     }
     p {
         font-size: 24px;
@@ -604,7 +604,7 @@
     margin-left: 260px;
     p {
         font-size: 20px;
-        color: #191919;
+        color: #242124;
     }
     h3 {
         padding-bottom: 7px;
@@ -642,27 +642,27 @@
     text-align: center;
     h1 {
         font-size: 40px;
-        color: #4f1f78;
+        color: #242124;
         margin: 50px 50px 0px 50px;
     }
     h3 {
         font-size: 30px;
-        color: #191919;
+        color: #242124;
     }
     p {
         font-size: 20px;
-        color: #191919;
+        color: #242124;
     }
 }
 #ploverview {
     margin: 50px 190px 50px 190px;
     margin-left: 190px;
     padding: 80px 100px 80px 100px;
-    border: 6px dotted #c189e3;
+    border: 6px dotted #c9a0dc;
     h3 {
         font-size: 36px;
         padding-bottom: 15px;
-        color: #4f1f78;
+        color: #9055a2;
     }
     p {
         font-size: 24px;
@@ -681,7 +681,7 @@
     margin-left: 260px;
     p {
         font-size: 20px;
-        color: #191919;
+        color: #242124;
     }
     h3 {
         padding-bottom: 7px;
@@ -695,27 +695,27 @@
     text-align: center;
     h1 {
         font-size: 40px;
-        color: #4f1f78;
+        color: #9055a2;
         margin: 50px 50px 0px 50px;
     }
     h3 {
         font-size: 30px;
-        color: #191919;
+        color: #242124;
     }
     p {
         font-size: 20px;
-        color: #191919;
+        color: #242124;
     }
 }
 #dyoverview {
     margin: 50px 190px 50px 190px;
     margin-left: 190px;
     padding: 80px 100px 80px 100px;
-    border: 6px dotted #c189e3;
+    border: 6px dotted #c9a0dc;
     h3 {
         font-size: 36px;
         padding-bottom: 15px;
-        color: #4f1f78;
+        color: #9055a2;
     }
     p {
         font-size: 24px;
@@ -734,7 +734,7 @@
     margin-left: 260px;
     p {
         font-size: 20px;
-        color: #191919;
+        color: #242124;
     }
     h3 {
         padding-bottom: 7px;
@@ -748,27 +748,27 @@
     text-align: center;
     h1 {
         font-size: 40px;
-        color: #4f1f78;
+        color: #9055a2;
         margin: 50px 50px 0px 50px;
     }
     h3 {
         font-size: 30px;
-        color: #191919;
+        color: #242124;
     }
     p {
         font-size: 20px;
-        color: #191919;
+        color: #242124;
     }
 }
 #phoverview {
     margin: 50px 190px 50px 190px;
     margin-left: 190px;
     padding: 80px 100px 80px 100px;
-    border: 6px dotted #c189e3;
+    border: 6px dotted #c9a0dc;
     h3 {
         font-size: 36px;
         padding-bottom: 15px;
-        color: #4f1f78;
+        color: #9055a2;
     }
     p {
         font-size: 24px;
@@ -787,7 +787,7 @@
     margin-left: 260px;
     p {
         font-size: 20px;
-        color: #191919;
+        color: #242124;
     }
     h3 {
         padding-bottom: 7px;
@@ -801,27 +801,27 @@
     text-align: center;
     h1 {
         font-size: 40px;
-        color: #4f1f78;
+        color: #9055a2;
         margin: 50px 50px 0px 50px;
     }
     h3 {
         font-size: 30px;
-        color: #191919;
+        color: #242124;
     }
     p {
         font-size: 20px;
-        color: #191919;
+        color: #242124;
     }
 }
 #voverview {
     margin: 50px 190px 50px 190px;
     margin-left: 190px;
     padding: 80px 100px 80px 100px;
-    border: 6px dotted #c189e3;
+    border: 6px dotted #c9a0dc;
     h3 {
         font-size: 36px;
         padding-bottom: 15px;
-        color: #4f1f78;
+        color: #9055a2;
     }
     p {
         font-size: 24px;
@@ -840,7 +840,7 @@
     margin-left: 260px;
     p {
         font-size: 20px;
-        color: #191919;
+        color: #242124;
     }
     h3 {
         padding-bottom: 7px;
