@@ -61,8 +61,8 @@
 /* Homepage and Navigation START*/
 #hero {
     background:
-        linear-gradient(0deg, rgba(255, 255, 255, 0.577), rgba(255, 255, 255, 0.577)),
-        url("../skateshop/homepagemockup2.jpg");
+        linear-gradient(0deg, rgba(255, 255, 255, 0.565), rgba(255, 255, 255, 0.969)),
+        url("../plately/handleboxmockup.jpg");
     height: 70vh;
     background-size: cover;
     background-attachment: fixed;
