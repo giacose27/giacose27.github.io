@@ -61,9 +61,9 @@
 /* Homepage and Navigation START*/
 #hero {
     background:
-        linear-gradient(0deg, rgba(255, 255, 255, 0.629), rgba(255, 255, 255, 0.969)),
-        url("../plately/handleboxmockup.jpg");
-    height: 70vh;
+        linear-gradient(0deg, rgba(255, 255, 255, 0.695), rgba(255, 255, 255, 0.695)),
+        url("../pace+/podiumbottlemockuppace.jpg");
+    height: 90vh;
     background-size: cover;
     background-attachment: fixed;
     background-position: 60%;
@@ -72,14 +72,14 @@
     margin-right: auto;
     margin-left: auto;
     h2 {
-        font-size: 150px;
+        font-size: 170px;
         margin-bottom: 5px;
         color: #9055a2;
         text-align: center;
         padding: 40px 300px 0px 300px;
     }
     h3 {
-        font-size: 45px;
+        font-size: 48px;
         text-align: center;
         padding-right: 17vh;
         padding-left: 17vh;
