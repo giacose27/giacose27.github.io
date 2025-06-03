@@ -103,7 +103,7 @@
 }
 #emailsection {
     p {
-        margin: 75px 20px 30px 20px;
+        margin: 80px 20px 30px 20px;
         padding: 15px;
         font-size: 55px;
         color: #fae6fa;
@@ -181,7 +181,7 @@
     padding: 60px;
     background:
         url("../images/pattern.jpg");
-        height: 165vh;
+        height: 160vh;
     background-size: cover;
     background-attachment: fixed;
     background-position: 60%;
