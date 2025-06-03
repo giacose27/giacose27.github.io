@@ -101,6 +101,21 @@
         padding: 15px;
     }
 }
+#emailsection {
+    p {
+        margin: 75px 20px 30px 20px;
+        padding: 15px;
+        font-size: 55px;
+        color: #fae6fa;
+    }
+    a {
+        margin: 25px;
+        font-size: 30px;
+        padding: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
 #buttons {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -166,12 +181,11 @@
     padding: 60px;
     background:
         url("../images/pattern.jpg");
-        height: 200vh;
+        height: 165vh;
     background-size: cover;
     background-attachment: fixed;
     background-position: 60%;
     p {
-        font-size: 25px;
         color: white;
     }
 }
