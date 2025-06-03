@@ -502,8 +502,8 @@
     }
 }
 
-/* JOYSTICK JOURNAL */
-#jjheader {
+/* ASE */
+#aseheader {
     text-align: center;
     h1 {
         font-size: 40px;
@@ -519,7 +519,7 @@
         color: #242124;
     }
 }
-#jjoverview {
+#aseoverview {
     margin: 50px 190px 50px 190px;
     margin-left: 190px;
     padding: 80px 100px 80px 100px;
@@ -533,13 +533,13 @@
         font-size: 24px;
     }
 }
-#jjresearch,
-#jjfirstdraft,
-#jjworkinprogress,
-#jjobstacles,
-#jjrevisions,
-#jjnextsteps,
-#jjfinal {
+#aseresearch,
+#asefirstdraft,
+#aseworkinprogress,
+#aseobstacles,
+#aserevisions,
+#asenextsteps,
+#asefinal {
     text-align: left;
     padding: 15px;
     margin-right: 260px;
@@ -562,7 +562,7 @@
 .mockups {
     margin-top: 50px;
 }
-/* JOYSTICK JOURNAL END */
+/* ASE END */
 
 /* SKATE SHOP */
 #ssheader {
