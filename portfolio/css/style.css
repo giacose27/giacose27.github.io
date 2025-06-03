@@ -564,6 +564,68 @@
 }
 /* ASE END */
 
+/* PACE+ START */
+#paceheader {
+    text-align: center;
+    h1 {
+        font-size: 40px;
+        color: #9055a2;
+        margin: 50px 50px 0px 50px;
+    }
+    h3 {
+        font-size: 30px;
+        color: #242124;
+    }
+    p {
+        font-size: 20px;
+        color: #242124;
+    }
+}
+#paceoverview {
+    margin: 50px 190px 50px 190px;
+    margin-left: 190px;
+    padding: 80px 100px 80px 100px;
+    border: 6px dotted #c9a0dc;
+    h3 {
+        font-size: 36px;
+        padding-bottom: 15px;
+        color: #9055a2;
+    }
+    p {
+        font-size: 24px;
+    }
+}
+#paceresearch,
+#pacefirstdraft,
+#paceworkinprogress,
+#paceobstacles,
+#pacerevisions,
+#pacenextsteps,
+#pacefinal {
+    text-align: left;
+    padding: 15px;
+    margin-right: 260px;
+    margin-left: 260px;
+    p {
+        font-size: 20px;
+        color: #242124;
+    }
+    h3 {
+        padding-bottom: 7px;
+        font-size: 30px;
+    }
+}
+.mockups img {
+    width: 1150px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.mockups {
+    margin-top: 50px;
+}
+/* PACE END */
+
 /* SKATE SHOP */
 #ssheader {
     text-align: center;
