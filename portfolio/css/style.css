@@ -61,7 +61,7 @@
 /* Homepage and Navigation START*/
 #hero {
     background:
-        linear-gradient(0deg, rgba(255, 255, 255, 0.565), rgba(255, 255, 255, 0.969)),
+        linear-gradient(0deg, rgba(255, 255, 255, 0.629), rgba(255, 255, 255, 0.969)),
         url("../plately/handleboxmockup.jpg");
     height: 70vh;
     background-size: cover;
@@ -83,7 +83,7 @@
         text-align: center;
         padding-right: 17vh;
         padding-left: 17vh;
-        max-width: 700px;
+        max-width: 1000px;
         margin-bottom: 20px;
         color: #242124;
     }
@@ -921,7 +921,7 @@
         display: flex;
         flex-wrap: wrap;
         a {
-            font-size: 20px;
+            font-size: 18px;
         }
     }
     #nav, #nav * {
@@ -932,16 +932,16 @@
     }
     #about-container {
         text-align: center;
-        max-width: 1500px;
+        max-width: 2500px;
         padding-bottom: 100px;
         margin: 0px;
         h3 {
             color: white;
-            font-size: 24px;
+            font-size: 18px;
             padding-bottom: 10px;
         }
         p {
-            font-size: 15px;
+            font-size: 12px;
         }
     }
     #logo {
@@ -1119,8 +1119,8 @@
     .longcard {
         display: flex;
         flex-wrap: wrap;
-        margin: 40px 80px 10px 80px;
-        margin-left: 80px;
+        margin: 10px 5px 10px 5px;
+        margin-left: 5px;
         padding: 30px 40px 30px 40px;
         text-align: center;
         h2 {
@@ -1141,9 +1141,46 @@
             padding-left: 10px;
         }
         img {
-            width: 250px;
+            width: 200px;
             border-radius: 20px;
             margin-top: 30px;
+        }
+    }
+    .card-1,
+    .card-2,
+    .card-3,
+    .card-4,
+    .card-5,
+    .card-6,
+    .card-7,
+    .card-8 {
+        width: 250px;
+        margin: 10px;
+        height: 350px;
+        padding: 35px;
+        border-radius: 20px;
+        text-align: center;
+        background-color: #c9a0dc;
+        box-shadow: black 6px 6px 8px;
+        img {
+            width: 150px;
+            margin: 5px;
+            border: 4px solid #9055a2;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #9055a2;
+            font-size: 22px;
+            margin-bottom: 5px;
+        }
+        p {
+            margin-bottom: 40px;
+            font-size: 12px;
+        }
+    }
+    #cards {
+        h3 {
+            font-size: 18px;
         }
     }
 }
@@ -1169,6 +1206,9 @@
         h2 {
             font-size: 50px;
             text-align: center;
+        }
+        h3 {
+            font-size: 25px;
         }
         a {
             display: flex;
@@ -1246,8 +1286,8 @@
         }
     }
     #section1 {
-    display: inline-block;
-    margin: 5px;
+        display: inline-block;
+        margin: 5px;
     }
     #section2 {
         display: inline-block;
