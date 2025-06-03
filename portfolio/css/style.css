@@ -101,11 +101,6 @@
         padding: 15px;
     }
 }
-#intro {
-    font-size: 40px;
-    color: white;
-    padding: 10px;
-}
 #buttons {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -122,15 +117,15 @@
     flex-wrap: wrap;
     background-color: #fae6fa;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     a {
         font-size: 25px;
-        padding: 15px;
+        padding: 10px;
         padding-left: 25px;
         padding-right: 25px;
     }
     #logo img {
-        width: 100px;
+        width: 80px;
     }
 }
 #logo {
@@ -171,25 +166,18 @@
     padding: 60px;
     background:
         url("../images/pattern.jpg");
-        height: 60vh;
+        height: 200vh;
     background-size: cover;
     background-attachment: fixed;
     background-position: 60%;
-    h2 {
-        font-size: 40px;
-        color: white;
-        text-align: center;
-        margin: 60px;
-    }
     p {
-        font-size: 20px;
+        font-size: 25px;
         color: white;
     }
 }
 #about-container {
-    text-align: center;
     max-width: 1500px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
     h3 {
         color: white;
         font-size: 25px;
@@ -233,12 +221,13 @@
     padding-top: 25px;
 }
 #mymission {
-    margin: 65px;
+    margin: 75px;
+    padding: 10px 40px 10px 40px;
     h3 {
-        font-size: 40px;
+        font-size: 55px;
     }
     p {
-        font-size: 25px;
+        font-size: 35px;
     }
 }
 #about #introduction {
@@ -246,7 +235,11 @@
     margin-top: 0px;
     h3 {
         color: #f0fff0;
+        font-size: 50px;
     }
+}
+#me {
+    width: 300px;
 }
 /* Homepage and Nav END */
 
@@ -406,6 +399,7 @@
     padding: 60px 70px 60px 70px;
     border: 6px dotted #c9a0dc;
     background-color: #242124;
+    text-align: left;
     h2 {
         font-size: 50px;
         padding-bottom: 5px;
