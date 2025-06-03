@@ -921,7 +921,12 @@
         display: flex;
         flex-wrap: wrap;
         a {
-            font-size: 18px;
+            font-size: 16px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        #logo img {
+            width: 60px;
         }
     }
     #nav, #nav * {
@@ -930,19 +935,32 @@
         width: auto;
         height: auto;
     }
+    #cpy p {
+        font-size: 14px;
+    }
     #about-container {
         text-align: center;
-        max-width: 2500px;
-        padding-bottom: 100px;
-        margin: 0px;
+        max-width: none;
         h3 {
             color: white;
             font-size: 18px;
             padding-bottom: 10px;
         }
         p {
-            font-size: 12px;
+            font-size: 14px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
         }
+    }
+    #mymission {
+        margin: 15px;
+    }
+    #about #introduction {
+        margin: 15px;
+        margin-top: 0px;
+    }
+    #nav #logo {
+        width: 100px;
     }
     #logo {
         display: flex;
