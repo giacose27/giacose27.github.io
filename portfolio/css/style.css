@@ -185,9 +185,6 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: 60%;
-    p {
-        color: white;
-    }
 }
 #about-container {
     max-width: 1500px;
@@ -242,6 +239,7 @@
     }
     p {
         font-size: 35px;
+        color: #fae6fa;
     }
 }
 #about #introduction {
