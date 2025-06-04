@@ -58,6 +58,24 @@
         left: -400%;
     }
 }
+.oimages {
+    width: 400px;
+}
+#paceoverview,
+#phoverview,
+#ploverview,
+#voverview,
+#dyoverview,
+#aseoverview {
+    display: flex;
+    img {
+        margin-left: 20px;
+    }
+    video {
+        margin-left: 20px;
+    }
+}
+
 /* Homepage and Navigation START*/
 #hero {
     background:
