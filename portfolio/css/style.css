@@ -357,6 +357,16 @@
         color: #c9a0dc;
     }
 }
+#certifications {
+    text-align: left;
+    display: block;
+    margin: 0px;
+    padding: 50px;
+    padding-left: 115px;
+    h3 {
+        color: #c9a0dc;
+    }
+}
 .education {
     text-align: left;
     display: block;
