@@ -256,6 +256,9 @@
 /* Homepage and Nav END */
 
 /* Resume Page START*/
+.container-1 {
+    margin-top: 50px;
+}
 #grid {
     background-color: #242124;
     color: white;
