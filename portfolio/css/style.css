@@ -1246,6 +1246,21 @@
     #me {
         width: 100px;
     }
+    #emailsection {
+        p {
+            margin: 50px 10px 40px 10px;
+            padding: 5px;
+            font-size: 25px;
+            color: #fae6fa;
+        }
+        a {
+            margin: 25px;
+            font-size: 25px;
+            padding: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
 }
 @media screen and (min-width: 800px) and (max-width: 1000px) {
     #nav {
