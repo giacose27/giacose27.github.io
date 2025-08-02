@@ -971,12 +971,11 @@
         display: flex;
         flex-wrap: wrap;
         a {
-            font-size: 16px;
-            margin-right: 15px;
-            margin-left: 15px;
+            font-size: 15px;
+            padding-left: 10px;
         }
         #logo img {
-            width: 60px;
+            width: 45px;
         }
     }
     #nav, #nav * {
@@ -1008,13 +1007,6 @@
     #about #introduction {
         margin: 15px;
         margin-top: 0px;
-    }
-    #nav #logo {
-        width: 100px;
-    }
-    #logo {
-        display: flex;
-        flex-direction: column;
     }
     #hero {
         h2 {
@@ -1178,8 +1170,8 @@
         }
     }
     #section1 {
-    display: inline-block;
-    margin: 5px;
+        display: inline-block;
+        margin: 5px;
     }
     #section2 {
         display: inline-block;
@@ -1272,6 +1264,7 @@
     #logo {
         display: flex;
         flex-direction: column;
+        padding-right: 10px;
     }
     #hero {
         h2 {
