@@ -859,8 +859,8 @@
 }
 /* Daily Yolk End */
 
-/* Philly START */
-#phheader {
+/* Sabotage START */
+#sabheader {
     text-align: center;
     h1 {
         font-size: 40px;
@@ -876,7 +876,7 @@
         color: #242124;
     }
 }
-#phoverview {
+#saboverview {
     margin: 50px 190px 50px 190px;
     margin-left: 190px;
     padding: 80px 100px 80px 100px;
@@ -890,13 +890,13 @@
         font-size: 24px;
     }
 }
-#phresearch,
-#phfirstdraft,
-#phworkinprogress,
-#phobstacles,
-#phrevisions,
-#phnextsteps,
-#phfinal {
+#sabresearch,
+#sabfirstdraft,
+#sabworkinprogress,
+#sabobstacles,
+#sabrevisions,
+#sabnextsteps,
+#sabfinal {
     text-align: left;
     padding: 15px;
     margin-right: 260px;
