@@ -1,1 +1,2 @@
-# giacose27.github.io
+# School Projects and My Brand Design Portfolio
+## Portfolio
