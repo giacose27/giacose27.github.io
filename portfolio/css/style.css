@@ -261,9 +261,6 @@
         font-size: 50px;
     }
 }
-#me {
-    width: 550px;
-}
 /* Homepage and Nav END */
 
 /* Resume Page START*/
@@ -1204,7 +1201,7 @@
         display: inline-block;
     }
     #about {
-        height: 200vh;
+        height: 150vh;
     }
     .longcard {
         display: flex;
