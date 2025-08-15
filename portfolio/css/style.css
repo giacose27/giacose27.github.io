@@ -1006,6 +1006,9 @@
         background-size: cover;
         background-attachment: fixed;
         background-position: 50%;
+        img {
+            height: 50px;
+        }
         h2 {
             font-size: 55px;
             text-align: center;
