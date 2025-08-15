@@ -1055,7 +1055,7 @@
     .missionres {
         margin: 15px;
         padding: 20px 50px 20px 50px;
-        border: 4px dotted;
+        border: 4px dotted #f0fff0;
     }
     .section {
         margin: 15px;
@@ -1139,6 +1139,7 @@
             margin: 5px;
             border: 2px solid;
             font-size: 18px;
+            border-color: #f0fff0;
         }
     }
     #industryskills {
@@ -1153,6 +1154,7 @@
             margin: 5px;
             border: 2px solid;
             font-size: 18px;
+            border-color: #f0fff0;
         }
     }
     #softskills {
@@ -1167,6 +1169,7 @@
             margin: 5px;
             border: 2px solid;
             font-size: 18px;
+            border-color: #f0fff0;
         }
     }
     #section1 {
