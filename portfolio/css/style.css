@@ -1170,6 +1170,36 @@
             border-color: #f0fff0;
         }
     }
+    #languages {
+        text-align: left;
+        display: block;
+        margin: 0px;
+        padding: 30px;
+        padding-left: 60px;
+        span {
+            display: inline-block;
+            padding: 15px;
+            margin: 5px;
+            border: 2px solid;
+            font-size: 18px;
+            border-color: #f0fff0;
+        }
+    }
+    #certifications {
+        text-align: left;
+        display: block;
+        margin: 0px;
+        padding: 30px;
+        padding-left: 60px;
+        span {
+            display: inline-block;
+            padding: 15px;
+            margin: 5px;
+            border: 2px solid;
+            font-size: 18px;
+            border-color: #f0fff0;
+        }
+    }
     #section1 {
         display: inline-block;
         margin: 5px;
