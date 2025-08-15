@@ -1238,7 +1238,7 @@
     .card-8 {
         width: 250px;
         margin: 10px;
-        height: 380px;
+        height: 390px;
         padding: 35px;
         border-radius: 20px;
         text-align: center;
@@ -1257,13 +1257,25 @@
         }
         p {
             margin-bottom: 40px;
-            font-size: 15px;
+            font-size: 16px;
         }
     }
     #cards {
         h3 {
-            font-size: 20px;
+            font-size: 21px;
         }
+    }
+    .projectbutton {
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 4px solid #c9a0dc;
+        border-radius: 40px;
+        color: #242124;
+        background-color: #c9a0dc;
+        transition: background-color 0.25s, color 1s;
+        box-shadow: #19191979 2px 2px 4px;
+        font-size: 16px;
     }
     #emailsection {
         p {
