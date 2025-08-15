@@ -139,11 +139,6 @@
     grid-template-columns: 1fr 1fr;
     padding: 20px;
 }
-#about #about-container {
-    h3 {
-        color: #c9a0dc;
-    }
-}
 #nav {
     display: flex;
     flex-direction: row;
@@ -219,8 +214,6 @@
     a {
         color: #c9a0dc;
     }
-}
-#insta {
     a:hover {
         color: #f0fff0;
     }
@@ -1229,7 +1222,7 @@
             padding-right: 10px;
             padding-left: 10px;
         }
-        #me {
+        img {
             width: 200px;
             border-radius: 20px;
             margin-top: 30px;
