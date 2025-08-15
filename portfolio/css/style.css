@@ -992,11 +992,11 @@
         max-width: none;
         h3 {
             color: white;
-            font-size: 18px;
+            font-size: 30px;
             padding-bottom: 10px;
         }
         p {
-            font-size: 14px;
+            font-size: 18px;
             padding-bottom: 0px;
             margin-bottom: 0px;
         }
@@ -1009,27 +1009,25 @@
         margin-top: 0px;
     }
     #hero {
+        height: 70vh;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 50%;
         h2 {
-            font-size: 45px;
+            font-size: 55px;
             text-align: center;
             padding: 15px;
         }
         h3 {
-            font-size: 20px;
+            font-size: 25px;
             padding: 15px;
         }
         a {
             display: flex;
             flex-wrap: wrap;
-            font-size: 20px;
+            font-size: 25px;
             justify-content: center;
             padding: 15px;
-        }
-        p {
-            font-size: 18px;
-            padding-right: 10vh;
-            padding-left: 10vh;
-            margin-bottom: 20px;
         }
     }
     #contact {
@@ -1179,6 +1177,9 @@
     #section2 {
         display: inline-block;
     }
+    #about {
+        height: 200vh;
+    }
     .longcard {
         display: flex;
         flex-wrap: wrap;
@@ -1186,24 +1187,19 @@
         margin-left: 5px;
         padding: 30px 40px 30px 40px;
         text-align: center;
-        h2 {
-            font-size: 32px;
-            padding-bottom: 5px;
-            color: #fae6fa;
-        }
         h3 {
-            font-size: 20px;
+            font-size: 30px;
             padding-bottom: 15px;
             color: #f0fff0;
         }
         p {
-            font-size: 16px;
+            font-size: 18px;
             color: white;
             padding-bottom: 35px;
             padding-right: 10px;
             padding-left: 10px;
         }
-        img {
+        #me {
             width: 200px;
             border-radius: 20px;
             margin-top: 30px;
@@ -1245,9 +1241,6 @@
         h3 {
             font-size: 18px;
         }
-    }
-    #me {
-        width: 100px;
     }
     #emailsection {
         p {
