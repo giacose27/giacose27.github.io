@@ -1007,7 +1007,7 @@
         background-attachment: fixed;
         background-position: 50%;
         img {
-            height: 50px;
+            width: 50px;
         }
         h2 {
             font-size: 55px;
