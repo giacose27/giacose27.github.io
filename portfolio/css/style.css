@@ -228,16 +228,6 @@
         color: #f0fff0;
     }
 }
-#github {
-    padding: 5px;
-    font-size: 22px;
-    a {
-        color: #c9a0dc;
-    }
-    a:hover {
-        color: #f0fff0;
-    }
-}
 #footer {
     background-color: #9055a2;
     padding: 10px;
