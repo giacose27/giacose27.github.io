@@ -971,11 +971,11 @@
         display: flex;
         flex-wrap: wrap;
         a {
-            font-size: 15px;
-            padding-left: 10px;
+            font-size: 14px;
+            padding-left: 14px;
         }
         #logo img {
-            width: 45px;
+            width: 40px;
         }
     }
     #nav, #nav * {
@@ -1062,7 +1062,6 @@
         margin: 15px;
         h2 {
             font-size: 35px;
-            color: #4f1f78;
             font-weight: lighter;
             padding: 10px;
         }
@@ -1211,7 +1210,7 @@
         display: inline-block;
     }
     #about {
-        height: 150vh;
+        height: 170vh;
     }
     .longcard {
         display: flex;
