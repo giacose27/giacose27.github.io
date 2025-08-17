@@ -1313,6 +1313,9 @@
     .oimages {
         height: 200px;
     }
+    .simages {
+        width: 200px;
+    }
 /* Daily Yolk */
     #dyheader {
         text-align: center;
@@ -1362,6 +1365,109 @@
         }
     }
 /* Daily Yolk End */
+
+/* Sabotage */
+    #sabheader {
+        text-align: center;
+        h1 {
+            font-size: 25px;
+            margin: 50px 50px 0px 50px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    #saboverview {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 10px 40px 10px;
+        margin-left: 10px;
+        padding: 20px 40px 20px 40px;
+        h3 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 18px;
+        }
+        img {
+            margin-left: 0px;
+            margin-top: 15px;
+        }
+    }
+    #sabresearch,
+    #sabfirstdraft,
+    #sabworkinprogress,
+    #sabobstacles,
+    #sabrevisions,
+    #sabnextsteps,
+    #sabfinal {
+        padding: 15px;
+        margin-right: 60px;
+        margin-left: 60px;
+        p {
+            font-size: 15px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+    }
+/* Sabotage End */
+
+/* ASE */
+    #aseheader {
+        text-align: center;
+        h1 {
+            font-size: 25px;
+            margin: 50px 50px 0px 50px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    #aseoverview {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 10px 40px 10px;
+        margin-left: 10px;
+        padding: 20px 40px 20px 40px;
+        h3 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 18px;
+        }
+        img {
+            margin-left: 0px;
+            margin-top: 15px;
+        }
+        video {
+            width: 200px;
+        }
+    }
+    #aseresearch,
+    #asefirstdraft,
+    #aseworkinprogress,
+    #aseobstacles,
+    #aserevisions,
+    #asenextsteps,
+    #asefinal {
+        padding: 15px;
+        margin-right: 60px;
+        margin-left: 60px;
+        p {
+            font-size: 15px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+    }
+/* ASE End */
 }
 @media screen and (min-width: 800px) and (max-width: 1000px) {
     #nav {
