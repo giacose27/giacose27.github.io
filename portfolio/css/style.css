@@ -1310,6 +1310,9 @@
             text-align: center;
         }
     }
+    .oimages {
+        height: 200px;
+    }
 /* Daily Yolk */
     #dyheader {
         text-align: center;
@@ -1325,6 +1328,8 @@
         }
     }
     #dyoverview {
+        display: flex;
+        flex-wrap: wrap;
         margin: 50px 10px 40px 10px;
         margin-left: 10px;
         padding: 20px 40px 20px 40px;
@@ -1333,6 +1338,10 @@
         }
         p {
             font-size: 18px;
+        }
+        img {
+            margin-left: 0px;
+            margin-top: 15px;
         }
     }
     #dyresearch,
