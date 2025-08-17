@@ -1316,6 +1316,17 @@
     .simages {
         width: 200px;
     }
+    .swireframe {
+        width: 300px;
+    }
+    iframe {
+        width: 300px;
+        height: 400px;
+    }
+    #prototype {
+        margin-left: 25px;
+    }
+
 /* Daily Yolk */
     #dyheader {
         text-align: center;
@@ -1468,6 +1479,156 @@
         }
     }
 /* ASE End */
+
+/* Plately */
+    #plheader {
+        text-align: center;
+        h1 {
+            font-size: 25px;
+            margin: 50px 50px 0px 50px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    #ploverview {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 10px 40px 10px;
+        margin-left: 10px;
+        padding: 20px 40px 20px 40px;
+        h3 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 18px;
+        }
+        img {
+            margin-left: 0px;
+            margin-top: 15px;
+        }
+    }
+    #plresearch,
+    #plfirstdraft,
+    #plworkinprogress,
+    #plobstacles,
+    #plrevisions,
+    #plnextsteps,
+    #plfinal {
+        padding: 15px;
+        margin-right: 60px;
+        margin-left: 60px;
+        p {
+            font-size: 15px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+    }
+/* Plately End */
+
+/* SkateShop */
+    #ssheader {
+        text-align: center;
+        h1 {
+            font-size: 25px;
+            margin: 50px 50px 0px 50px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    #ssoverview {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 10px 40px 10px;
+        margin-left: 10px;
+        padding: 20px 40px 20px 40px;
+        h3 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 18px;
+        }
+        img {
+            margin-left: 0px;
+            margin-top: 15px;
+        }
+    }
+    #ssresearch,
+    #ssfirstdraft,
+    #ssworkinprogress,
+    #ssobstacles,
+    #ssrevisions,
+    #ssnextsteps,
+    #ssfinal {
+        padding: 15px;
+        margin-right: 60px;
+        margin-left: 60px;
+        p {
+            font-size: 15px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+    }
+/* SkateShop End */
+
+/* Pace+ */
+    #paceheader {
+        text-align: center;
+        h1 {
+            font-size: 25px;
+            margin: 50px 50px 0px 50px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    #paceoverview {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 10px 40px 10px;
+        margin-left: 10px;
+        padding: 20px 40px 20px 40px;
+        h3 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 18px;
+        }
+        img {
+            margin-left: 0px;
+            margin-top: 15px;
+        }
+    }
+    #paceresearch,
+    #pacefirstdraft,
+    #paceworkinprogress,
+    #paceobstacles,
+    #pacerevisions,
+    #pacenextsteps,
+    #pacefinal {
+        padding: 15px;
+        margin-right: 60px;
+        margin-left: 60px;
+        p {
+            font-size: 15px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+    }
+/* Pace+ End */
 }
 @media screen and (min-width: 800px) and (max-width: 1000px) {
     #nav {
