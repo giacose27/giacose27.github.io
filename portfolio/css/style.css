@@ -1010,7 +1010,7 @@
     }
     #hero {
         height: 70vh;
-        background-size: cover;
+        background-size: contain;
         background-attachment: fixed;
         background-position: 50%;
         img {
