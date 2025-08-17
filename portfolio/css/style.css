@@ -1009,13 +1009,10 @@
         margin-top: 0px;
     }
     #hero {
-        height: 70vh;
+        height: 60vh;
         background-size: contain;
         background-attachment: fixed;
         background-position: 50%;
-        img {
-            width: 50px;
-        }
         h2 {
             font-size: 55px;
             text-align: center;
