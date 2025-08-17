@@ -1009,6 +1009,9 @@
         margin-top: 0px;
     }
     #hero {
+        background:
+            linear-gradient(0deg, rgba(255, 255, 255, 0.792), rgba(255, 255, 255, 0.792)),
+            url("../pace+/podiumbottlemockuppace.jpg");
         height: 60vh;
         background-size: contain;
         background-attachment: fixed;
