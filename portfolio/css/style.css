@@ -1327,6 +1327,56 @@
         margin-left: 25px;
     }
 
+/* Vibes */
+    #vheader {
+        text-align: center;
+        h1 {
+            font-size: 25px;
+            margin: 50px 50px 0px 50px;
+        }
+        h3 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    #voverview {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px 10px 40px 10px;
+        margin-left: 10px;
+        padding: 20px 40px 20px 40px;
+        h3 {
+            font-size: 25px;
+        }
+        p {
+            font-size: 18px;
+        }
+        img {
+            margin-left: 0px;
+            margin-top: 15px;
+        }
+    }
+    #vresearch,
+    #vfirstdraft,
+    #vworkinprogress,
+    #vobstacles,
+    #vrevisions,
+    #vnextsteps,
+    #vfinal {
+        padding: 15px;
+        margin-right: 60px;
+        margin-left: 60px;
+        p {
+            font-size: 15px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+    }
+/* Vibes End */
+
 /* Daily Yolk */
     #dyheader {
         text-align: center;
