@@ -1301,35 +1301,31 @@
             padding-right: 15px;
         }
     }
-    /* Daily Yolk */
+/* Individual Projects */
+.mockups
+/* Daily Yolk */
     #dyheader {
         text-align: center;
         h1 {
-            font-size: 40px;
-            color: #9055a2;
+            font-size: 25px;
             margin: 50px 50px 0px 50px;
         }
         h3 {
             font-size: 30px;
-            color: #242124;
         }
         p {
             font-size: 20px;
-            color: #242124;
         }
     }
     #dyoverview {
-        margin: 50px 190px 50px 190px;
-        margin-left: 190px;
-        padding: 80px 100px 80px 100px;
-        border: 6px dotted #c9a0dc;
+        margin: 50px 10px 40px 10px;
+        margin-left: 10px;
+        padding: 20px 40px 20px 40px;
         h3 {
-            font-size: 36px;
-            padding-bottom: 15px;
-            color: #9055a2;
+            font-size: 25px;
         }
         p {
-            font-size: 24px;
+            font-size: 18px;
         }
     }
     #dyresearch,
@@ -1339,17 +1335,14 @@
     #dyrevisions,
     #dynextsteps,
     #dyfinal {
-        text-align: left;
         padding: 15px;
-        margin-right: 260px;
-        margin-left: 260px;
+        margin-right: 60px;
+        margin-left: 60px;
         p {
-            font-size: 20px;
-            color: #242124;
+            font-size: 15px;
         }
         h3 {
-            padding-bottom: 7px;
-            font-size: 30px;
+            font-size: 25px;
         }
     }
 /* Daily Yolk End */
