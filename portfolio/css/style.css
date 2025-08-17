@@ -1301,6 +1301,58 @@
             padding-right: 15px;
         }
     }
+    /* Daily Yolk */
+    #dyheader {
+        text-align: center;
+        h1 {
+            font-size: 40px;
+            color: #9055a2;
+            margin: 50px 50px 0px 50px;
+        }
+        h3 {
+            font-size: 30px;
+            color: #242124;
+        }
+        p {
+            font-size: 20px;
+            color: #242124;
+        }
+    }
+    #dyoverview {
+        margin: 50px 190px 50px 190px;
+        margin-left: 190px;
+        padding: 80px 100px 80px 100px;
+        border: 6px dotted #c9a0dc;
+        h3 {
+            font-size: 36px;
+            padding-bottom: 15px;
+            color: #9055a2;
+        }
+        p {
+            font-size: 24px;
+        }
+    }
+    #dyresearch,
+    #dyfirstdraft,
+    #dyworkinprogress,
+    #dyobstacles,
+    #dyrevisions,
+    #dynextsteps,
+    #dyfinal {
+        text-align: left;
+        padding: 15px;
+        margin-right: 260px;
+        margin-left: 260px;
+        p {
+            font-size: 20px;
+            color: #242124;
+        }
+        h3 {
+            padding-bottom: 7px;
+            font-size: 30px;
+        }
+    }
+/* Daily Yolk End */
 }
 @media screen and (min-width: 800px) and (max-width: 1000px) {
     #nav {
