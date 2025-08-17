@@ -1302,7 +1302,14 @@
         }
     }
 /* Individual Projects */
-.mockups
+    .mockups {
+        img {
+            width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+    }
 /* Daily Yolk */
     #dyheader {
         text-align: center;
