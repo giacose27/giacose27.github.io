@@ -1215,9 +1215,9 @@
     .longcard {
         display: flex;
         flex-wrap: wrap;
-        margin: 10px 5px 10px 5px;
+        margin: 10px 0px 10px 0px;
         margin-left: 5px;
-        padding: 30px 40px 30px 40px;
+        padding: 30px 10px 30px 10px;
         text-align: center;
         h3 {
             font-size: 30px;
