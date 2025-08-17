@@ -114,10 +114,6 @@
         padding-left: 25px;
         padding-right: 25px;
     }
-    img {
-        width: 85px;
-        padding: 15px;
-    }
 }
 #emailsection {
     p {
@@ -1012,10 +1008,10 @@
         background:
             linear-gradient(0deg, rgba(255, 255, 255, 0.792), rgba(255, 255, 255, 0.792)),
             url("../pace+/podiumbottlemockuppace.jpg");
-        height: 60vh;
-        background-size: contain;
+        height: 70vh;
+        background-size: cover;
         background-attachment: fixed;
-        background-position: 50%;
+        background-position: 65%;
         h2 {
             font-size: 55px;
             text-align: center;
