@@ -1211,8 +1211,22 @@
     #section2 {
         display: inline-block;
     }
+    #projectspage {
+        background:
+            url("../images/pattern.jpg");
+            height: 100vh;
+        background-size: cover;
+        background-attachment: unset;
+        background-position: 60%;
+    }
     #about {
         height: 170vh;
+        background:
+            url("../images/pattern.jpg");
+            height: 160vh;
+        background-size: cover;
+        background-attachment: unset;
+        background-position: 60%;
     }
     .longcard {
         display: flex;
