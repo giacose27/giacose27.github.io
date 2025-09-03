@@ -474,13 +474,13 @@
         color: #f0fff0;
     }
     p {
-        font-size: 24px;
+        font-size: 20px;
         color: white;
         padding-bottom: 35px;
         padding-right: 80px;
     }
     img {
-        width: 550px;
+        width: 530px;
         border-radius: 30px;
     }
 }
