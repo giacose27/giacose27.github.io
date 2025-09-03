@@ -983,13 +983,13 @@
 /* Media Queries */
 @media screen and (max-width: 800px) {
     #insta {
-        font-size: 12px;
+        font-size: 16px;
     }
     #behance {
-        font-size: 12px;
+        font-size: 16px;
     }
     #linkedin {
-        font-size: 12px;
+        font-size: 16px;
     }
     #nav {
         display: flex;
