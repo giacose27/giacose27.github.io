@@ -982,6 +982,15 @@
 
 /* Media Queries */
 @media screen and (max-width: 800px) {
+    #insta {
+        font-size: 12px;
+    }
+    #behance {
+        font-size: 12px;
+    }
+    #linkedin {
+        font-size: 12px;
+    }
     #nav {
         display: flex;
         flex-wrap: wrap;
