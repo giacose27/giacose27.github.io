@@ -419,20 +419,12 @@
     }
 }
 .socials2 {
-    text-align: left;
-    display: block;
-    margin: 0px;
-    padding: 50px;
-    padding-right: 115px;
-}
-.insta2 {
-    padding: 10px;
-}
-.behance2 {
-    padding: 10px;
-}
-.linkedin2 {
-    padding: 10px;
+    grid-area: infotitle;
+    padding: 20px 80px 20px 20px;
+    padding-left: 130px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
 }
 /* About Page END*/
 
