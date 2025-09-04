@@ -1141,8 +1141,12 @@
             font-size: 20px;
         }
     }
-    .certifications {
+    #certifications {
+        text-align: left;
+        display: block;
+        margin: 0px;
         padding: 10px;
+        padding-right: 115px;
     }
     .education {
         padding: 10px;
@@ -1202,21 +1206,6 @@
         }
     }
     #languages {
-        text-align: left;
-        display: block;
-        margin: 0px;
-        padding: 30px;
-        padding-left: 60px;
-        span {
-            display: inline-block;
-            padding: 15px;
-            margin: 5px;
-            border: 2px solid;
-            font-size: 18px;
-            border-color: #f0fff0;
-        }
-    }
-    #certifications {
         text-align: left;
         display: block;
         margin: 0px;
