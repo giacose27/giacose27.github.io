@@ -191,7 +191,7 @@
     padding: 60px;
     background:
         url("../images/pattern.jpg");
-        height: 165vh;
+        height: 160vh;
     background-size: cover;
     background-attachment: fixed;
     background-position: 60%;
@@ -1239,7 +1239,7 @@
         height: 175vh;
         background:
             url("../images/pattern.jpg");
-            height: 160vh;
+            height: 170vh;
         background-size: cover;
         background-attachment: unset;
         background-position: 60%;
